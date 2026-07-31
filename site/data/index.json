@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-31T15:07:11.919Z",
+  "count": 0,
+  "categories": [
+    "GAMEPLAY",
+    "CONTENT",
+    "BALANCE",
+    "ART",
+    "AUDIO",
+    "UI",
+    "QOL",
+    "TRANSLATION",
+    "TOTAL_CONVERSION",
+    "LIBRARY",
+    "TOOL",
+    "OTHER"
+  ],
+  "mods": []
+}
