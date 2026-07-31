@@ -1,0 +1,21 @@
+{
+  "id": "pokemon_randomizer",
+  "title": "Randomizer",
+  "author": "ciddmandude",
+  "version": "0.38.0",
+  "categories": [
+    "OTHER"
+  ],
+  "repo": "https://github.com/ciddmandude/PokemonRecompRandomizer",
+  "summary": "Randomize settings in game",
+  "tags": [
+    "randomizer"
+  ],
+  "github": "ciddmandude/PokemonRecompRandomizer",
+  "permissions": [
+    "engine_internals"
+  ],
+  "api": 2,
+  "profile": "content",
+  "experimental": true
+}
