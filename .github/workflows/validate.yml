@@ -32,7 +32,10 @@ jobs:
           else
             files=$(git ls-files 'mods/*')
           fi
-          folders=$(printf '%s\n' "$files" | grep '^mods/' | cut -d/ -f1,2 | sort -u | tr '\n' ' ')
+          # Keep only real entry directories — stray files directly under mods/
+          # (and folders deleted by the diff) are not entries.
+          folders=$(printf '%s\n' "$files" | grep '^mods/' | cut -d/ -f1,2 | sort -u \
+            | while read -r f; do [ -d "$f" ] && printf '%s\n' "$f"; done | tr '\n' ' ')
           outside=$(printf '%s\n' "$files" | grep -v '^mods/' | grep -v '^$' || true)
           echo "folders=$folders" >> "$GITHUB_OUTPUT"
           {
