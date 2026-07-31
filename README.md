@@ -9,6 +9,8 @@ own repositories; this index just says where they are and what they need.
   fills in the form for you and opens the pull request.
 - **Consume the index:** `data/index.json`, published on every push and
   refreshed nightly (see [The feed](#the-feed)).
+- **See one done:** [#1, adding Nuzlocke](https://github.com/bryanthaboi/gen1recomp-mod-index/pull/1)
+  — three files, no build output, green CI. Copy its shape.
 
 ## Layout
 
