@@ -1,0 +1,24 @@
+{
+  "id": "BATTLE_MOVE_INFO",
+  "title": "Move Info",
+  "author": "masterwebx",
+  "version": "1.0.5",
+  "categories": [
+    "GAMEPLAY",
+    "QOL"
+  ],
+  "repo": "https://github.com/masterwebx/gen1recomp-battle-move-info/tree/main",
+  "summary": "Shows full move stats in battle so you always know exactly what your attacks do.",
+  "tags": [
+    "move info",
+    "stats",
+    "qol",
+    "wex"
+  ],
+  "github": "masterwebx/gen1recomp-battle-move-info",
+  "permissions": [
+    "engine_internals"
+  ],
+  "api": 2,
+  "profile": "content"
+}
