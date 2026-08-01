@@ -58,6 +58,9 @@ jobs:
             node scripts/clean-utf8.mjs
           fi
 
+      - name: No duplicate entries
+        run: node scripts/check-duplicates.mjs
+
       - name: Validate
         run: |
           set -o pipefail
