@@ -27,7 +27,10 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" = "pull_request" ]; then
             base="origin/${{ github.base_ref }}"
-            git fetch --no-tags --depth=1 origin "${{ github.base_ref }}"
+            # no --depth here: a shallow fetch grafts main's tip parentless,
+            # so any PR from a fork that is behind main dies with "no merge
+            # base" (checkout already ran with fetch-depth: 0)
+            git fetch --no-tags origin "${{ github.base_ref }}"
             files=$(git diff --name-only "$base"...HEAD)
           else
             files=$(git ls-files 'mods/*')
@@ -49,6 +52,17 @@ jobs:
               printf -- '- `%s`\n' $outside
             fi
           } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: UTF-8 clean
+        run: |
+          if [ -n "${{ steps.changed.outputs.folders }}" ]; then
+            node scripts/clean-utf8.mjs ${{ steps.changed.outputs.folders }}
+          else
+            node scripts/clean-utf8.mjs
+          fi
+
+      - name: No duplicate entries
+        run: node scripts/check-duplicates.mjs
 
       - name: Validate
         run: |
