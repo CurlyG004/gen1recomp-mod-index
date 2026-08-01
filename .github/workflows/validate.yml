@@ -50,6 +50,14 @@ jobs:
             fi
           } >> "$GITHUB_STEP_SUMMARY"
 
+      - name: UTF-8 clean
+        run: |
+          if [ -n "${{ steps.changed.outputs.folders }}" ]; then
+            node scripts/clean-utf8.mjs ${{ steps.changed.outputs.folders }}
+          else
+            node scripts/clean-utf8.mjs
+          fi
+
       - name: Validate
         run: |
           set -o pipefail

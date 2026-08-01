@@ -19,21 +19,24 @@ const targets = args.filter((a) => a !== '--write');
 
 const roots = targets.length ? targets : ['mods'];
 const files = [];
+const pushEntryFiles = (dir) => {
+  for (const name of ['meta.json', 'description.md']) {
+    const p = join(dir, name);
+    try {
+      statSync(p);
+      files.push(p);
+    } catch {
+      /* optional file absent */
+    }
+  }
+};
 for (const root of roots) {
   if (statSync(root).isFile()) {
     files.push(root);
-    continue;
-  }
-  for (const dir of readdirSync(root)) {
-    for (const name of ['meta.json', 'description.md']) {
-      const p = join(root, dir, name);
-      try {
-        statSync(p);
-        files.push(p);
-      } catch {
-        /* optional file absent */
-      }
-    }
+  } else if (readdirSync(root).includes('meta.json')) {
+    pushEntryFiles(root); // a single mods/<Author>@<id> entry
+  } else {
+    for (const dir of readdirSync(root)) pushEntryFiles(join(root, dir));
   }
 }
 
