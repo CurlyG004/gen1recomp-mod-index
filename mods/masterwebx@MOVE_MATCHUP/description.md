@@ -1,20 +1,19 @@
 # Battle Move Info
 
-A clean quality‑of‑life upgrade for Pokémon Gen 1 Recomp that displays detailed move information directly in battle. No more guessing power, accuracy, or effects — everything you need is shown right when selecting a move.
+Shows type matchup markers on the battle move-select TYPE box.
 
-## Features
+## Markers
 
-### In‑Battle Move Details
-- Shows **Power**, **Accuracy**, and **Effectiveness** for every move.
+- ! / !! — super effective / 4x
+- . — normal
+- - / -- — not very effective / 1/4x
+- xx — no effect
 
-### Smart Integration
-- Appears only when selecting a move — never intrusive.
-- Uses the engine’s native UI style for a clean, authentic look.
+## Controls
 
-### Compatibility
-- Fully compatible with Gen 1 Recomp v0.1.37+.
-- No conflicts with battle overhaul mods.
-- Safe to use alongside custom move packs.
+- **Up / Down** — change move
+- **Left / Right** — TYPE / effectiveness / power pages
 
-## Why Use It?
-Battle Move Info makes combat more readable, strategic, and modern without changing core gameplay. It’s the perfect enhancement for players who want clarity without altering the original mechanics.
+During battle, the stats screen moves page also shows a marker for each move vs the current foe.
+
+Requires gen1recomp >=0.1.37. Uses engine_internals.

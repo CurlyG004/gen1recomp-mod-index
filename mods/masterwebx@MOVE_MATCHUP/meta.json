@@ -1,17 +1,18 @@
 {
-  "id": "BATTLE_MOVE_INFO",
-  "title": "Move Info",
+  "id": "MOVE_MATCHUP",
+  "title": "Battle Move Info",
   "author": "masterwebx",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "categories": [
     "GAMEPLAY",
     "QOL"
   ],
   "repo": "https://github.com/masterwebx/gen1recomp-battle-move-info/tree/main",
-  "summary": "Shows full move stats in battle so you always know exactly what your attacks do.",
+  "summary": "Type matchup markers on move select, plus power/accuracy pages and stats-screen markers in battle.",
   "tags": [
-    "move info",
-    "stats",
+    "battle",
+    "moves",
+    "matchup",
     "qol",
     "wex"
   ],
