@@ -27,7 +27,10 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" = "pull_request" ]; then
             base="origin/${{ github.base_ref }}"
-            git fetch --no-tags --depth=1 origin "${{ github.base_ref }}"
+            # no --depth here: a shallow fetch grafts main's tip parentless,
+            # so any PR from a fork that is behind main dies with "no merge
+            # base" (checkout already ran with fetch-depth: 0)
+            git fetch --no-tags origin "${{ github.base_ref }}"
             files=$(git diff --name-only "$base"...HEAD)
           else
             files=$(git ls-files 'mods/*')
