@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-04T09:22:03.065Z",
-  "count": 37,
+  "generated_at": "2026-08-04T14:26:10.312Z",
+  "count": 40,
   "categories": [
     "GAMEPLAY",
     "CONTENT",
@@ -457,6 +457,31 @@
       "update_check": "pending"
     },
     {
+      "folder": "bryanthaboi@translation-ja-hrkt",
+      "id": "translation-ja-hrkt",
+      "title": "JP GREEN - Poketto Monsutā Midori",
+      "author": "bryanthaboi",
+      "summary": "Japanese translation of Red and Blue, rendered through the engine's bundled Plain Pixel TTF — no glyph sheet needed.",
+      "version": "0.4.4",
+      "categories": [
+        "TRANSLATION"
+      ],
+      "tags": [
+        "japanese",
+        "translation",
+        "kana"
+      ],
+      "repo": "https://github.com/bryanthaboi/JP-GREEN-Poketto-Monsuta-Midori",
+      "github": "bryanthaboi/JP-GREEN-Poketto-Monsuta-Midori",
+      "api": 2,
+      "game_version": ">=0.0.0-dev <1.0.0",
+      "profile": "content",
+      "thumbnail": null,
+      "description_url": "data/mods/bryanthaboi@translation-ja-hrkt/description.md",
+      "latest": null,
+      "update_check": "pending"
+    },
+    {
       "folder": "MadeinTaly@modern_kanto",
       "id": "modern_kanto",
       "title": "Modern Kanto",
@@ -681,7 +706,7 @@
       "id": "qol_toggles",
       "title": "QoL Toggles",
       "author": "ShaneMcGovernIE",
-      "summary": "OPTIONS -> USEFUL TOGGLES: poison survival, full-heal catches, infinite repel, learnable field moves, badgeless moves, max DVs, double EXP, instant flee, heal on map change, quick S.S. Anne.",
+      "summary": "OPTIONS -> QOL TOGGLES: poison survival, full-heal catches, infinite repel, learnable field moves, badgeless moves, max DVs, double EXP, instant flee, heal on map change, quick S.S. Anne.",
       "version": "1.4.0",
       "categories": [
         "QOL"
@@ -818,6 +843,38 @@
       "update_check": "pending"
     },
     {
+      "folder": "Satori7Kensho@shiny_starters_gifts",
+      "id": "shiny_starters_gifts",
+      "title": "Shiny Gifts & Starters",
+      "author": "Satori7Kensho",
+      "version": "1.1.0",
+      "categories": [
+        "ART",
+        "UI",
+        "QOL"
+      ],
+      "repo": "https://github.com/Satori7Kensho/gen1recomp-shiny-starters-gifts",
+      "tags": [
+        "qol",
+        "shiny",
+        "gift",
+        "shiny starters",
+        "shiny gifts"
+      ],
+      "github": "Satori7Kensho/gen1recomp-shiny-starters-gifts",
+      "license": "MIT",
+      "permissions": [
+        "engine_internals"
+      ],
+      "api": 2,
+      "profile": "content",
+      "thumbnail": null,
+      "description_url": "data/mods/Satori7Kensho@shiny_starters_gifts/description.md",
+      "summary": "Force shiny starters and optionally all story gifts in Gen1Recomp. Must activate before receiving Pokémon for shiny.",
+      "latest": null,
+      "update_check": "pending"
+    },
+    {
       "folder": "masterwebx@SHINY_POKEMON",
       "id": "SHINY_POKEMON",
       "title": "Shiny Pokemon",
@@ -904,6 +961,38 @@
       "license": "MIT",
       "thumbnail": "data/mods/allanrmartins@SWITCH_ADVISOR/thumbnail.png",
       "description_url": "data/mods/allanrmartins@SWITCH_ADVISOR/description.md",
+      "latest": null,
+      "update_check": "pending"
+    },
+    {
+      "folder": "AntoniMan31@trad-fr-extended",
+      "id": "trad-fr-extended",
+      "title": "Traduction FR étendue",
+      "author": "AntoniMan31",
+      "version": "0.1.0",
+      "categories": [
+        "UI",
+        "TRANSLATION"
+      ],
+      "repo": "https://github.com/antoniman31/trad-fr-extended",
+      "summary": "Complète la traduction française de translation-fr : 151 catégories du Pokédex, 109 textes moteur et 11 noms manquants. Nécessite translation-fr.",
+      "tags": [
+        "francais",
+        "traduction",
+        "french",
+        "pokedex",
+        "overlay",
+        "texte"
+      ],
+      "github": "antoniman31/trad-fr-extended",
+      "downloadURL": "https://github.com/antoniman31/trad-fr-extended/releases/download/v0.1.0/trad-fr-extended-0.1.0.zip",
+      "dependencies": [
+        "translation-fr"
+      ],
+      "api": 2,
+      "profile": "content",
+      "thumbnail": null,
+      "description_url": "data/mods/AntoniMan31@trad-fr-extended/description.md",
       "latest": null,
       "update_check": "pending"
     },
