@@ -84,5 +84,9 @@ function fail(folder, message) {
   failed += 1;
   console.log(`error    ${folder}: ${message}`);
 }
-const warn = (folder, message) => console.log(`warning  ${folder}: ${message}`);
-const ok = (folder, message) => console.log(`ok       ${folder}: ${message}`);
+function warn(folder, message) {
+  console.log(`warning  ${folder}: ${message}`);
+}
+function ok(folder, message) {
+  console.log(`ok       ${folder}: ${message}`);
+}

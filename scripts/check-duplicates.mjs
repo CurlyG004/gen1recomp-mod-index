@@ -4,10 +4,13 @@
 //   node scripts/check-duplicates.mjs
 //
 // Two entries collide when they share a mod id (the folder's id half and
-// meta.json's id are already tied together by validate.mjs), a github
-// owner/repo, or a downloadURL. Each is checked across the whole index, since
-// a duplicate is by nature a cross-entry problem. Exit code is the number of
-// duplicate groups (0 = no duplicates), so CI can gate on it.
+// meta.json's id are already tied together by validate.mjs) or a downloadURL.
+// A shared github owner/repo is only a warning: the launcher's asset picker
+// (ModUpdate.pickZipAsset) selects release zips by mod id, so a monorepo
+// hosting several mods is fine as long as the ids differ — which the id
+// check already guarantees. Each key is checked across the whole index,
+// since a duplicate is by nature a cross-entry problem. Exit code is the
+// number of duplicate groups (0 = no duplicates), so CI can gate on it.
 
 import { readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
@@ -34,6 +37,10 @@ for (const dir of readdirSync('mods')) {
 let dupes = 0;
 for (const [key, folders] of groups) {
   if (folders.length < 2) continue;
+  if (key.startsWith('github: ')) {
+    console.log(`warning shared ${key} (monorepo — release zips must be named <id>-<version>.zip)\n${folders.map((f) => `  - ${f}`).join('\n')}`);
+    continue;
+  }
   dupes++;
   console.log(`duplicate ${key}\n${folders.map((f) => `  - ${f}`).join('\n')}`);
 }
