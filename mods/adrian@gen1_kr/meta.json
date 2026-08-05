@@ -1,0 +1,23 @@
+{
+  "id": "gen1_kr",
+  "title": "gen1-kr",
+  "author": "adrian",
+  "version": "0.1.0",
+  "categories": [
+    "GAMEPLAY",
+    "AUDIO",
+    "OTHER"
+  ],
+  "repo": "https://github.com/castdrian/gen1-kr",
+  "tags": [
+    "knight rider",
+    "kitt"
+  ],
+  "github": "castdrian/gen1-kr",
+  "conflicts": [
+    "DRAMATIC_SHAPE"
+  ],
+  "api": 2,
+  "profile": "content",
+  "experimental": true
+}
