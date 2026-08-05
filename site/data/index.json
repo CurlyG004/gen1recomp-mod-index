@@ -598,22 +598,24 @@
       "update_check": "pending"
     },
     {
-      "folder": "DarioMelo@Music-FRLG",
-      "id": "Music-FRLG",
+      "folder": "DarioMelo@Music_FRLG",
+      "id": "Music_FRLG",
       "title": "Music-FRLG",
       "author": "DarioMelo",
-      "version": "1.0.0",
+      "version": "26.08.04",
       "categories": [
         "AUDIO"
       ],
       "repo": "https://github.com/DarioMelo/Gen1Recomp-MusicMods",
       "tags": [
-        "audio"
+        "audio",
+		"music"
       ],
       "github": "DarioMelo/Gen1Recomp-MusicMods",
-      "game_version": ">=0.1.59",
+      "game_version": ">=0.1.68",
       "api": 2,
       "profile": "content",
+	  "thumbnail": "data/mods/DarioMelo@Music_FRLG/thumbnail.png",
       "thumbnail": null,
       "description_url": "data/mods/DarioMelo@Music-FRLG/description.md",
       "summary": "Music from FireRed / LeafGreen",
@@ -621,24 +623,26 @@
       "update_check": "pending"
     },
     {
-      "folder": "DarioMelo@Music-LGPE",
-      "id": "Music-LGPE",
+      "folder": "DarioMelo@Music_LGPE",
+      "id": "Music_LGPE",
       "title": "Music-LGPE",
       "author": "DarioMelo",
-      "version": "1.0.0",
+      "version": "26.08.04",
       "categories": [
         "AUDIO"
       ],
       "repo": "https://github.com/DarioMelo/Gen1Recomp-MusicMods",
       "tags": [
-        "audio"
+        "audio",
+		"music"
       ],
       "github": "DarioMelo/Gen1Recomp-MusicMods",
-      "game_version": ">=0.1.59",
+      "game_version": ">=0.1.68",
       "api": 2,
       "profile": "content",
+	  "thumbnail": "data/mods/DarioMelo@Music_LGPE/thumbnail.png",
       "thumbnail": null,
-      "description_url": "data/mods/DarioMelo@Music-LGPE/description.md",
+      "description_url": "data/mods/DarioMelo@Music_LGPE/description.md",
       "summary": "Music from Let's Go Pikachu / Let's Go Eevee",
       "latest": null,
       "update_check": "pending"
