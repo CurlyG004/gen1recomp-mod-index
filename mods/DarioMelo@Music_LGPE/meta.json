@@ -1,17 +1,18 @@
 {
-  "id": "Music-LGPE",
+  "id": "Music_LGPE",
   "title": "Music-LGPE",
   "author": "DarioMelo",
-  "version": "1.0.0",
+  "version": "26.08.04",
   "categories": [
     "AUDIO"
   ],
   "repo": "https://github.com/DarioMelo/Gen1Recomp-MusicMods",
   "tags": [
-    "audio"
+    "audio",
+	"music"
   ],
   "github": "DarioMelo/Gen1Recomp-MusicMods",
-  "game_version": ">=0.1.59",
+  "game_version": ">=0.1.68",
   "api": 2,
   "profile": "content"
 }
