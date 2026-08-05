@@ -6,10 +6,18 @@
   "categories": [
     "AUDIO"
   ],
-  "repo": "https://github.com/1-Camp0-1/Gen1recomp-VoiceActingMod/releases/tag/Gen1RecompMod",
-  "summary": "Complete Voice Acting Overhaul - Currently up to Pewter City",
-  "github": "Campo/Gen1RecompVoiceActing",
+  "repo": "https://github.com/1-Camp0-1/Gen1recomp-VoiceActingMod",
+  "summary": "Complete voice acting overhaul with current coverage through Pewter City.",
+  "github": "1-Camp0-1/Gen1recomp-VoiceActingMod",
   "downloadURL": "https://github.com/1-Camp0-1/Gen1recomp-VoiceActingMod/releases/download/Gen1RecompMod/pokemon_red_voice_acting-1.17.9.zip",
+  "automatic_version_check": true,
   "api": 2,
-  "profile": "content"
+  "profile": "content",
+  "affects_link": false,
+  "experimental": true,
+  "permissions": [
+    "engine_internals"
+  ],
+  "dependencies": [],
+  "conflicts": []
 }
