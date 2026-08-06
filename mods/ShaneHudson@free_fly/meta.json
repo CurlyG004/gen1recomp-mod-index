@@ -1,0 +1,27 @@
+{
+  "id": "free_fly",
+  "title": "Free Fly",
+  "author": "ShaneHudson",
+  "summary": "Ride a FLY user around the overworld and land wherever you like.",
+  "version": "1.0.0",
+  "categories": [
+    "GAMEPLAY",
+    "QOL"
+  ],
+  "tags": [
+    "fly",
+    "overworld",
+    "mechanic",
+    "quality-of-life"
+  ],
+  "repo": "https://github.com/ShaneHudson/gen1recomp-mods",
+  "github": "ShaneHudson/gen1recomp-mods",
+  "automatic_version_check": true,
+  "api": 2,
+  "game_version": "0.0.0-dev || >=0.1.0 <2.0.0",
+  "profile": "content",
+  "permissions": [
+    "engine_internals"
+  ],
+  "license": "MIT"
+}
