@@ -3,7 +3,7 @@
   "title": "Auto Battle",
   "author": "eduardocalafell",
   "summary": "Auto-picks the most type-effective move each turn (falls back to the NPC AI), with an optional dialog skip and on-screen AUTO/SKIP badges.",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "categories": ["GAMEPLAY", "QOL", "UI"],
   "tags": ["battle", "auto", "qol", "ui"],
   "repo": "https://github.com/eduardocalafell/gen1recomp-auto-battle",
