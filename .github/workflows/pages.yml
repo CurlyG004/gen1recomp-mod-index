@@ -9,10 +9,15 @@ on:
     - cron: '17 5 * * *'
   workflow_dispatch:
 
+# Publishing goes through a gh-pages branch rather than the Pages artifact
+# deployment API. That API (actions/configure-pages + upload-pages-artifact +
+# deploy-pages) wedged on 2026-08-06: every deployment stuck at
+# deployment_in_progress and timed out after ten minutes, across three commits
+# and a freshly recreated Pages site. Branch publishing is a different code
+# path and is unaffected. To revert once GitHub resolves it, see the block at
+# the bottom of this file and set Pages back to build_type=workflow.
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 concurrency:
   group: pages
@@ -42,17 +47,34 @@ jobs:
               for (const m of i.mods) console.log('- \`' + m.folder + '\` ' + (m.latest ? m.latest.version + ' (' + m.update_check + ')' : m.update_check));"
           } >> "$GITHUB_STEP_SUMMARY"
 
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: site
+      # site/ is served verbatim, so .nojekyll keeps Pages from running the
+      # content through Jekyll and dropping anything it treats as special.
+      - name: Publish site/ to gh-pages
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          touch site/.nojekyll
+          cd site
+          git init -q
+          git checkout -q -b gh-pages
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git commit -qm "Deploy ${GITHUB_SHA} ($(node -p "require('./data/index.json').count") mods)"
+          git push -f \
+            "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" \
+            gh-pages
 
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - id: deployment
-        uses: actions/deploy-pages@v4
+# Revert to artifact deployment once the Pages API is healthy: restore
+# permissions to `contents: read` / `pages: write` / `id-token: write`, replace
+# the publish step above with
+#
+#   - uses: actions/configure-pages@v5
+#   - uses: actions/upload-pages-artifact@v3
+#     with:
+#       path: site
+#
+# re-add the deploy job using actions/deploy-pages@v4 under the github-pages
+# environment, then switch the site back with
+#   gh api -X PUT repos/OWNER/REPO/pages -f build_type=workflow
