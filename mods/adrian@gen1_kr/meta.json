@@ -1,8 +1,9 @@
 {
   "id": "gen1_kr",
-  "title": "gen1-kr",
+  "title": "Gen1 KR",
   "author": "adrian",
-  "version": "0.1.0",
+  "summary": "Drive KITT across Kanto.",
+  "version": "0.2.0",
   "categories": [
     "GAMEPLAY",
     "AUDIO",
@@ -14,10 +15,14 @@
     "kitt"
   ],
   "github": "castdrian/gen1-kr",
-  "conflicts": [
-    "DRAMATIC_SHAPE"
+  "game_version": "0.0.0-dev || >=0.1.37 <2.0.0",
+  "permissions": [
+    "engine_internals"
   ],
+  "dependencies": [
+    "DRAMATIC_SHAPE@>=1.6.0 <2.0.0"
+  ],
+  "conflicts": [],
   "api": 2,
-  "profile": "content",
-  "experimental": true
+  "profile": "content"
 }

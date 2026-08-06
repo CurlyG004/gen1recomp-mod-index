@@ -1,1 +1,3 @@
-KITT outdoor driving mod for gen1recomp.
+Drive KITT across Kanto in 3D.
+
+Requires Dramatic Shape Voxel Mod.
