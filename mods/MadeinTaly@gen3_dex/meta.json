@@ -1,0 +1,17 @@
+{
+  "id": "gen3_dex",
+  "title": "Gen 3 Dex",
+  "author": "MadeinTaly",
+  "version": "0.1.0",
+  "categories": ["UI", "ART"],
+  "repo": "https://github.com/MadeinTaly/gen1recomp-gen3-dex",
+  "github": "MadeinTaly/gen1recomp-gen3-dex",
+  "summary": "The Pokedex as a grid of pictures, each owned species in its own colours, with ALL/OWNED/MISSING filters.",
+  "tags": ["pokedex", "ui", "grid", "cosmetic", "qol"],
+  "permissions": ["engine_internals"],
+  "api": 2,
+  "profile": "content",
+  "game_version": ">=0.0.0-0 <2.0.0",
+  "license": "MIT",
+  "automatic_version_check": true
+}
