@@ -17,6 +17,9 @@ its HP bar actually drains (so it lands after the animation, not before).
   - burn — orange
   - leech seed — green
   - other self-damage (confusion, trap/crash) — grey
+  - **healing — green "+N"** (Recover/Rest, Absorb-style drains, the leech-seed
+    heal on the seeder)
+- Poison + leech on the same Pokémon show as **two separate numbers**.
 - Multi-hit moves (Double Kick, Fury Attack, …) show each hit.
 - Reads the engine's `battle.damage_dealt` event and the visible HP-bar drain;
   wraps `applyDamage` read-only for recoil/confusion/trap. No battle-logic
