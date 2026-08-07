@@ -1,0 +1,28 @@
+{
+  "id": "savestates",
+  "title": "Save States",
+  "author": "MaxTomahawk",
+  "version": "0.1.0",
+  "categories": [
+    "QOL",
+    "UI",
+    "TOOL"
+  ],
+  "repo": "https://github.com/MaxTomahawk/gen1recomp-savestates",
+  "github": "MaxTomahawk/gen1recomp-savestates",
+  "summary": "Native quicksaves, event-based autosaves, permanent slots, and undo-load recovery.",
+  "tags": [
+    "save states",
+    "quicksave",
+    "autosave",
+    "recovery"
+  ],
+  "automatic_version_check": true,
+  "api": 2,
+  "game_version": ">=0.0.0-dev <1.0.0",
+  "profile": "content",
+  "experimental": true,
+  "dependencies": [],
+  "conflicts": [],
+  "license": "MIT"
+}
