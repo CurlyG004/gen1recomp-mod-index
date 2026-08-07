@@ -1,6 +1,6 @@
 # gen1recomp mod index
 
-A community index of mods for the [Gen 1 recomp engine](https://github.com/DramaticShape/pokemon-gen1-recomp-project).
+A community index of mods for the [Gen 1 recomp engine](https://github.com/bryanthaboi/gen1recomp).
 One folder per mod, holding metadata only — no mod code, no assets, and
 certainly no ROM-derived content. The mods themselves live in their authors'
 own repositories; this index just says where they are and what they need.
@@ -30,7 +30,7 @@ folder.
 
 Validated against [`schema/mod.schema.json`](schema/mod.schema.json). Most
 fields mirror the engine's manifest (see the wiki's
-[Manifest reference](https://github.com/DramaticShape/pokemon-gen1-recomp-project/wiki/Reference-Manifest)),
+[Manifest reference](https://github.com/bryanthaboi/gen1recomp/wiki/Reference-Manifest)),
 so an entry is mostly a copy of what the mod already declares.
 
 | Field | | Meaning |
