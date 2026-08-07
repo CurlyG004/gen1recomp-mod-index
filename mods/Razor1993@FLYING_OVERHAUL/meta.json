@@ -23,5 +23,7 @@
     "engine_internals"
   ],
   "api": 2,
-  "profile": "overhaul"
+  "profile": "overhaul",
+  "game_version": "0.0.0-dev || >=0.1.37 <2.0.0",
+  "affects_link": false
 }
