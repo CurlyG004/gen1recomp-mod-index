@@ -11,8 +11,11 @@ the game's own text and typewriter exactly as they are.
 - A rounded panel with a soft drop shadow replaces the Game Boy tile border on
   every framed box — dialogue, the START menu, shops, YES/NO, and so on. The
   interior stays light so the black GB-font text is always readable.
-- **6 themes:** SLATE, FOREST, OCEAN, SUNSET, BERRY, MONO.
-- **4 patterns:** NONE, DOTS, GRID, CHECKER — faint procedural textures.
+- **7 themes:** SLATE, FOREST, OCEAN, SUNSET, BERRY, MONO, and **NIGHT** — a
+  true dark theme (the black GB font is recoloured light through a shader so it
+  reads on the dark panel).
+- **6 patterns:** NONE, DOTS, GRID, CHECKER, WAVES, SCALES — faint procedural
+  textures.
 - **TRANSLUCENT** toggle, **SIZE** presets (CLASSIC / TALL / TOP), a
   **SPEAKER NAME** header (parsed from a leading `NAME:` in the text), and a
   **RESTYLE** scope (all menus, or just the dialogue box).
