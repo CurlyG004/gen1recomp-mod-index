@@ -9,6 +9,10 @@ and fly off when you get close. Reach a low one before it gets away and
 a normal wild battle starts with that species and level; high flyers
 never trigger battles from the ground.
 
+Under an open outdoor sky, 1 spawn in 1000 is a legendary bird
+(Articuno, Zapdos or Moltres, L48-52) instead of the map's usual pick.
+It flies alone and can be battled and caught like any other flyer.
+
 Options cover sky density and whether low birds can bump a walking
 player into a battle. Pairs well with Overworld Wild Encounters (its
 roamers handle the ground, these birds handle the air) and the Dramatic
