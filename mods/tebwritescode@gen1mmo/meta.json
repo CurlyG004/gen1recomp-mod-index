@@ -2,14 +2,14 @@
   "id": "gen1mmo",
   "title": "Gen1MMO",
   "author": "tebwritescode",
-  "version": "1.0.0",
+  "version": "1.3.0",
   "categories": [
     "GAMEPLAY",
     "CONTENT",
     "QOL"
   ],
   "repo": "https://github.com/tebwritescode/gen1mmo",
-  "summary": "Other trainers live in your own save: chat, looks, friends - one official server, accounts with no email.",
+  "summary": "Other trainers live in your own save: chat, trainer cards, friends - one official server, accounts with no email.",
   "tags": [
     "online",
     "multiplayer",

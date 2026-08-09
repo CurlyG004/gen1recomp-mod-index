@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-09T02:03:05.314Z",
+  "generated_at": "2026-08-09T04:05:25.417Z",
   "count": 80,
   "categories": [
     "GAMEPLAY",
@@ -890,14 +890,14 @@
       "id": "gen1mmo",
       "title": "Gen1MMO",
       "author": "tebwritescode",
-      "version": "1.0.0",
+      "version": "1.3.0",
       "categories": [
         "GAMEPLAY",
         "CONTENT",
         "QOL"
       ],
       "repo": "https://github.com/tebwritescode/gen1mmo",
-      "summary": "Other trainers live in your own save: chat, looks, friends - one official server, accounts with no email.",
+      "summary": "Other trainers live in your own save: chat, trainer cards, friends - one official server, accounts with no email.",
       "tags": [
         "online",
         "multiplayer",
