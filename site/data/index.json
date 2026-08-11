@@ -1326,45 +1326,49 @@
       "update_check": "ok"
     },
     {
-      "folder": "adrian@gen1_kr",
-      "id": "gen1_kr",
-      "title": "Gen1 KR",
+      "folder": "adrian@recomp-rider",
+      "id": "recomp-rider",
+      "title": "Recomp Rider",
       "author": "adrian",
-      "summary": "Drive KITT across Kanto.",
-      "version": "0.2.0",
+      "summary": "Drive KITT across the Pokémon world.",
+      "version": "0.4.0",
       "categories": [
         "GAMEPLAY",
         "AUDIO",
         "OTHER"
       ],
-      "repo": "https://github.com/castdrian/gen1-kr",
+      "repo": "https://github.com/castdrian/recomp-rider",
       "tags": [
         "knight rider",
         "kitt"
       ],
-      "github": "castdrian/gen1-kr",
+      "github": "castdrian/recomp-rider",
       "game_version": "0.0.0-dev || >=0.1.37 <2.0.0",
       "permissions": [
         "engine_internals"
       ],
+      "games": [
+        "gen1",
+        "gen2"
+      ],
       "dependencies": [
-        "DRAMATIC_SHAPE@>=1.6.0 <2.0.0"
+        "DRAMALESS_SHAPE@>=1.6.3 <2.0.0"
       ],
       "conflicts": [],
       "api": 2,
       "profile": "content",
       "thumbnail": null,
-      "description_url": "data/mods/adrian@gen1_kr/description.md",
+      "description_url": "data/mods/adrian@recomp-rider/description.md",
       "latest": {
-        "version": "0.3.2",
-        "tag": "v0.3.2",
-        "name": "0.3.2",
+        "version": "0.4.0",
+        "tag": "v0.4.0",
+        "name": "0.4.0",
         "prerelease": false,
-        "published_at": "2026-08-09T20:59:10Z",
+        "published_at": "2026-08-11T20:29:07Z",
         "zip": {
-          "name": "gen1-kr-0.3.2.zip",
-          "url": "https://github.com/castdrian/gen1-kr/releases/download/v0.3.2/gen1-kr-0.3.2.zip",
-          "size": 6972187
+          "name": "recomp-rider-0.4.0.zip",
+          "url": "https://github.com/castdrian/recomp-rider/releases/download/v0.4.0/recomp-rider-0.4.0.zip",
+          "size": 6975086
         }
       },
       "update_check": "ok"
