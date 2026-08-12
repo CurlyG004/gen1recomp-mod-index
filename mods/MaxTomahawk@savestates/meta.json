@@ -10,16 +10,18 @@
   ],
   "repo": "https://github.com/MaxTomahawk/gen1recomp-savestates",
   "github": "MaxTomahawk/gen1recomp-savestates",
-  "summary": "Native quicksaves, event-based autosaves, permanent slots, and undo-load recovery.",
+  "summary": "Native quicksaves, event autosaves, permanent slots, deterministic battle states, and undo-load recovery.",
   "tags": [
     "save states",
     "quicksave",
     "autosave",
-    "recovery"
+    "recovery",
+    "battle",
+    "quality of life"
   ],
   "automatic_version_check": true,
   "api": 2,
-  "game_version": ">=0.0.0-dev <1.0.0",
+  "game_version": ">=0.1.79 <1.0.0",
   "profile": "content",
   "experimental": true,
   "dependencies": [],
