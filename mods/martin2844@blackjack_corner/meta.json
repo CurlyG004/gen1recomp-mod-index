@@ -2,8 +2,8 @@
   "id": "blackjack_corner",
   "title": "Blackjack Corner",
   "author": "martin2844",
-  "summary": "A casino campaign with eight games, random starters, Gym reward cases, High Roller progression, Rocket credit, Pokémon pawning, shiny prizes, and an underground battle arena.",
-  "version": "0.5.0",
+  "summary": "A Kanto-wide casino campaign with eight games, random starters, reactive Gym reward cases, High Roller progression, Rocket credit, Pokémon pawning, shiny prizes, and an underground battle arena.",
+  "version": "0.7.3",
   "categories": [
     "GAMEPLAY",
     "CONTENT"
@@ -14,7 +14,7 @@
     "minigames",
     "blackjack",
     "shiny pokemon",
-    "random starters",
+    "gym cases",
     "battle arena",
     "gamble mode"
   ],

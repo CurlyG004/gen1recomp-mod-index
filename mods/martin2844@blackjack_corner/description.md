@@ -1,24 +1,42 @@
 # Blackjack Corner
 
-Blackjack Corner turns Pokémon Gen 1 into a casino campaign. Its optional,
-save-scoped Gamble Mode remixes the adventure from Oak's Lab through all eight
-Gyms, while its expanded Celadon casino remains available when Gamble Mode is
-declined.
+Blackjack Corner turns Pokémon Gen 1 into a Kanto-wide casino campaign. Its
+optional, save-scoped Gamble Mode remixes the adventure from Oak's Lab through
+all eight Gyms and a Rocket-run endgame, while its casino network remains
+available when Gamble Mode is declined.
 
 ## What it adds
 
 - Eight playable games: Blackjack, house-banked Texas Hold'em, Crash, Tube
   Flyer, Prize Case, animated Horse Racing, Plinko, and Pokémon battle betting.
-- A Pallet Town casino and an expanded Celadon Casino Lounge with live tables,
-  arcade machines, original staff and patrons, and hidden coin pickups.
+- Casinos in Pallet Town, Celadon, and every Kanto city, with live tables,
+  arcade machines, city-specific dialogue, original staff and patrons, and
+  hidden coin pickups.
 - Random player and rival starters, paid rerolls, and one persistent Gym reward
-  case for every badge when Gamble Mode is enabled.
+  case for every badge when Gamble Mode is enabled. Each Gym Case uses a
+  distinct ten-prize pool themed around its leader.
+- Prize-aware Gym Leader reactions for all 80 current Gym Case rewards. The
+  exact comment changes with the prize, rarity, and leader personality, and
+  appears only after safe delivery to the Bag, party, or PC.
 - A shared High Roller campaign with five ranks, persistent statistics, rank
   rewards, story-safe badge gates, and reactive casino dialogue.
 - Rocket credit, recoverable default consequences, Pokémon pawning, and a
   late-game underground arena with posted odds and animated house-owned fights.
+- Eight post-Gym CASE ACE trainers, a Cinnabar investigation, a fixed
+  Dragonite-versus-Mewtwo exhibition, and an irreversible choice to expose
+  Rocket or become the house champion.
 - A shared one-million-coin economy, expanded Pokémon and item prizes, shiny
   prize upgrades, rare TMs, Mew, Dragonite, Surfing Pikachu, and Master Balls.
+
+## Settings and compatibility
+
+The mod has a permanent options page for the Gamble Mode default, repeat table
+introductions, reveal speed, and shiny presentation. The Gamble Mode question
+appears before Oak so every new campaign makes an explicit choice.
+
+Starter Randomizer coexistence preserves randomized encounters and trainers
+while Gamble Mode owns its roulette. Nuzlocke 2's post-Oak setup also resumes
+after Oak exits instead of leaving the new-game screen blank.
 
 ## Shiny compatibility
 
@@ -29,7 +47,7 @@ when no supported external shiny provider is enabled.
 
 ## Install
 
-1. Download `blackjack_corner-0.5.0.zip` from the
+1. Download `blackjack_corner-0.7.3.zip` from the
    [releases page](https://github.com/martin2844/gen1recomp-blackjack-corner/releases).
    Use the named mod ZIP, not GitHub's source-code archives.
 2. In Gen1Recomp, choose **MODS → Import mod .zip**.
