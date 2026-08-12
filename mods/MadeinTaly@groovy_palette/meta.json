@@ -2,14 +2,14 @@
   "id": "groovy_palette",
   "title": "Groovy Palette & Frames",
   "author": "MadeinTaly",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "categories": [
     "ART",
     "UI"
   ],
   "repo": "https://github.com/MadeinTaly/gen1recomp-groovy-palette-frames",
   "github": "MadeinTaly/gen1recomp-groovy-palette-frames",
-  "summary": "Thirty extra colour palettes and nine text-box frames for the OPTIONS menu, with a live preview. The frames work on Gold too.",
+  "summary": "Thirty extra colour palettes and nine text-box frames, with a live preview. Both halves work on Gold.",
   "tags": [
     "palette",
     "colours",

@@ -34,4 +34,4 @@ Lua source and original artwork only: no ROM, no ROM-derived data and no
 game assets. The border sheet is generated from rules in the repository's
 own `tools/make_frames.py`.
 
-**On Gold.** The frames work on Pokemon Gold: it draws its text boxes through the same Font.drawBox this mod rewrites the border codes for, and Gold's own FRAME option picks a frame page rather than the border glyphs, so the two do not fight. The palettes stay Gen 1 -- Gold is a CGB game whose colour comes from its own palettes, and its OPTION menu has no palette row at all.
+**On Gold.** Both halves work. The frames ride the same Font.drawBox Gold draws its boxes with, and the palettes reach Gold's own COLOR row through GbcPalette, the choke point every colour in the Gen 2 port arrives through. The boot cinema and title screen keep the cart's grey art, which is the same boundary Gold's own DMG mode sits behind.

@@ -43,4 +43,4 @@ names running shoes as the reason it exists — calls the next handler first
 and multiplies its answer, so a mod that slows you in a swamp keeps its say.
 It declares no permissions at all.
 
-**On Gold.** RUN SPEED, BOOST BIKE, BOOST SURF and SAFE GRASS all work: Gold raises the same movement.speed hook with the same keys, and it rebuilds the step duration every step, so a scripted cutscene can never inherit a running step the way it can on Gen 1. CUT GRASS and RUN FX are Gen 1 only and switch themselves off on Gold -- the cut needs a table with no Gen 2 home, and the trail is measured from the Gen 1 world canvas.
+**On Gold.** Everything works: the speed, the bike and surf boosts, SAFE GRASS, the trail, and CUT GRASS -- Gold cuts grass through its own FieldMoves.CUT_BLOCKS, and the trail only ever looked absent because the overworld test was asking a Gen 1 question. The engine's own dust puff has no Gen 2 equivalent, so there the trail is the mod's own particles.
