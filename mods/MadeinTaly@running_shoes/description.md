@@ -42,3 +42,5 @@ quickly. It rides the engine's own `movement.speed` hook — whose comment
 names running shoes as the reason it exists — calls the next handler first
 and multiplies its answer, so a mod that slows you in a swamp keeps its say.
 It declares no permissions at all.
+
+**On Gold.** RUN SPEED, BOOST BIKE, BOOST SURF and SAFE GRASS all work: Gold raises the same movement.speed hook with the same keys, and it rebuilds the step duration every step, so a scripted cutscene can never inherit a running step the way it can on Gen 1. CUT GRASS and RUN FX are Gen 1 only and switch themselves off on Gold -- the cut needs a table with no Gen 2 home, and the trail is measured from the Gen 1 world canvas.

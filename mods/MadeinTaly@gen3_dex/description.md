@@ -30,3 +30,5 @@ surface buys room and colour, never detail. It reads the save's dex and
 writes nothing.
 
 Lua source only: no ROM, no ROM-derived data and no game assets.
+
+**On Gold.** The dex covers Johto rather than stopping at Mew, the caught half is read where Gold actually keeps it, and DATA and AREA open Gold's own dex entry -- its AREA view is the nest map, so the map is one button further in. GRID BIG is read as CLASSIC there, for the same reason it is in Gen 3 Box.
