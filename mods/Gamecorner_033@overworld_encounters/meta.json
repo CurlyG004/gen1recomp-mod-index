@@ -2,7 +2,7 @@
   "id": "overworld_encounters",
   "title": "Overworld Wild Encounters",
   "author": "Gamecorner_033",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "categories": [
     "GAMEPLAY",
     "CONTENT",
@@ -11,7 +11,6 @@
   ],
   "repo": "https://github.com/gamecorner-033/Gen1PC-OverworldEncounters",
   "github": "gamecorner-033/Gen1PC-OverworldEncounters",
-  "downloadURL": "https://github.com/gamecorner-033/Gen1PC-OverworldEncounters/releases/download/v0.0.5/overworld_encounters.zip",
   "api": 2,
   "profile": "content"
 }
