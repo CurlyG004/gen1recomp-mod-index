@@ -10,8 +10,8 @@ available when Gamble Mode is declined.
 - Eight playable games: Blackjack, house-banked Texas Hold'em, Crash, Tube
   Flyer, Prize Case, animated Horse Racing, Plinko, and Pokémon battle betting.
 - Casinos in Pallet Town, Celadon, and every Kanto city, with live tables,
-  arcade machines, city-specific dialogue, original staff and patrons, and
-  hidden coin pickups.
+  arcade machines, city-specific dialogue, original staff and patrons, local
+  Pokémon prize counters, two-way coin exchange, and hidden coin pickups.
 - Random player and rival starters, paid rerolls, and one persistent Gym reward
   case for every badge when Gamble Mode is enabled. Each Gym Case uses a
   distinct ten-prize pool themed around its leader.
@@ -22,11 +22,22 @@ available when Gamble Mode is declined.
   rewards, story-safe badge gates, and reactive casino dialogue.
 - Rocket credit, recoverable default consequences, Pokémon pawning, and a
   late-game underground arena with posted odds and animated house-owned fights.
-- Eight post-Gym CASE ACE trainers, a Cinnabar investigation, a fixed
-  Dragonite-versus-Mewtwo exhibition, and an irreversible choice to expose
-  Rocket or become the house champion.
+- Eight post-Gym CASE ACE trainers whose independent mixed-reward cases and
+  dialogue no longer copy the nearby Gym Leader, plus a Cinnabar investigation,
+  a fixed Dragonite-versus-Mewtwo exhibition, and an irreversible choice to
+  expose Rocket or become the house champion.
 - A shared one-million-coin economy, expanded Pokémon and item prizes, shiny
   prize upgrades, rare TMs, Mew, Dragonite, Surfing Pikachu, and Master Balls.
+- Native nickname prompts for Starter Roulette, case, and counter-redemption
+  Pokémon, including rewards delivered directly to the PC.
+
+## Casino economy
+
+Every Pallet, Celadon, and regional clerk can buy casino coins or cash them out
+at the symmetric original rate of 50 coins for ¥1,000. Bulk and MAX options
+respect both the one-million-coin Coin Case and the native ¥999,999 wallet cap.
+The same clerks offer a limited local Pokémon catalogue; Celadon's dedicated
+Prize Room retains the complete selection.
 
 ## Settings and compatibility
 
@@ -47,7 +58,7 @@ when no supported external shiny provider is enabled.
 
 ## Install
 
-1. Download `blackjack_corner-0.7.3.zip` from the
+1. Download `blackjack_corner-0.7.4.zip` from the
    [releases page](https://github.com/martin2844/gen1recomp-blackjack-corner/releases).
    Use the named mod ZIP, not GitHub's source-code archives.
 2. In Gen1Recomp, choose **MODS → Import mod .zip**.
