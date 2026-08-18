@@ -4,14 +4,10 @@ on:
   schedule:
     # Every six hours: probe every entry, retire the ones that stayed dead,
     # and commit the rebuilt index so anything reading the file out of the
-    # repo sees what the Pages site serves.
+    # repo sees what the Pages site serves. Merges do not trigger this --
+    # Pages redeploys on its own, and the committed index catches up here or
+    # on demand.
     - cron: '0 */6 * * *'
-  push:
-    branches: [main]
-    paths:
-      - 'mods/**'
-      - 'schema/**'
-      - 'scripts/**'
   workflow_dispatch:
     inputs:
       dry_run:
@@ -39,7 +35,6 @@ jobs:
 
       - name: Probe every entry
         id: health
-        if: github.event_name != 'push'
         env:
           GITHUB_TOKEN: ${{ github.token }}
           HEALTH_STRIKES: '4'
@@ -108,7 +103,7 @@ jobs:
           exit 1
 
       - name: Redeploy Pages
-        if: steps.commit.outputs.pushed == 'true' && github.event_name != 'push'
+        if: steps.commit.outputs.pushed == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh workflow run pages.yml --ref main
