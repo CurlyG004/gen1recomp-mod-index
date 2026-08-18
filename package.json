@@ -8,6 +8,7 @@
   "scripts": {
     "validate": "node scripts/validate.mjs --examples",
     "links": "node scripts/check-links.mjs",
+    "health": "node scripts/health.mjs",
     "build": "node scripts/build-index.mjs",
     "build:releases": "node scripts/build-index.mjs --releases",
     "serve": "node scripts/build-index.mjs && python3 -m http.server -d site 8080",

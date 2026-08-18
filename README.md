@@ -70,6 +70,17 @@ An entry without `github` is a fixed listing: the recorded `version` and
 
 ## The feed
 
+Read it over HTTP:
+
+```
+https://bryanthaboi.github.io/gen1recomp-mod-index/data/index.json
+```
+
+**Not out of a checkout or a raw.githubusercontent link.** `thumbnail` and
+`description_url` are paths under `data/` that only exist in the published
+site, and the copy in the repo is a build output that a scheduled job refreshes
+rather than the live one.
+
 `data/index.json` is the machine-readable index — one file, everything in it:
 
 ```jsonc
@@ -114,7 +125,13 @@ node scripts/validate.mjs --examples      # include examples/
 node scripts/check-links.mjs              # network: do the downloads resolve
 node scripts/build-index.mjs              # write site/data/index.json
 node scripts/build-index.mjs --releases   # …and re-read GitHub Releases
+node scripts/health.mjs                   # network: probe every entry, report only
+node scripts/health.mjs --record --prune  # …strike it, and retire what stayed dead
 ```
+
+`health.mjs` is what the six-hourly cleanup job runs. `--record` and `--prune`
+write to `.health/state.json` and delete folders, so leave them off unless you
+mean it.
 
 No dependencies — a plain `node` is the whole toolchain. CI runs the same
 commands on every pull request.
@@ -133,7 +150,8 @@ node scripts/build-index.mjs && python3 -m http.server -d site 8080
 | `mods/` | the index itself |
 | `examples/` | a template entry to copy |
 | `schema/` | the meta.json JSON Schema — the source of truth for both CI and the site |
-| `scripts/` | validate, link check, index build |
+| `scripts/` | validate, link check, index build, health probe |
+| `.health/` | strike counts for entries whose upstream is currently failing |
 | `site/` | the GitHub Pages submission helper |
 | `oauth-worker/` | optional: the code→token exchange behind "Sign in with GitHub" |
 

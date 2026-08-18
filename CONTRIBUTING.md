@@ -53,6 +53,26 @@ Open a PR to change the listing itself: description, categories, tags,
 thumbnail, a moved repository, or a mod that is no longer maintained (say so in
 the description — a listing that quietly rots helps nobody).
 
+## When a listing goes dead
+
+A job runs every six hours and probes every entry: the `github` repo has to
+resolve, and a `downloadURL` has to answer with something that is not a 404
+and not an HTML page.
+
+An entry that fails takes a strike. Four consecutive strikes — a full day of
+staying broken — and the folder is deleted and the removal is recorded in an
+issue. One passing probe clears the count, so a repo that blips is never at
+risk.
+
+Ceilings sit above that. If entries break in a batch, if too many probes come
+back inconclusive, or if more than five entries are due for removal at once,
+the whole run is skipped: nothing recorded, nothing removed, nothing committed.
+A wave of failures is a GitHub outage far more often than it is a wave of
+authors deleting repos on the same afternoon.
+
+If your entry was removed, fix the repo or the link and open a fresh
+submission. Nothing is held against you, and the git history still has it.
+
 ## What review looks at
 
 CI checks shape, naming, and that the download resolves. A maintainer then
