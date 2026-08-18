@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-18T09:07:34.740Z",
+  "generated_at": "2026-08-18T09:11:34.604Z",
   "count": 109,
   "categories": [
     "GAMEPLAY",
@@ -3004,15 +3004,15 @@
       "thumbnail": null,
       "description_url": "data/mods/ShaneMcGovernIE@potato_voxel/description.md",
       "latest": {
-        "version": "1.7.11",
-        "tag": "v1.7.11",
-        "name": "1.7.11",
+        "version": "1.7.12",
+        "tag": "v1.7.12",
+        "name": "1.7.12",
         "prerelease": false,
-        "published_at": "2026-08-17T13:26:10Z",
+        "published_at": "2026-08-18T09:08:32Z",
         "zip": {
-          "name": "potato_voxel-1.7.11.zip",
-          "url": "https://github.com/ShaneMcGovernIE/potato_voxel/releases/download/v1.7.11/potato_voxel-1.7.11.zip",
-          "size": 668216
+          "name": "potato_voxel-1.7.12.zip",
+          "url": "https://github.com/ShaneMcGovernIE/potato_voxel/releases/download/v1.7.12/potato_voxel-1.7.12.zip",
+          "size": 662249
         }
       },
       "update_check": "ok"
