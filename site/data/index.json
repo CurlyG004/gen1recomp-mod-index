@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-18T09:11:34.604Z",
+  "generated_at": "2026-08-18T09:25:52.205Z",
   "count": 109,
   "categories": [
     "GAMEPLAY",
@@ -2050,7 +2050,7 @@
         "maps",
         "battle ui",
         "handheld",
-        "desktop",
+        "gen 1",
         "gen 2"
       ],
       "repo": "https://github.com/AverageConsumer/kanto-gear",
