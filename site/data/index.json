@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-18T12:04:45.525Z",
+  "generated_at": "2026-08-18T15:05:54.761Z",
   "count": 113,
   "categories": [
     "GAMEPLAY",
@@ -52,7 +52,13 @@
           "size": 2103
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 206,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "masterwebx@ACCESS_PC_ANYWHERE",
@@ -87,7 +93,13 @@
           "size": 3584
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 5753,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "ty-mcdk@additional_story_healers",
@@ -121,7 +133,13 @@
           "size": 3786
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 437,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "eduardocalafell@auto_battle",
@@ -167,7 +185,13 @@
           "size": 13412
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 796,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "eduardocalafell@bag_sort",
@@ -212,7 +236,13 @@
           "size": 3761
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 536,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "absol89@BATTLE_ART_VOXEL_FORK",
@@ -257,7 +287,13 @@
           "size": 123244547
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 52191,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "masterwebx@MOVE_MATCHUP",
@@ -298,7 +334,13 @@
           "size": 9728
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 5571,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "eduardocalafell@better_battle_ui",
@@ -343,7 +385,13 @@
           "size": 10101
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 2165,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "eduardocalafell@bike_anywhere",
@@ -389,7 +437,13 @@
           "size": 7705
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 294,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "martin2844@blackjack_corner",
@@ -439,7 +493,13 @@
           "size": 179724
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 1872,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "bryanthaboi@bookers_heaven",
@@ -477,7 +537,13 @@
           "size": 8346
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 3264,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "Yukitty@oak_brief",
@@ -510,7 +576,13 @@
           "size": 1200
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 904,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "TanukiTooks@candy_jar",
@@ -545,7 +617,13 @@
           "size": 8783
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 266,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "xkrisl@character_select",
@@ -575,7 +653,13 @@
       "thumbnail": "data/mods/xkrisl@character_select/thumbnail.png",
       "description_url": "data/mods/xkrisl@character_select/description.md",
       "latest": null,
-      "update_check": "no installable release"
+      "update_check": "no installable release",
+      "downloads": {
+        "total": 16,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "MadeinTaly@childhood_myths_are_real",
@@ -618,7 +702,13 @@
           "size": 15532
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 339,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "MrKrisSatan@leaf_avatar",
@@ -656,7 +746,13 @@
           "size": 38474
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 4660,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "masterwebx@CONTROLLER_RUMBLE",
@@ -695,7 +791,13 @@
           "size": 15893
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 4750,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "ShaneMcGovernIE@critical_capture",
@@ -735,7 +837,13 @@
           "size": 13373
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 948,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "AntoniMan31@day_night_cycle",
@@ -781,7 +889,13 @@
           "size": 58869
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 228,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "eduardocalafell@damage_numbers",
@@ -827,7 +941,13 @@
           "size": 6306
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 1589,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "Roxas2712@deutsch-blau",
@@ -870,7 +990,13 @@
           "size": 126155
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 493,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "Roxas2712@deutsch-gelb",
@@ -913,7 +1039,13 @@
           "size": 136774
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 655,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "Roxas2712@deutsch",
@@ -956,7 +1088,13 @@
           "size": 126508
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 1432,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "ShaneHudson@dev-hook-inspector",
@@ -999,7 +1137,13 @@
           "size": 15847
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 92,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "ShaneHudson@double_battles",
@@ -1044,7 +1188,13 @@
           "size": 73119
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 841,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "MFRTechConsult@DRAMATIC_SKY_RIDE",
@@ -1102,7 +1252,13 @@
           "size": 266956
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 4498,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "BartInTheField@translation-nl",
@@ -1138,7 +1294,13 @@
           "size": 105853
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 171,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "ty-mcdk@easy_custom_music",
@@ -1172,7 +1334,13 @@
           "size": 142741
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 66,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "Sebarosu@recomp-spanish",
@@ -1209,7 +1377,13 @@
           "size": 118266
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 4881,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "Illan@wills_mod",
@@ -1252,7 +1426,13 @@
           "size": 13492
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 191,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "ShaneMcGovernIE@exp_share",
@@ -1292,7 +1472,13 @@
           "size": 14182
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 18166,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "eduardocalafell@fakemons",
@@ -1335,7 +1521,13 @@
           "size": 18702
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 144,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "xkrisl@fast_pokecenter_heal",
@@ -1361,7 +1553,13 @@
       "thumbnail": "data/mods/xkrisl@fast_pokecenter_heal/thumbnail.png",
       "description_url": "data/mods/xkrisl@fast_pokecenter_heal/description.md",
       "latest": null,
-      "update_check": "no installable release"
+      "update_check": "no installable release",
+      "downloads": {
+        "total": 20,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "masterwebx@FOLLOWERS_EX",
@@ -1399,7 +1597,13 @@
           "size": 29759
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 10389,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "ShaneHudson@free_fly",
@@ -1442,7 +1646,13 @@
           "size": 83691
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 5718,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "Tekky@g9-battle-engine",
@@ -1484,7 +1694,13 @@
           "size": 335388
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 57,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "eduardocalafell@gen2_dex",
@@ -1530,7 +1746,13 @@
           "size": 242091
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 622,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "MadeinTaly@gen3_box",
@@ -1576,7 +1798,13 @@
           "size": 45910
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 19335,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "MadeinTaly@gen3_dex",
@@ -1621,7 +1849,13 @@
           "size": 25092
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 1565,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "ArmstrongThomas@gen1_modern_ui",
@@ -1665,7 +1899,13 @@
           "size": 188363
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 28292,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "tebwritescode@gen1mmo",
@@ -1710,7 +1950,13 @@
           "size": 408707
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 430,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "Gamecorner_033@gen1online",
@@ -1744,7 +1990,13 @@
           "size": 649405
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 14306,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "Campo@pokemon_red_voice_acting",
@@ -1783,7 +2035,13 @@
           "size": 4717483
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 1617,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "Dgray66@girl-mode",
@@ -1819,7 +2077,13 @@
           "size": 5292
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 108,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "MadeinTaly@groovy_palette",
@@ -1865,7 +2129,13 @@
           "size": 34674
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 3774,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "masterwebx@HEAL_ANYWHERE",
@@ -1903,7 +2173,13 @@
           "size": 6296
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 1258,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "bryanthaboi@translation-ja-hrkt",
@@ -1939,7 +2215,13 @@
           "size": 130473
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 250,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "redelpedron@kanto_companion_lite",
@@ -1972,7 +2254,13 @@
           "size": 57147
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 1447,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "MraYT@kanto_dive",
@@ -2022,7 +2310,13 @@
           "size": 82864
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 248,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "Campo@kanto_dynamic_weather",
@@ -2066,7 +2360,13 @@
           "size": 67817
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 1578,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "AverageConsumer@kanto_gear",
@@ -2121,7 +2421,13 @@
           "size": 51466
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 7598,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "Maaggel@mew_under_the_truck",
@@ -2163,7 +2469,13 @@
           "size": 239963
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 418,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "eduardocalafell@minimap",
@@ -2209,7 +2521,13 @@
           "size": 4441
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 572,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "eduardocalafell@modern_dialog",
@@ -2256,7 +2574,13 @@
           "size": 7754
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 767,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "MadeinTaly@modern_johto",
@@ -2300,7 +2624,13 @@
           "size": 17153
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 207,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "MadeinTaly@modern_kanto",
@@ -2345,7 +2675,13 @@
           "size": 18663
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 10730,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "MaybeGreg@modern_type_framework",
@@ -2364,7 +2700,13 @@
       "description_url": "data/mods/MaybeGreg@modern_type_framework/description.md",
       "summary": "Updates the type chart to modern chart. Does not edit Pokémon or moves.",
       "latest": null,
-      "update_check": "no installable release"
+      "update_check": "no installable release",
+      "downloads": {
+        "total": 25,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "ShaneMcGovernIE@mods_hotkeys",
@@ -2406,7 +2748,13 @@
           "size": 30463
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 777,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "Maaggel@move_descriptions",
@@ -2448,7 +2796,13 @@
           "size": 9258
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 293,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "ShaneMcGovernIE@relearn_moves",
@@ -2489,7 +2843,13 @@
           "size": 14907
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 2904,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "masterwebx@MULTI_SAVE_SLOTS",
@@ -2524,7 +2884,13 @@
           "size": 4910
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 4414,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "masterwebx@MUSIC_PLAYER",
@@ -2563,7 +2929,13 @@
           "size": 6508
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 1256,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "DarioMelo@Music_FRLG",
@@ -2598,7 +2970,13 @@
           "size": 127411848
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 7964,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "DarioMelo@Music_HGSS",
@@ -2633,7 +3011,13 @@
           "size": 138488632
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 7964,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "DarioMelo@Music_LGPE",
@@ -2668,7 +3052,13 @@
           "size": 142822966
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 7964,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "DaroMelo@Music2_HGSS",
@@ -2704,7 +3094,13 @@
           "size": 305934395
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 443,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "Dgray66@non-binary-mode",
@@ -2740,7 +3136,13 @@
           "size": 5294
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 51,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "ddagent@npc_bubbles",
@@ -2786,7 +3188,13 @@
           "size": 66175
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 3128,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "TheRhysWyrill@instant_heal_pc_rest",
@@ -2824,7 +3232,13 @@
           "size": 7498
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 1214,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "bryanthaboi@nuzlocke",
@@ -2863,7 +3277,13 @@
           "size": 98524
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 4293,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "Gamecorner_033@overworld_encounters",
@@ -2885,7 +3305,13 @@
       "description_url": "data/mods/Gamecorner_033@overworld_encounters/description.md",
       "summary": "Replaces hidden random grass encounters with visible roaming overworld Pokémon sprites!",
       "latest": null,
-      "update_check": "no installable release"
+      "update_check": "no installable release",
+      "downloads": {
+        "total": 0,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "eduardocalafell@player_sprite_flip",
@@ -2929,7 +3355,13 @@
           "size": 2956
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 902,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "MisterMiracle@snag_quest",
@@ -2974,7 +3406,13 @@
           "size": 108040
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 542,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "Gamecorner_033@PokePCFollowers_VoxelMerge",
@@ -2996,7 +3434,13 @@
       "description_url": "data/mods/Gamecorner_033@PokePCFollowers_VoxelMerge/description.md",
       "summary": "An all-species overworld follower mod for Pokémon Red, Blue, and Yellow (Gen 1 Recomp). This mod allows every single Gen 1 Pokémon to walk behind you in full overworld color as your companion!",
       "latest": null,
-      "update_check": "no installable release"
+      "update_check": "no installable release",
+      "downloads": {
+        "total": 0,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "mresnick67@pokewalker",
@@ -3037,7 +3481,13 @@
           "size": 32202
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 2471,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "ShaneMcGovernIE@potato_voxel",
@@ -3076,18 +3526,24 @@
       "thumbnail": null,
       "description_url": "data/mods/ShaneMcGovernIE@potato_voxel/description.md",
       "latest": {
-        "version": "1.8.0",
-        "tag": "v1.8.0",
-        "name": "1.8.0",
+        "version": "1.8.1",
+        "tag": "v1.8.1",
+        "name": "1.8.1",
         "prerelease": false,
-        "published_at": "2026-08-18T09:51:28Z",
+        "published_at": "2026-08-18T13:37:34Z",
         "zip": {
-          "name": "potato_voxel-1.8.0.zip",
-          "url": "https://github.com/ShaneMcGovernIE/potato_voxel/releases/download/v1.8.0/potato_voxel-1.8.0.zip",
-          "size": 661777
+          "name": "potato_voxel-1.8.1.zip",
+          "url": "https://github.com/ShaneMcGovernIE/potato_voxel/releases/download/v1.8.1/potato_voxel-1.8.1.zip",
+          "size": 1828522
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 6849,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "ShaneMcGovernIE@qol_toggles",
@@ -3127,7 +3583,13 @@
           "size": 125045
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 11086,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "unxpected-uxp@quality_of_life",
@@ -3164,7 +3626,13 @@
           "size": 25720
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 47892,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "TanukiTooks@quest_menu",
@@ -3199,7 +3667,13 @@
           "size": 18620
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 468,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "ciddmandude@pokemon_randomizer",
@@ -3236,7 +3710,13 @@
           "size": 160204
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 4716,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "Razor1993@FLYING_OVERHAUL",
@@ -3281,7 +3761,13 @@
           "size": 68475
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 320,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "alamops@rby_mmo",
@@ -3331,7 +3817,13 @@
           "size": 2099140
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 3560,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "Sedatb23@recomp_cartographer",
@@ -3361,7 +3853,13 @@
           "size": 28936
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 100,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "adrian@recomp-rider",
@@ -3410,7 +3908,13 @@
           "size": 6975086
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 514,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "alamops@rby_run_forrest",
@@ -3462,7 +3966,13 @@
           "size": 16884
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 44,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "masterwebx@RUN_MODE",
@@ -3503,7 +4013,13 @@
           "size": 5876
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 6943,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "MadeinTaly@running_shoes",
@@ -3545,7 +4061,13 @@
           "size": 43680
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 11676,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "MaxTomahawk@savestates",
@@ -3591,7 +4113,13 @@
           "size": 68534
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 167,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "tebwritescode@savesync",
@@ -3638,7 +4166,13 @@
           "size": 82641
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 228,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "Satori7Kensho@shiny_starters_gifts",
@@ -3681,7 +4215,13 @@
           "size": 3652
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 982,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "masterwebx@SHINY_POKEMON",
@@ -3720,7 +4260,13 @@
           "size": 23768
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 11893,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "Nezara@silphscope_network",
@@ -3762,7 +4308,13 @@
           "size": 64280
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 180,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "AshJam@silphnet",
@@ -3803,7 +4355,13 @@
           "size": 55409
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 228,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "YukitaMayako@simple_girl",
@@ -3841,7 +4399,13 @@
           "size": 5147
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 159,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "ShaneMcGovernIE@surround_audio",
@@ -3882,7 +4446,13 @@
           "size": 16303
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 6891,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "allanrmartins@SWITCH_ADVISOR",
@@ -3925,7 +4495,13 @@
           "size": 18696
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 432,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "BrenoBertucci@TERRARIUM",
@@ -3973,7 +4549,13 @@
           "size": 40540601
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 6085,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "jherediagu@traduccion_es",
@@ -4014,7 +4596,13 @@
           "size": 67259
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 153,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "AntoniMan31@trad-fr-extended",
@@ -4057,7 +4645,13 @@
           "size": 5936
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 494,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "MrJoufflu@translation-qc",
@@ -4095,7 +4689,13 @@
           "size": 120194
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 96,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "ShaneMcGovernIE@trainer_rematch",
@@ -4135,7 +4735,13 @@
           "size": 10914
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 6147,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "menyas@unique_menu_icons",
@@ -4176,7 +4782,13 @@
           "size": 411769
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 11387,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "ShaneMcGovernIE@useful_bag",
@@ -4216,7 +4828,13 @@
           "size": 20528
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 12157,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "ShaneMcGovernIE@useful_dex",
@@ -4256,7 +4874,13 @@
           "size": 14140
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 6666,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "ShaneMcGovernIE@useful_marts",
@@ -4298,7 +4922,13 @@
           "size": 6585
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 1705,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "ShaneMcGovernIE@useful_move_info",
@@ -4338,7 +4968,13 @@
           "size": 12956
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 7988,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "bryanthaboi@versaovermelha",
@@ -4374,7 +5010,13 @@
           "size": 125964
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 3667,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "DavidSchuchert@VOXEL_DEX",
@@ -4422,7 +5064,13 @@
           "size": 17309
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 1199,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "MyFriendDevBR@whos_that_trainer",
@@ -4468,7 +5116,13 @@
           "size": 431816
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 1384,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "ShaneMcGovernIE@widescreen_battle_intro",
@@ -4507,7 +5161,13 @@
           "size": 13068
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 9998,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "ShaneHudson@wild_skies",
@@ -4551,7 +5211,13 @@
           "size": 99488
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 8054,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "YoDrehDenSwagAuf@overworld_wild_spawns",
@@ -4597,7 +5263,13 @@
           "size": 15185922
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 55886,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     },
     {
       "folder": "ShaneMcGovernIE@yellow_legacy_changes",
@@ -4637,7 +5309,13 @@
           "size": 73034
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": {
+        "total": 4857,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-18T15:05:54.761Z"
+      }
     }
   ]
 }
