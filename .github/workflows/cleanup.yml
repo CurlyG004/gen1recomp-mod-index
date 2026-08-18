@@ -60,6 +60,13 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
         run: node scripts/build-index.mjs --releases
 
+      - name: Gate new releases
+        id: gate
+        if: steps.health.outputs.skip_run != 'true'
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/gate-releases.mjs
+
       - name: Guard the rebuild
         if: steps.health.outputs.skip_run != 'true'
         run: node scripts/commit-guard.mjs
@@ -107,7 +114,9 @@ jobs:
         run: gh workflow run pages.yml --ref main
 
       - name: Open a review issue
-        if: steps.health.outputs.needs_review == 'true'
+        if: >-
+          steps.health.outputs.needs_review == 'true' ||
+          (steps.gate.outputs.held_count != '' && steps.gate.outputs.held_count != '0')
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -122,6 +131,7 @@ jobs:
             echo "- broken: ${{ steps.health.outputs.dead_count }} (${{ steps.health.outputs.new_dead_count }} new this run)"
             echo "- inconclusive: ${{ steps.health.outputs.unknown_count }}"
             echo "- removed: ${{ steps.health.outputs.removed_count }}"
+            echo "- releases held by the sandbox scan: ${{ steps.gate.outputs.held_count }}"
             if [ "$skipped" = 'true' ]; then
               echo
               echo '> [!CAUTION]'

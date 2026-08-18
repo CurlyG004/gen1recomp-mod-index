@@ -127,6 +127,9 @@ node scripts/build-index.mjs              # write site/data/index.json
 node scripts/build-index.mjs --releases   # …and re-read GitHub Releases
 node scripts/health.mjs                   # network: probe every entry, report only
 node scripts/health.mjs --record --prune  # …strike it, and retire what stayed dead
+node scripts/scan-lua.mjs                 # network: read the shipped Lua against the sandbox
+node scripts/check-blocklist.mjs          # names CI refuses to list
+node scripts/gate-releases.mjs            # after a --releases build: scan what it just adopted
 ```
 
 `health.mjs` is what the six-hourly cleanup job runs. `--record` and `--prune`
@@ -150,8 +153,9 @@ node scripts/build-index.mjs && python3 -m http.server -d site 8080
 | `mods/` | the index itself |
 | `examples/` | a template entry to copy |
 | `schema/` | the meta.json JSON Schema — the source of truth for both CI and the site |
-| `scripts/` | validate, link check, index build, health probe |
-| `.health/` | strike counts for entries whose upstream is currently failing |
+| `scripts/` | validate, link check, index build, health probe, sandbox scan |
+| `blocklist.json` | names CI refuses to list, with a reason and a date |
+| `.health/` | strike counts, and which release version last passed the scan |
 | `site/` | the GitHub Pages submission helper |
 | `oauth-worker/` | optional: the code→token exchange behind "Sign in with GitHub" |
 
