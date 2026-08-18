@@ -7,6 +7,11 @@
 // a job that runs four times a day does not produce four empty commits, and
 // refuses the commit outright when the rebuilt index lost more entries than
 // INDEX_MAX_SHRINK — a build that silently drops listings is a bug, not news.
+//
+// Download totals move on their own, so a bare comparison would call every
+// run a change. A delta under INDEX_DOWNLOAD_NOISE (or 2%, capped at 25) is
+// treated as no news, and .health/downloads.json is restored alongside the
+// index so the accumulator does not push the commit through by itself.
 
 import { execFileSync } from 'node:child_process';
 import { readFileSync, writeFileSync } from 'node:fs';
@@ -16,7 +21,11 @@ import { fileURLToPath } from 'node:url';
 const repoRoot = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const relPath = 'site/data/index.json';
 const indexPath = join(repoRoot, relPath);
+const downloadsPath = '.health/downloads.json';
 const MAX_SHRINK = num(process.env.INDEX_MAX_SHRINK, 6);
+const NOISE_FLOOR = num(process.env.INDEX_DOWNLOAD_NOISE, 5);
+const NOISE_PCT = 0.02;
+const NOISE_CAP = 25;
 
 let committedText;
 try {
@@ -44,9 +53,10 @@ if (lost > MAX_SHRINK) {
   process.exit(1);
 }
 
-if (sansTimestamp(committedText) === sansTimestamp(rebuiltText)) {
+if (sansTimestamp(committedText) === sansTimestamp(settleDownloads(committedText, rebuiltText))) {
   writeFileSync(indexPath, committedText);
-  console.log(`${relPath} changed only its generated_at — restored the committed copy`);
+  restoreFromHead(downloadsPath);
+  console.log(`${relPath} changed only its generated_at and download noise — restored the committed copy`);
 } else {
   console.log(`${relPath}: ${before} -> ${after} entries, keeping the rebuild`);
 }
@@ -66,6 +76,42 @@ function sansTimestamp(text) {
   } catch {
     return text;
   }
+}
+
+function settleDownloads(before, after) {
+  let committedDoc;
+  let rebuiltDoc;
+  try {
+    committedDoc = JSON.parse(before);
+    rebuiltDoc = JSON.parse(after);
+  } catch {
+    return after;
+  }
+  const previous = new Map((committedDoc.mods ?? []).map((mod) => [mod.folder, mod.downloads]));
+  for (const mod of rebuiltDoc.mods ?? []) {
+    const was = previous.get(mod.folder);
+    if (!was || !mod.downloads) continue;
+    if (isNoise(was.total, mod.downloads.total)) mod.downloads = was;
+  }
+  return `${JSON.stringify(rebuiltDoc, null, 2)}\n`;
+}
+
+function isNoise(before, after) {
+  if (!Number.isFinite(before) || !Number.isFinite(after)) return false;
+  const drift = Math.abs(after - before);
+  return drift <= Math.min(NOISE_CAP, Math.max(NOISE_FLOOR, before * NOISE_PCT));
+}
+
+function restoreFromHead(path) {
+  try {
+    const head = execFileSync('git', ['show', `HEAD:${path}`], {
+      cwd: repoRoot,
+      encoding: 'utf8',
+      maxBuffer: 64 * 1024 * 1024,
+    });
+    writeFileSync(join(repoRoot, path), head);
+    console.log(`${path} — restored the committed copy`);
+  } catch {}
 }
 
 function num(raw, fallback) {
