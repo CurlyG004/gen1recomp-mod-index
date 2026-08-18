@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-18T11:56:09.366Z",
-  "count": 106,
+  "generated_at": "2026-08-18T12:04:45.525Z",
+  "count": 113,
   "categories": [
     "GAMEPLAY",
     "CONTENT",
@@ -546,6 +546,36 @@
         }
       },
       "update_check": "ok"
+    },
+    {
+      "folder": "xkrisl@character_select",
+      "id": "character_select",
+      "title": "Character Sprite Selection",
+      "author": "xkrisl",
+      "version": "1.0.0",
+      "categories": [
+        "ART"
+      ],
+      "repo": "https://github.com/xkrisl/Character-Sprite-Selection",
+      "summary": "Choose character sprite from the Start menu. Affects overworld, battle, Trainer Card, Hall of Fame, etc.",
+      "tags": [
+        "art",
+        "sprite",
+        "character"
+      ],
+      "github": "xkrisl/Character-Sprite-Selection",
+      "downloadURL": "https://github.com/xkrisl/Character-Sprite-Selection/releases/download/Release/Character.Sprite.Selection.v1.Release.zip",
+      "game_version": "0.1.77",
+      "permissions": [
+        "engine_internals"
+      ],
+      "api": 2,
+      "profile": "content",
+      "experimental": true,
+      "thumbnail": "data/mods/xkrisl@character_select/thumbnail.png",
+      "description_url": "data/mods/xkrisl@character_select/description.md",
+      "latest": null,
+      "update_check": "no installable release"
     },
     {
       "folder": "MadeinTaly@childhood_myths_are_real",
@@ -1111,6 +1141,40 @@
       "update_check": "ok"
     },
     {
+      "folder": "ty-mcdk@easy_custom_music",
+      "id": "easy_custom_music",
+      "title": "Easy Custom Music",
+      "author": "ty-mcdk",
+      "version": "1.0.0",
+      "categories": [
+        "AUDIO"
+      ],
+      "repo": "https://github.com/ty-mcdk/easy-custom-music",
+      "summary": "Allows User to drag & drop their own music to replace in-game music",
+      "tags": [
+        "audio"
+      ],
+      "github": "ty-mcdk/easy-custom-music",
+      "game_version": ">=0.1.88",
+      "api": 2,
+      "profile": "content",
+      "thumbnail": null,
+      "description_url": "data/mods/ty-mcdk@easy_custom_music/description.md",
+      "latest": {
+        "version": "1.1.1",
+        "tag": "v1.1.1",
+        "name": "1.1.1",
+        "prerelease": false,
+        "published_at": "2026-08-18T09:58:16Z",
+        "zip": {
+          "name": "easy_custom_music-1.1.1.zip",
+          "url": "https://github.com/ty-mcdk/easy-custom-music/releases/download/v1.1.1/easy_custom_music-1.1.1.zip",
+          "size": 142741
+        }
+      },
+      "update_check": "ok"
+    },
+    {
       "folder": "Sebarosu@recomp-spanish",
       "id": "recomp-spanish",
       "title": "Edición Roja",
@@ -1274,6 +1338,32 @@
       "update_check": "ok"
     },
     {
+      "folder": "xkrisl@fast_pokecenter_heal",
+      "id": "fast_pokecenter_heal",
+      "title": "Fast Pokemon Center Heal",
+      "author": "xkrisl",
+      "version": "1.0.0",
+      "categories": [
+        "QOL"
+      ],
+      "repo": "https://github.com/xkrisl/Fast-Pokemon-Center-Heal/tree/main",
+      "summary": "Skips the pokemon center nurse intro, animation, etc.",
+      "tags": [
+        "qol",
+        "heal",
+        "center"
+      ],
+      "github": "xkrisl/Fast-Pokemon-Center-Heal",
+      "downloadURL": "https://github.com/xkrisl/Fast-Pokemon-Center-Heal/releases/download/Release/Fast.Pokemon.Center.Heal.v1.Release.zip",
+      "game_version": "0.1.77",
+      "api": 2,
+      "profile": "content",
+      "thumbnail": "data/mods/xkrisl@fast_pokecenter_heal/thumbnail.png",
+      "description_url": "data/mods/xkrisl@fast_pokecenter_heal/description.md",
+      "latest": null,
+      "update_check": "no installable release"
+    },
+    {
       "folder": "masterwebx@FOLLOWERS_EX",
       "id": "FOLLOWERS_EX",
       "title": "Followers EX",
@@ -1350,6 +1440,48 @@
           "name": "free_fly-1.6.2.zip",
           "url": "https://github.com/shanehudson-gen1recomp-mods/free_fly/releases/download/v1.6.2/free_fly-1.6.2.zip",
           "size": 83691
+        }
+      },
+      "update_check": "ok"
+    },
+    {
+      "folder": "Tekky@g9-battle-engine",
+      "id": "g9-battle-engine",
+      "title": "G9 Battle Engine",
+      "author": "Tekky",
+      "version": "1.2.0",
+      "categories": [
+        "GAMEPLAY",
+        "CONTENT",
+        "BALANCE",
+        "LIBRARY"
+      ],
+      "repo": "https://github.com/tectorifter/Gen9Dex",
+      "summary": "Gen 9 Battle Framework",
+      "github": "tectorifter/Gen9Dex",
+      "game_version": "0.1.45",
+      "license": "MIT",
+      "dependencies": [
+        "national_dex"
+      ],
+      "permissions": [
+        "engine_internals"
+      ],
+      "api": 2,
+      "profile": "content",
+      "experimental": true,
+      "thumbnail": null,
+      "description_url": "data/mods/Tekky@g9-battle-engine/description.md",
+      "latest": {
+        "version": "1.2.1",
+        "tag": "v1.2.1",
+        "name": "1.2.1",
+        "prerelease": false,
+        "published_at": "2026-08-16T10:46:05Z",
+        "zip": {
+          "name": "g9-battle-engineV1.2.1.zip",
+          "url": "https://github.com/tectorifter/Gen9Dex/releases/download/v1.2.1/g9-battle-engineV1.2.1.zip",
+          "size": 335388
         }
       },
       "update_check": "ok"
@@ -1649,6 +1781,42 @@
           "name": "pokemon_red_voice_acting-1.17.10.zip",
           "url": "https://github.com/1-Camp0-1/Gen1recomp-VoiceActingMod/releases/download/v1.17.10/pokemon_red_voice_acting-1.17.10.zip",
           "size": 4717483
+        }
+      },
+      "update_check": "ok"
+    },
+    {
+      "folder": "Dgray66@girl-mode",
+      "id": "girl-mode",
+      "title": "Girl Mode",
+      "author": "Dgray66",
+      "version": "2.0.3",
+      "categories": [
+        "CONTENT"
+      ],
+      "repo": "https://github.com/dburton95/girl-mode",
+      "tags": [
+        "text",
+        "girl",
+        "crystal",
+        "teamkris"
+      ],
+      "github": "dburton95/girl-mode",
+      "api": 2,
+      "profile": "content",
+      "thumbnail": null,
+      "description_url": "data/mods/Dgray66@girl-mode/description.md",
+      "summary": "The definitive Kris mod.",
+      "latest": {
+        "version": "2.0.3",
+        "tag": "2.0.3",
+        "name": "2.0.3 - Hotfix",
+        "prerelease": false,
+        "published_at": "2026-08-13T17:08:37Z",
+        "zip": {
+          "name": "girl-mode-2.0.3.zip",
+          "url": "https://github.com/dburton95/girl-mode/releases/download/2.0.3/girl-mode-2.0.3.zip",
+          "size": 5292
         }
       },
       "update_check": "ok"
@@ -2539,6 +2707,42 @@
       "update_check": "ok"
     },
     {
+      "folder": "Dgray66@non-binary-mode",
+      "id": "non-binary-mode",
+      "title": "Non-Binary Mode",
+      "author": "Dgray66",
+      "version": "2.0.2",
+      "categories": [
+        "CONTENT"
+      ],
+      "repo": "https://github.com/dburton95/non-binary-mode",
+      "tags": [
+        "text",
+        "enby",
+        "crystal",
+        "teamkris"
+      ],
+      "github": "dburton95/non-binary-mode",
+      "api": 2,
+      "profile": "content",
+      "thumbnail": null,
+      "description_url": "data/mods/Dgray66@non-binary-mode/description.md",
+      "summary": "The definitive Kris mod.",
+      "latest": {
+        "version": "2.0.2",
+        "tag": "2.0.2",
+        "name": "2.0.2 - Hotfix",
+        "prerelease": false,
+        "published_at": "2026-08-13T17:07:33Z",
+        "zip": {
+          "name": "non-binary-mode-2.0.2.zip",
+          "url": "https://github.com/dburton95/non-binary-mode/releases/download/2.0.2/non-binary-mode-2.0.2.zip",
+          "size": 5294
+        }
+      },
+      "update_check": "ok"
+    },
+    {
       "folder": "ddagent@npc_bubbles",
       "id": "npc_bubbles",
       "title": "NPC Bubbles",
@@ -3204,6 +3408,58 @@
           "name": "recomp-rider-0.4.0.zip",
           "url": "https://github.com/castdrian/recomp-rider/releases/download/v0.4.0/recomp-rider-0.4.0.zip",
           "size": 6975086
+        }
+      },
+      "update_check": "ok"
+    },
+    {
+      "folder": "alamops@rby_run_forrest",
+      "id": "rby_run_forrest",
+      "title": "Run Forrest",
+      "author": "alamops",
+      "summary": "Hold B to run at bike speed, and to jump back UP the ledges these games only ever let you drop off. On foot or on the bike, Red through Gold.",
+      "version": "1.0.0",
+      "categories": [
+        "GAMEPLAY",
+        "QOL"
+      ],
+      "tags": [
+        "running",
+        "running shoes",
+        "ledges",
+        "movement",
+        "overworld",
+        "quality of life"
+      ],
+      "repo": "https://github.com/alamops/RBYRunForrest",
+      "github": "alamops/RBYRunForrest",
+      "automatic_version_check": true,
+      "api": 2,
+      "game_version": ">=0.1.86 <2.0.0",
+      "games": [
+        "gen1",
+        "gen2"
+      ],
+      "profile": "content",
+      "affects_link": false,
+      "experimental": false,
+      "permissions": [
+        "engine_internals"
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "thumbnail": "data/mods/alamops@rby_run_forrest/thumbnail.png",
+      "description_url": "data/mods/alamops@rby_run_forrest/description.md",
+      "latest": {
+        "version": "1.0.0",
+        "tag": "v1.0.0",
+        "name": "1.0.0",
+        "prerelease": false,
+        "published_at": "2026-08-16T23:20:21Z",
+        "zip": {
+          "name": "rby_run_forrest-1.0.0.zip",
+          "url": "https://github.com/alamops/RBYRunForrest/releases/download/v1.0.0/rby_run_forrest-1.0.0.zip",
+          "size": 16884
         }
       },
       "update_check": "ok"
