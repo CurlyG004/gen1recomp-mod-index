@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-18T09:25:52.205Z",
-  "count": 109,
+  "generated_at": "2026-08-18T11:56:09.366Z",
+  "count": 106,
   "categories": [
     "GAMEPLAY",
     "CONTENT",
@@ -548,48 +548,6 @@
       "update_check": "ok"
     },
     {
-      "folder": "hdbreaker@cheat_engine",
-      "id": "cheat_engine",
-      "title": "Cheat Engine",
-      "author": "hdbreaker",
-      "summary": "Cheat engine: heal/XP/money, evolve, give pokemon, items, no encounters, spawn, bike anywhere, surf always, always catch, god mode, OHKO, walk walls, turbo, perfect DVs, shiny, badges, TMs.",
-      "version": "1.0.0",
-      "categories": [
-        "TOOL"
-      ],
-      "tags": [
-        "cheat",
-        "tool",
-        "quality-of-life"
-      ],
-      "repo": "https://github.com/hdbreaker/gen1recomp-mod-cheat_engine",
-      "github": "hdbreaker/gen1recomp-mod-cheat_engine",
-      "api": 2,
-      "game_version": ">=0.0.0-dev <1.0.0",
-      "profile": "content",
-      "affects_link": false,
-      "permissions": [
-        "engine_internals"
-      ],
-      "dependencies": [],
-      "conflicts": [],
-      "thumbnail": "data/mods/hdbreaker@cheat_engine/thumbnail.png",
-      "description_url": "data/mods/hdbreaker@cheat_engine/description.md",
-      "latest": {
-        "version": "1.0.0",
-        "tag": "v1.0.0",
-        "name": "v1.0.0",
-        "prerelease": false,
-        "published_at": "2026-08-09T16:40:05Z",
-        "zip": {
-          "name": "cheat_engine-1.0.0.zip",
-          "url": "https://github.com/hdbreaker/gen1recomp-mod-cheat_engine/releases/download/v1.0.0/cheat_engine-1.0.0.zip",
-          "size": 14141
-        }
-      },
-      "update_check": "ok"
-    },
-    {
       "folder": "MadeinTaly@childhood_myths_are_real",
       "id": "childhood_myths_are_real",
       "title": "Childhood Myths Are Real",
@@ -871,15 +829,15 @@
       "thumbnail": null,
       "description_url": "data/mods/Roxas2712@deutsch-blau/description.md",
       "latest": {
-        "version": "1.0.2",
-        "tag": "v1.0.2",
-        "name": "Deutsch für Pokémon Blau 1.0.2",
+        "version": "1.1.1",
+        "tag": "v1.1.1",
+        "name": "Deutsch für Pokémon Blau 1.1.1",
         "prerelease": false,
-        "published_at": "2026-08-04T17:22:27Z",
+        "published_at": "2026-08-18T10:47:12Z",
         "zip": {
-          "name": "deutsch-blau-1.0.2.zip",
-          "url": "https://github.com/Roxas2712/pokemon-blau-deutsch-mod/releases/download/v1.0.2/deutsch-blau-1.0.2.zip",
-          "size": 134494
+          "name": "deutsch-blau-1.1.1.zip",
+          "url": "https://github.com/Roxas2712/pokemon-blau-deutsch-mod/releases/download/v1.1.1/deutsch-blau-1.1.1.zip",
+          "size": 126155
         }
       },
       "update_check": "ok"
@@ -914,15 +872,15 @@
       "thumbnail": null,
       "description_url": "data/mods/Roxas2712@deutsch-gelb/description.md",
       "latest": {
-        "version": "1.0.5",
-        "tag": "v1.0.5",
-        "name": "Deutsch für Pokémon Gelb 1.0.5",
+        "version": "1.1.1",
+        "tag": "v1.1.1",
+        "name": "Deutsch für Pokémon Gelb 1.1.1",
         "prerelease": false,
-        "published_at": "2026-08-04T17:22:29Z",
+        "published_at": "2026-08-18T10:47:13Z",
         "zip": {
-          "name": "deutsch-gelb-1.0.5.zip",
-          "url": "https://github.com/Roxas2712/pokemon-gelb-deutsch-mod/releases/download/v1.0.5/deutsch-gelb-1.0.5.zip",
-          "size": 148076
+          "name": "deutsch-gelb-1.1.1.zip",
+          "url": "https://github.com/Roxas2712/pokemon-gelb-deutsch-mod/releases/download/v1.1.1/deutsch-gelb-1.1.1.zip",
+          "size": 136774
         }
       },
       "update_check": "ok"
@@ -957,15 +915,15 @@
       "thumbnail": null,
       "description_url": "data/mods/Roxas2712@deutsch/description.md",
       "latest": {
-        "version": "2.1.6",
-        "tag": "v2.1.6",
-        "name": "Deutsch für Pokémon Rot 2.1.6",
+        "version": "2.2.1",
+        "tag": "v2.2.1",
+        "name": "Deutsch für Pokémon Rot 2.2.1",
         "prerelease": false,
-        "published_at": "2026-08-04T17:22:26Z",
+        "published_at": "2026-08-18T10:47:10Z",
         "zip": {
-          "name": "deutsch-2.1.6.zip",
-          "url": "https://github.com/Roxas2712/pokemon-rot-deutsch-mod/releases/download/v2.1.6/deutsch-2.1.6.zip",
-          "size": 1147435
+          "name": "deutsch-2.2.1.zip",
+          "url": "https://github.com/Roxas2712/pokemon-rot-deutsch-mod/releases/download/v2.2.1/deutsch-2.2.1.zip",
+          "size": 126508
         }
       },
       "update_check": "ok"
@@ -1054,53 +1012,6 @@
           "name": "double_battles-0.5.1.zip",
           "url": "https://github.com/shanehudson-gen1recomp-mods/double_battles/releases/download/v0.5.1/double_battles-0.5.1.zip",
           "size": 73119
-        }
-      },
-      "update_check": "ok"
-    },
-    {
-      "folder": "scottcandy34@DRAMATIC_SHAPE",
-      "id": "DRAMATIC_SHAPE",
-      "title": "Dramatic Shape Voxel Mod",
-      "author": "scottcandy34",
-      "version": "1.8.2",
-      "categories": [
-        "ART",
-        "UI"
-      ],
-      "repo": "https://github.com/scottcandy34/DramaticShapeVoxelMod-latest",
-      "summary": "The overworld as a 3D voxel diorama: extruded terrain, cast shadows, tilt-shift, and battles fought on the map itself.",
-      "tags": [
-        "voxel",
-        "3d",
-        "graphics",
-        "diorama",
-        "fork"
-      ],
-      "github": "scottcandy34/DramaticShapeVoxelMod-latest",
-      "game_version": "0.0.0-dev || >=0.1.37 <2.0.0",
-      "conflicts": [
-        "potato_voxel",
-        "BATTLE_ART_VOXEL_FORK",
-        "TERRARIUM"
-      ],
-      "permissions": [
-        "engine_internals"
-      ],
-      "api": 2,
-      "profile": "content",
-      "thumbnail": null,
-      "description_url": "data/mods/scottcandy34@DRAMATIC_SHAPE/description.md",
-      "latest": {
-        "version": "1.8.5",
-        "tag": "v1.8.5",
-        "name": "1.8.5",
-        "prerelease": false,
-        "published_at": "2026-08-17T14:23:55Z",
-        "zip": {
-          "name": "DRAMATIC_SHAPE-1.8.5.zip",
-          "url": "https://github.com/scottcandy34/DramaticShapeVoxelMod-latest/releases/download/v1.8.5/DRAMATIC_SHAPE-1.8.5.zip",
-          "size": 8416358
         }
       },
       "update_check": "ok"
@@ -1827,49 +1738,6 @@
       "update_check": "ok"
     },
     {
-      "folder": "hdbreaker@intro_bypass",
-      "id": "intro_bypass",
-      "title": "Intro Bypass",
-      "author": "hdbreaker",
-      "summary": "Skip Oak's intro: pick your name, starter (starters + legendaries), shiny or not, and level, then jump straight into the overworld.",
-      "version": "1.0.0",
-      "categories": [
-        "GAMEPLAY"
-      ],
-      "tags": [
-        "intro",
-        "skip",
-        "starter",
-        "quality-of-life"
-      ],
-      "repo": "https://github.com/hdbreaker/gen1recomp-mod-intro_bypass",
-      "github": "hdbreaker/gen1recomp-mod-intro_bypass",
-      "api": 2,
-      "game_version": ">=0.0.0-dev <1.0.0",
-      "profile": "content",
-      "affects_link": false,
-      "permissions": [
-        "engine_internals"
-      ],
-      "dependencies": [],
-      "conflicts": [],
-      "thumbnail": "data/mods/hdbreaker@intro_bypass/thumbnail.png",
-      "description_url": "data/mods/hdbreaker@intro_bypass/description.md",
-      "latest": {
-        "version": "1.0.0",
-        "tag": "v1.0.0",
-        "name": "v1.0.0",
-        "prerelease": false,
-        "published_at": "2026-08-09T16:40:04Z",
-        "zip": {
-          "name": "intro_bypass-1.0.0.zip",
-          "url": "https://github.com/hdbreaker/gen1recomp-mod-intro_bypass/releases/download/v1.0.0/intro_bypass-1.0.0.zip",
-          "size": 5295
-        }
-      },
-      "update_check": "ok"
-    },
-    {
       "folder": "bryanthaboi@translation-ja-hrkt",
       "id": "translation-ja-hrkt",
       "title": "JP GREEN - Poketto Monsutā Midori",
@@ -1925,15 +1793,15 @@
       "thumbnail": null,
       "description_url": "data/mods/redelpedron@kanto_companion_lite/description.md",
       "latest": {
-        "version": "2.3.0",
-        "tag": "v2.3.0",
-        "name": "v2.3.0",
+        "version": "3.0.0",
+        "tag": "v3.0.0",
+        "name": "v3.0.0",
         "prerelease": false,
-        "published_at": "2026-08-16T01:02:43Z",
+        "published_at": "2026-08-18T09:49:11Z",
         "zip": {
           "name": "Kanto.Companion.Lite.zip",
-          "url": "https://github.com/redelpedron/Kanto-Companion-Lite/releases/download/v2.3.0/Kanto.Companion.Lite.zip",
-          "size": 54012
+          "url": "https://github.com/redelpedron/Kanto-Companion-Lite/releases/download/v3.0.0/Kanto.Companion.Lite.zip",
+          "size": 57147
         }
       },
       "update_check": "ok"
@@ -3004,15 +2872,15 @@
       "thumbnail": null,
       "description_url": "data/mods/ShaneMcGovernIE@potato_voxel/description.md",
       "latest": {
-        "version": "1.7.12",
-        "tag": "v1.7.12",
-        "name": "1.7.12",
+        "version": "1.8.0",
+        "tag": "v1.8.0",
+        "name": "1.8.0",
         "prerelease": false,
-        "published_at": "2026-08-18T09:08:32Z",
+        "published_at": "2026-08-18T09:51:28Z",
         "zip": {
-          "name": "potato_voxel-1.7.12.zip",
-          "url": "https://github.com/ShaneMcGovernIE/potato_voxel/releases/download/v1.7.12/potato_voxel-1.7.12.zip",
-          "size": 662249
+          "name": "potato_voxel-1.8.0.zip",
+          "url": "https://github.com/ShaneMcGovernIE/potato_voxel/releases/download/v1.8.0/potato_voxel-1.8.0.zip",
+          "size": 661777
         }
       },
       "update_check": "ok"
