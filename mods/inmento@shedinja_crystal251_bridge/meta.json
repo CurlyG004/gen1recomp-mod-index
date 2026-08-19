@@ -1,0 +1,22 @@
+{
+  "id": "shedinja_crystal251_bridge",
+  "title": "Shedinja Crystal 251 Bridge",
+  "author": "inmento",
+  "summary": "Gen 1 bridge for Shedinja and Crystal 251: reserves index 252, preserves National Dex #292, and supplies Crystal split-stat and genderless metadata.",
+  "version": "0.1.1",
+  "categories": ["CONTENT", "OTHER"],
+  "tags": ["shedinja", "crystal 251", "gen1", "species compatibility", "pokedex"],
+  "repo": "https://github.com/inmento/Shedinja-Crystal-251-Bridge",
+  "github": "inmento/Shedinja-Crystal-251-Bridge",
+  "automatic_version_check": true,
+  "api": 2,
+  "game_version": ">=0.2.10 <1.0.0",
+  "games": ["gen1"],
+  "profile": "content",
+  "affects_link": true,
+  "permissions": ["engine_internals"],
+  "dependencies": [
+    "shedninja@>=0.2.0 <1.0.0",
+    "CRYSTAL_251@>=0.11.3 <1.0.0"
+  ]
+}
