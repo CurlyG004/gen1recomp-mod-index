@@ -16,11 +16,11 @@ Gold’s `WONDER GUARD` is a non-usable normal Bag item so it can be equipped th
 | Red / Blue / Yellow | Route 1, Route 4, Victory Road | 5%, 7%, 10% | 3–5, 10–12, 36–38 |
 | Gold | Route 29, Route 34, Victory Road | 5%, 7%, 10% | 3–5, 10–12, 36–38 |
 
-> **Compatibility guidance:** Crystal 251 is supported in Red, Blue, and Yellow when the separate **Shedinja Crystal 251 Bridge** is also enabled. The bridge moves Shedinja to Crystal-safe internal index `252` and adds the Crystal runtime metadata it needs. In Gold, use the separate **Shedinja Expanded Bridge** only with Expanded Species. Kanto Reforged and unrelated roster/Dex/index-overhaul mods remain unsupported without their own compatibility bridge.
+> **Compatibility guidance:** The single **Shedinja Compatibility Bridge** supports both framework paths. With Crystal 251 in Red, Blue, or Yellow, it moves Shedinja to Crystal-safe index `252` and supplies Crystal runtime metadata. With Expanded Species in Gold, it preserves Shedinja’s framework-aware #292 identity and presentation. The bridge is inert without either framework. Kanto Reforged and unrelated roster/Dex/index-overhaul mods remain unsupported without their own dedicated compatibility bridge.
 
 ## Package migration
 
-Current releases use the package and manifest ID **`shedninja`**. Retired releases used `gen1_shedinja`; remove that old package and install Shedinja 0.2.0 once so future launcher updates follow the current identity.
+Current releases use the package and manifest ID **`shedninja`**. Retired releases used `gen1_shedinja`; remove that old package and install Shedinja 0.2.1 once so future launcher updates follow the current identity.
 
 ## Sprite artwork attribution
 

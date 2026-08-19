@@ -2,8 +2,8 @@
   "id": "shedninja",
   "title": "Shedinja",
   "author": "inmento",
-  "summary": "R/B/Y and Gold Shedinja #292 with generation-specific Wonder Guard, credited art, party icons, and optional Crystal 251 or Expanded Species bridge paths.",
-  "version": "0.2.0",
+  "summary": "R/B/Y and Gold Shedinja #292 with generation-specific Wonder Guard, credited art, party icons, and one optional bridge for Crystal 251 or Expanded Species.",
+  "version": "0.2.1",
   "categories": [
     "GAMEPLAY",
     "CONTENT"
