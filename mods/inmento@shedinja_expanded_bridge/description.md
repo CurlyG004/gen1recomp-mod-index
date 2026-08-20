@@ -8,7 +8,7 @@
 | Gold with Expanded Species | Restores Shedinja’s framework-aware virtual and visible **#292** identity, palette, party icon, and sparse OLD/National Pokédex ordering. |
 | Neither optional framework active | The bridge remains inert and core Shedinja keeps its normal standalone behavior. |
 
-Core Shedinja **0.2.1+** is required. Crystal 251 and Expanded Species are optional, game-scoped integrations rather than required dependencies. Install the appropriate framework only for the game you are playing.
+Core Shedinja **0.3.0+** is required. This release uses the corrected `shedinja` package ID; users migrating from the retired `shedninja` ID must remove the old installation and install Shedinja 0.3.0 once. Crystal 251 and Expanded Species are optional, game-scoped integrations rather than required dependencies. Install the appropriate framework only for the game you are playing.
 
 > The former **Shedinja Crystal 251 Bridge** is retired. Remove or disable it before installing this unified bridge; do not enable both bridge mods together.
 
