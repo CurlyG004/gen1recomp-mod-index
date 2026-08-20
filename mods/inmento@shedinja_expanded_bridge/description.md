@@ -1,6 +1,6 @@
 # Shedinja Compatibility Bridge
 
-**Shedinja Compatibility Bridge** is the single optional companion for [Shedinja](https://github.com/inmento/Gen1-Shedinja). It checks the active game and supported framework, then applies only the compatibility path that belongs to that configuration.
+**Shedinja Compatibility Bridge** is the single optional companion for [Shedinja](https://github.com/inmento/Shedinja). It checks the active game and supported framework, then applies only the compatibility path that belongs to that configuration.
 
 | Configuration | Result |
 |---|---|

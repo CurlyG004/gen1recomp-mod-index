@@ -3,7 +3,7 @@
   "title": "Shedinja Compatibility Bridge",
   "author": "inmento",
   "summary": "One optional Shedinja bridge: Crystal-safe index and runtime metadata with Crystal 251 in R/B/Y, or #292 framework repair with Expanded Species in Gold.",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "categories": ["CONTENT", "OTHER"],
   "tags": ["shedinja", "crystal 251", "gold", "expanded species", "species compatibility", "pokedex"],
   "repo": "https://github.com/inmento/Shedinja-Expanded-Bridge",
@@ -16,6 +16,6 @@
   "affects_link": true,
   "permissions": ["engine_internals"],
   "dependencies": [
-    "shedninja@>=0.2.1 <1.0.0"
+    "shedinja@>=0.3.0 <1.0.0"
   ]
 }
