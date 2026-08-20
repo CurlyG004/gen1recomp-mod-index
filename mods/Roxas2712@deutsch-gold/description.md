@@ -19,16 +19,22 @@ bekannt. Seltene Ereignisse und schwer erreichbare Sonderpfade brauchen noch
 einen vollständigen praktischen Durchspieltest. Fehlerberichte sind deshalb
 ausdrücklich willkommen.
 
+Version 0.2.1 korrigiert den versehentlich gesetzten experimentellen Status aus
+0.2.0. Bei Neuinstallationen ist die Sprachmod jetzt standardmäßig aktiv. Wenn
+bei einer bestehenden 0.2.0-Installation das Menü noch Englisch ist, die Mod
+unter **MODS** einmal für Gold aktivieren und das Spiel neu starten. Ein zuvor
+gespeicherter Aus-Zustand bleibt bei Updates absichtlich erhalten.
+
 ## Installation
 
-1. [`deutsch-gold-0.2.0.zip`](https://github.com/Roxas2712/pokemon-gold-deutsch-mod/releases/download/v0.2.0/deutsch-gold-0.2.0.zip)
-   aus dem öffentlichen [v0.2.0-Beta-Release](https://github.com/Roxas2712/pokemon-gold-deutsch-mod/releases/tag/v0.2.0)
+1. [`deutsch-gold-0.2.1.zip`](https://github.com/Roxas2712/pokemon-gold-deutsch-mod/releases/download/v0.2.1/deutsch-gold-0.2.1.zip)
+   aus dem öffentlichen [v0.2.1-Beta-Release](https://github.com/Roxas2712/pokemon-gold-deutsch-mod/releases/tag/v0.2.1)
    herunterladen.
 2. In Gen1Recomp: **MODS → Import mod .zip**.
 3. Mod aktivieren und Pokémon Gold neu starten.
 
-SHA-256 für v0.2.0:
-`fa25e29c2597bcbd924a2e542c4225f672df8084b4bfad29e65a2e78c1d6806e`
+SHA-256 für v0.2.1:
+`c54cb72c51cfcd318a30240d917b25e09c7a2061d3ae72bb7794e199f9cfd3c4`
 
 Benötigt werden Gen1Recomp **0.1.90 oder neuer** und eine eigene, unterstützte
 US-ROM von Pokémon Gold. Die Mod enthält keine ROM und verändert die ROM-Datei
