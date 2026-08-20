@@ -19,6 +19,7 @@
   ],
   "repo": "https://github.com/Roxas2712/pokemon-gold-deutsch-mod",
   "github": "Roxas2712/pokemon-gold-deutsch-mod",
+  "downloadURL": "https://github.com/Roxas2712/pokemon-gold-deutsch-mod/releases/download/v0.2.0/deutsch-gold-0.2.0.zip",
   "automatic_version_check": true,
   "api": 2,
   "game_version": ">=0.1.90 <1.0.0",

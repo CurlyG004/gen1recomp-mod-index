@@ -21,11 +21,14 @@ ausdrücklich willkommen.
 
 ## Installation
 
-1. Nach Veröffentlichung `deutsch-gold-<version>.zip` von der
-   [Releases-Seite](https://github.com/Roxas2712/pokemon-gold-deutsch-mod/releases)
+1. [`deutsch-gold-0.2.0.zip`](https://github.com/Roxas2712/pokemon-gold-deutsch-mod/releases/download/v0.2.0/deutsch-gold-0.2.0.zip)
+   aus dem öffentlichen [v0.2.0-Beta-Release](https://github.com/Roxas2712/pokemon-gold-deutsch-mod/releases/tag/v0.2.0)
    herunterladen.
 2. In Gen1Recomp: **MODS → Import mod .zip**.
 3. Mod aktivieren und Pokémon Gold neu starten.
+
+SHA-256 für v0.2.0:
+`fa25e29c2597bcbd924a2e542c4225f672df8084b4bfad29e65a2e78c1d6806e`
 
 Benötigt werden Gen1Recomp **0.1.90 oder neuer** und eine eigene, unterstützte
 US-ROM von Pokémon Gold. Die Mod enthält keine ROM und verändert die ROM-Datei
