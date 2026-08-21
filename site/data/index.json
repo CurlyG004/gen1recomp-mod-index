@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-20T18:44:19.859Z",
-  "count": 113,
+  "generated_at": "2026-08-21T01:28:00.546Z",
+  "count": 128,
   "categories": [
     "GAMEPLAY",
     "CONTENT",
@@ -54,10 +54,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 220,
-        "recent": 14,
+        "total": 221,
+        "recent": 15,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -95,10 +95,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 6057,
-        "recent": 280,
+        "total": 6101,
+        "recent": 324,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -135,10 +135,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 483,
-        "recent": 39,
+        "total": 490,
+        "recent": 46,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -187,10 +187,52 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 856,
-        "recent": 54,
+        "total": 866,
+        "recent": 64,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
+      }
+    },
+    {
+      "folder": "ZyranCZ@a_autofire",
+      "id": "a_autofire",
+      "title": "Autofire AB",
+      "author": "ZyranCZ",
+      "version": "2.0.2",
+      "categories": [
+        "TOOL"
+      ],
+      "repo": "https://github.com/ZyranCZ/autofire",
+      "summary": "Configurable autofire for A, B and optional D-pad input, with adjustable hold delay, repeat rate, and battle/world scope for Gen1Recomp.",
+      "tags": [
+        "autofire",
+        "input",
+        "accessibility",
+        "qol"
+      ],
+      "github": "ZyranCZ/autofire",
+      "api": 2,
+      "profile": "content",
+      "thumbnail": "data/mods/ZyranCZ@a_autofire/thumbnail.jpg",
+      "description_url": "data/mods/ZyranCZ@a_autofire/description.md",
+      "latest": {
+        "version": "2.0.2",
+        "tag": "2.0.2",
+        "name": "2.0.2 Ready for 0.1.86 Update",
+        "prerelease": false,
+        "published_at": "2026-08-14T18:25:40Z",
+        "zip": {
+          "name": "autofire_ab_v2.0.2.zip",
+          "url": "https://github.com/ZyranCZ/autofire/releases/download/2.0.2/autofire_ab_v2.0.2.zip",
+          "size": 10211
+        }
+      },
+      "update_check": "ok",
+      "downloads": {
+        "total": 235,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -238,10 +280,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 624,
-        "recent": 81,
+        "total": 637,
+        "recent": 94,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -289,10 +331,61 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 57925,
-        "recent": 5100,
+        "total": 58818,
+        "recent": 5993,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
+      }
+    },
+    {
+      "folder": "EnterPlayerOne@BATTLE_CINEMATICS",
+      "id": "BATTLE_CINEMATICS",
+      "title": "Battle Cinematics - Dynamic 3D Battle Camera",
+      "author": "EnterPlayerOne",
+      "version": "1.0.10",
+      "categories": [
+        "ART",
+        "QOL"
+      ],
+      "repo": "https://github.com/EnterPlayerOne/Battle-Cinematics-Stadium-Camera",
+      "summary": "Dynamic 3D battle camera director with Stadium 64, DW3 Classic and Hero Portrait idle views, Pokémon intros, move aware attacks, faint shots, manual control, and Gen 1 + Gold support.",
+      "tags": [
+        "camera",
+        "battle-camera",
+        "cinematics",
+        "stadium",
+        "3d-battles",
+        "dw3",
+        "pokemon-intros",
+        "battle-presentation"
+      ],
+      "github": "EnterPlayerOne/Battle-Cinematics-Stadium-Camera",
+      "game_version": "0.0.0-dev || >=0.1.37 <2.0.0",
+      "permissions": [
+        "engine_internals"
+      ],
+      "api": 2,
+      "profile": "content",
+      "thumbnail": "data/mods/EnterPlayerOne@BATTLE_CINEMATICS/thumbnail.jpg",
+      "description_url": "data/mods/EnterPlayerOne@BATTLE_CINEMATICS/description.md",
+      "latest": {
+        "version": "1.0.10",
+        "tag": "v1.0.10",
+        "name": "Battle Cinematics v1.0.10 — Loader Compatibility Hotfix",
+        "prerelease": false,
+        "published_at": "2026-08-20T19:50:40Z",
+        "zip": {
+          "name": "BATTLE_CINEMATICS-1.0.10.zip",
+          "url": "https://github.com/EnterPlayerOne/Battle-Cinematics-Stadium-Camera/releases/download/v1.0.10/BATTLE_CINEMATICS-1.0.10.zip",
+          "size": 135165
+        }
+      },
+      "update_check": "ok",
+      "downloads": {
+        "total": 10495,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -336,10 +429,64 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 5804,
-        "recent": 219,
+        "total": 5840,
+        "recent": 255,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
+      }
+    },
+    {
+      "folder": "tebwritescode@battle_pad",
+      "id": "battle_pad",
+      "title": "BattlePad",
+      "author": "tebwritescode",
+      "version": "0.6.3",
+      "categories": [
+        "UI",
+        "QOL"
+      ],
+      "repo": "https://github.com/tebwritescode/battlepad",
+      "summary": "Shortcuts for the battle menu: moves and battle actions mapped straight to your controller.",
+      "tags": [
+        "controller",
+        "gamepad",
+        "battle",
+        "ui",
+        "shortcuts",
+        "gold",
+        "gen2"
+      ],
+      "github": "tebwritescode/battlepad",
+      "license": "MIT",
+      "permissions": [
+        "engine_internals",
+        "filesystem"
+      ],
+      "conflicts": [
+        "USEFUL_BATTLE_CAM"
+      ],
+      "api": 2,
+      "profile": "content",
+      "thumbnail": "data/mods/tebwritescode@battle_pad/thumbnail.png",
+      "description_url": "data/mods/tebwritescode@battle_pad/description.md",
+      "latest": {
+        "version": "0.6.3",
+        "tag": "v0.6.3",
+        "name": "0.6.3",
+        "prerelease": false,
+        "published_at": "2026-08-19T06:12:23Z",
+        "zip": {
+          "name": "battle_pad-0.6.3.zip",
+          "url": "https://github.com/tebwritescode/battlepad/releases/download/v0.6.3/battle_pad-0.6.3.zip",
+          "size": 113911
+        }
+      },
+      "update_check": "ok",
+      "downloads": {
+        "total": 12,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -387,10 +534,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 2497,
-        "recent": 306,
+        "total": 2551,
+        "recent": 360,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -439,10 +586,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 340,
-        "recent": 43,
+        "total": 347,
+        "recent": 50,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -495,10 +642,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 2099,
-        "recent": 221,
+        "total": 2130,
+        "recent": 252,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -539,10 +686,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 3360,
-        "recent": 83,
+        "total": 3380,
+        "recent": 103,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -578,10 +725,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 949,
-        "recent": 44,
+        "total": 955,
+        "recent": 50,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -619,10 +766,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 305,
-        "recent": 38,
+        "total": 312,
+        "recent": 45,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -655,10 +802,10 @@
       "latest": null,
       "update_check": "no installable release",
       "downloads": {
-        "total": 89,
-        "recent": 69,
+        "total": 114,
+        "recent": 94,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -704,10 +851,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 400,
-        "recent": 57,
+        "total": 408,
+        "recent": 65,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -748,10 +895,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 4827,
-        "recent": 148,
+        "total": 4856,
+        "recent": 177,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -793,10 +940,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 4952,
-        "recent": 191,
+        "total": 4977,
+        "recent": 216,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -839,10 +986,57 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 1006,
-        "recent": 55,
+        "total": 1021,
+        "recent": 70,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
+      }
+    },
+    {
+      "folder": "Dgray66@crystal",
+      "id": "crystal",
+      "title": "Crystal Player Mod",
+      "author": "Dgray66",
+      "version": "0.7.6",
+      "categories": [
+        "CONTENT",
+        "ART"
+      ],
+      "repo": "https://github.com/dburton95/crystal",
+      "tags": [
+        "sprites",
+        "text",
+        "girl",
+        "crystal",
+        "teamkris"
+      ],
+      "github": "dburton95/crystal",
+      "permissions": [
+        "engine_internals"
+      ],
+      "api": 2,
+      "profile": "content",
+      "thumbnail": null,
+      "description_url": "data/mods/Dgray66@crystal/description.md",
+      "summary": "The definitive Kris mod.",
+      "latest": {
+        "version": "1.0.1",
+        "tag": "1.0.1",
+        "name": "1.0.1 - Updated Sygna Sprites",
+        "prerelease": false,
+        "published_at": "2026-08-17T13:23:02Z",
+        "zip": {
+          "name": "crystal-1.0.1.zip",
+          "url": "https://github.com/dburton95/crystal/releases/download/1.0.1/crystal-1.0.1.zip",
+          "size": 107662
+        }
+      },
+      "update_check": "ok",
+      "downloads": {
+        "total": 1207,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -891,10 +1085,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 237,
-        "recent": 7,
+        "total": 238,
+        "recent": 8,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -943,10 +1137,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 1719,
-        "recent": 124,
+        "total": 1738,
+        "recent": 143,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -992,10 +1186,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 578,
-        "recent": 69,
+        "total": 590,
+        "recent": 81,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -1041,10 +1235,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 759,
-        "recent": 82,
+        "total": 772,
+        "recent": 95,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -1090,10 +1284,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 1654,
-        "recent": 180,
+        "total": 1678,
+        "recent": 204,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -1139,10 +1333,59 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 103,
-        "recent": 11,
+        "total": 104,
+        "recent": 12,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
+      }
+    },
+    {
+      "folder": "Nezara@dialogue_portraits",
+      "id": "dialogue_portraits",
+      "title": "Dialogue Portraits",
+      "author": "Nezara",
+      "summary": "Shows a portrait of whoever's talking beside the dialogue box: all 45 trainer classes, 28 talking Pokémon, and custom art for anyone else.",
+      "version": "1.0.2",
+      "categories": [
+        "UI",
+        "ART"
+      ],
+      "tags": [
+        "portraits",
+        "dialogue",
+        "faces",
+        "visual novel",
+        "customization"
+      ],
+      "repo": "https://github.com/Nezara/gen1recomp-dialogue-portraits",
+      "github": "Nezara/gen1recomp-dialogue-portraits",
+      "automatic_version_check": true,
+      "api": 2,
+      "game_version": ">=0.0.0-0 <2.0.0",
+      "profile": "content",
+      "permissions": [
+        "engine_internals"
+      ],
+      "thumbnail": null,
+      "description_url": "data/mods/Nezara@dialogue_portraits/description.md",
+      "latest": {
+        "version": "1.0.2",
+        "tag": "v1.0.2",
+        "name": "v1.0.2",
+        "prerelease": false,
+        "published_at": "2026-08-15T00:09:43Z",
+        "zip": {
+          "name": "dialogue_portraits-1.0.2.zip",
+          "url": "https://github.com/Nezara/gen1recomp-dialogue-portraits/releases/download/v1.0.2/dialogue_portraits-1.0.2.zip",
+          "size": 203407
+        }
+      },
+      "update_check": "ok",
+      "downloads": {
+        "total": 202,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -1190,10 +1433,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 1014,
-        "recent": 171,
+        "total": 1045,
+        "recent": 202,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -1254,10 +1497,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 4711,
-        "recent": 189,
+        "total": 4770,
+        "recent": 248,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -1296,10 +1539,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 178,
-        "recent": 7,
+        "total": 180,
+        "recent": 9,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -1336,10 +1579,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 103,
-        "recent": 35,
+        "total": 108,
+        "recent": 40,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -1379,10 +1622,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 5112,
-        "recent": 210,
+        "total": 5148,
+        "recent": 246,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -1428,10 +1671,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 233,
-        "recent": 41,
+        "total": 243,
+        "recent": 51,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -1474,10 +1717,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 19484,
-        "recent": 1264,
+        "total": 20042,
+        "recent": 1822,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -1523,10 +1766,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 167,
-        "recent": 19,
+        "total": 169,
+        "recent": 21,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -1555,10 +1798,10 @@
       "latest": null,
       "update_check": "no installable release",
       "downloads": {
-        "total": 93,
-        "recent": 67,
+        "total": 114,
+        "recent": 88,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -1599,10 +1842,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 10832,
-        "recent": 403,
+        "total": 10913,
+        "recent": 484,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -1648,10 +1891,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 6550,
-        "recent": 794,
+        "total": 6655,
+        "recent": 899,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -1696,10 +1939,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 170,
-        "recent": 106,
+        "total": 182,
+        "recent": 118,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -1748,10 +1991,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 763,
-        "recent": 126,
+        "total": 790,
+        "recent": 153,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -1787,23 +2030,23 @@
       "thumbnail": null,
       "description_url": "data/mods/MadeinTaly@gen3_box/description.md",
       "latest": {
-        "version": "1.9.1",
-        "tag": "v1.9.1",
-        "name": "gen3_box 1.9.1",
+        "version": "1.9.2",
+        "tag": "v1.9.2",
+        "name": "gen3_box 1.9.2",
         "prerelease": false,
-        "published_at": "2026-08-20T07:58:48Z",
+        "published_at": "2026-08-20T20:27:58Z",
         "zip": {
-          "name": "gen3_box-1.9.1.zip",
-          "url": "https://github.com/MadeinTaly/gen1recomp-gen3-boxes/releases/download/v1.9.1/gen3_box-1.9.1.zip",
-          "size": 53774
+          "name": "gen3_box-1.9.2.zip",
+          "url": "https://github.com/MadeinTaly/gen1recomp-gen3-boxes/releases/download/v1.9.2/gen3_box-1.9.2.zip",
+          "size": 54903
         }
       },
       "update_check": "ok",
       "downloads": {
-        "total": 21742,
-        "recent": 2343,
+        "total": 22328,
+        "recent": 2929,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -1851,10 +2094,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 1708,
-        "recent": 136,
+        "total": 1736,
+        "recent": 164,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -1901,10 +2144,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 30017,
-        "recent": 1535,
+        "total": 30281,
+        "recent": 1799,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -1952,10 +2195,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 487,
-        "recent": 54,
+        "total": 499,
+        "recent": 66,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -1983,19 +2226,19 @@
         "tag": "v0.3.6.1",
         "name": "v.3.6.1",
         "prerelease": false,
-        "published_at": "2026-08-19T22:22:24Z",
+        "published_at": "2026-08-20T23:00:12Z",
         "zip": {
           "name": "mod.zip",
           "url": "https://github.com/gamecorner-033/Gen1Online/releases/download/v0.3.6.1/mod.zip",
-          "size": 296589
+          "size": 297357
         }
       },
       "update_check": "ok",
       "downloads": {
-        "total": 14497,
-        "recent": 168,
+        "total": 14499,
+        "recent": 170,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -2037,10 +2280,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 1781,
-        "recent": 151,
+        "total": 1812,
+        "recent": 182,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -2079,10 +2322,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 136,
-        "recent": 26,
+        "total": 141,
+        "recent": 31,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -2131,10 +2374,62 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 3983,
-        "recent": 198,
+        "total": 4008,
+        "recent": 223,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
+      }
+    },
+    {
+      "folder": "inmento@gym_leader_shuffle",
+      "id": "gym_leader_shuffle",
+      "title": "Gym Leader Shuffle",
+      "author": "inmento",
+      "summary": "Standalone Kanto and Johto Gym Leader Shuffle with optional Crystal 251 detection; no randomizer or starter mod is required, and each physical gym keeps its badge, rewards, and intended level curve.",
+      "version": "1.0.8",
+      "categories": [
+        "GAMEPLAY"
+      ],
+      "tags": [
+        "gym leaders",
+        "shuffle",
+        "kanto",
+        "johto"
+      ],
+      "repo": "https://github.com/inmento/Gym-Leader-Shuffle",
+      "github": "inmento/Gym-Leader-Shuffle",
+      "automatic_version_check": true,
+      "api": 2,
+      "game_version": ">=0.1.99",
+      "games": [
+        "gen1",
+        "gen2"
+      ],
+      "profile": "content",
+      "affects_link": false,
+      "permissions": [
+        "engine_internals"
+      ],
+      "thumbnail": null,
+      "description_url": "data/mods/inmento@gym_leader_shuffle/description.md",
+      "latest": {
+        "version": "1.0.9",
+        "tag": "1.0.9",
+        "name": "Gym Leader Shuffle 1.0.9",
+        "prerelease": false,
+        "published_at": "2026-08-20T23:52:45Z",
+        "zip": {
+          "name": "gym_leader_shuffle-1.0.9.zip",
+          "url": "https://github.com/inmento/Gym-Leader-Shuffle/releases/download/1.0.9/gym_leader_shuffle-1.0.9.zip",
+          "size": 18370
+        }
+      },
+      "update_check": "ok",
+      "downloads": {
+        "total": 78,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -2175,10 +2470,64 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 1333,
-        "recent": 69,
+        "total": 1348,
+        "recent": 84,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
+      }
+    },
+    {
+      "folder": "inmento@item_randomizer",
+      "id": "item_randomizer",
+      "title": "Item Randomizer",
+      "author": "inmento",
+      "summary": "Persistent Crystal 251-safe item randomization for map pickups, hidden finds, shops, berries, gifts, eligible held items, and protected New Game PC items in Gen 1 and Gold.",
+      "version": "1.0.12",
+      "categories": [
+        "GAMEPLAY",
+        "QOL"
+      ],
+      "tags": [
+        "items",
+        "shops",
+        "randomizer",
+        "weighted loot",
+        "gold"
+      ],
+      "repo": "https://github.com/inmento/Item-Randomizer",
+      "github": "inmento/Item-Randomizer",
+      "automatic_version_check": true,
+      "api": 2,
+      "game_version": ">=0.1.99",
+      "games": [
+        "gen1",
+        "gen2"
+      ],
+      "profile": "content",
+      "affects_link": false,
+      "permissions": [
+        "engine_internals"
+      ],
+      "thumbnail": null,
+      "description_url": "data/mods/inmento@item_randomizer/description.md",
+      "latest": {
+        "version": "1.0.13",
+        "tag": "1.0.13",
+        "name": "Item Randomizer 1.0.13",
+        "prerelease": false,
+        "published_at": "2026-08-20T23:48:30Z",
+        "zip": {
+          "name": "item_randomizer-1.0.13.zip",
+          "url": "https://github.com/inmento/Item-Randomizer/releases/download/1.0.13/item_randomizer-1.0.13.zip",
+          "size": 18555
+        }
+      },
+      "update_check": "ok",
+      "downloads": {
+        "total": 68,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -2217,10 +2566,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 264,
-        "recent": 14,
+        "total": 265,
+        "recent": 15,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -2256,10 +2605,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 1590,
-        "recent": 126,
+        "total": 1605,
+        "recent": 141,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -2312,10 +2661,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 275,
-        "recent": 24,
+        "total": 288,
+        "recent": 37,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -2362,10 +2711,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 1801,
-        "recent": 211,
+        "total": 1835,
+        "recent": 245,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -2423,10 +2772,64 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 8185,
-        "recent": 534,
+        "total": 8360,
+        "recent": 709,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
+      }
+    },
+    {
+      "folder": "jtfresh90@kanto_life",
+      "id": "kanto_life",
+      "title": "Kanto Life",
+      "author": "jtfresh90",
+      "version": "0.7.0",
+      "categories": [
+        "GAMEPLAY",
+        "CONTENT"
+      ],
+      "repo": "https://github.com/jtfresh90/Kanto-Life-Mod",
+      "github": "jtfresh90/Kanto-Life-Mod",
+      "summary": "Ambient town and route crowds, optional Pokemon NPCs, sleep toggle with rate control, and Common Courtesy knocking — for every gen1recomp game.",
+      "tags": [
+        "npc",
+        "town",
+        "sleep",
+        "knock",
+        "atmosphere",
+        "kanto"
+      ],
+      "api": 2,
+      "game_version": ">=0.0.0 <10.0.0",
+      "profile": "content",
+      "affects_link": false,
+      "experimental": false,
+      "permissions": [
+        "engine_internals"
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "automatic_version_check": true,
+      "thumbnail": null,
+      "description_url": "data/mods/jtfresh90@kanto_life/description.md",
+      "latest": {
+        "version": "0.7.3",
+        "tag": "0.7.3",
+        "name": "0.7.3",
+        "prerelease": false,
+        "published_at": "2026-08-17T18:32:30Z",
+        "zip": {
+          "name": "kanto-life-0_7_3.zip",
+          "url": "https://github.com/jtfresh90/Kanto-Life-Mod/releases/download/0.7.3/kanto-life-0_7_3.zip",
+          "size": 13851
+        }
+      },
+      "update_check": "ok",
+      "downloads": {
+        "total": 1449,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -2471,10 +2874,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 526,
-        "recent": 98,
+        "total": 545,
+        "recent": 117,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -2523,10 +2926,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 664,
-        "recent": 89,
+        "total": 686,
+        "recent": 111,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -2576,10 +2979,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 903,
-        "recent": 125,
+        "total": 921,
+        "recent": 143,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -2626,10 +3029,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 319,
-        "recent": 104,
+        "total": 342,
+        "recent": 127,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -2677,10 +3080,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 11291,
-        "recent": 529,
+        "total": 11381,
+        "recent": 619,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -2705,7 +3108,7 @@
         "total": 30,
         "recent": 3,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -2750,10 +3153,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 811,
-        "recent": 33,
+        "total": 817,
+        "recent": 39,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -2798,10 +3201,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 372,
-        "recent": 71,
+        "total": 382,
+        "recent": 81,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -2845,10 +3248,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 3014,
-        "recent": 100,
+        "total": 3034,
+        "recent": 120,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -2886,10 +3289,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 4584,
-        "recent": 155,
+        "total": 4615,
+        "recent": 186,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -2931,157 +3334,172 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 1314,
-        "recent": 57,
+        "total": 1321,
+        "recent": 64,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
-      "folder": "DarioMelo@Music_FRLG",
-      "id": "Music_FRLG",
-      "title": "Music-FRLG",
+      "folder": "DarioMelo@Music1_FRLG",
+      "id": "Music1_FRLG",
+      "title": "Music1-FRLG",
       "author": "DarioMelo",
-      "version": "26.08.04",
-      "categories": [
-        "AUDIO"
-      ],
-      "repo": "https://github.com/DarioMelo/Gen1Recomp-MusicMods",
-      "tags": [
-        "audio",
-        "music"
-      ],
-      "github": "DarioMelo/Gen1Recomp-MusicMods",
-      "game_version": ">=0.1.68",
-      "api": 2,
-      "profile": "content",
-      "thumbnail": "data/mods/DarioMelo@Music_FRLG/thumbnail.png",
-      "description_url": "data/mods/DarioMelo@Music_FRLG/description.md",
       "summary": "Music from FireRed / LeafGreen",
-      "latest": {
-        "version": "26.08.04",
-        "tag": "26.08.04",
-        "name": "26.08.04",
-        "prerelease": false,
-        "published_at": "2026-08-04T07:08:01Z",
-        "zip": {
-          "name": "Music_FRLG-26.08.04.zip",
-          "url": "https://github.com/DarioMelo/Gen1Recomp-MusicMods/releases/download/26.08.04/Music_FRLG-26.08.04.zip",
-          "size": 127411848
-        }
-      },
-      "update_check": "ok",
-      "downloads": {
-        "total": 8390,
-        "recent": 398,
-        "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
-      }
-    },
-    {
-      "folder": "DarioMelo@Music_HGSS",
-      "id": "Music_HGSS",
-      "title": "Music-HGSS",
-      "author": "DarioMelo",
-      "version": "26.08.04",
+      "version": "26.08.14",
       "categories": [
         "AUDIO"
       ],
-      "repo": "https://github.com/DarioMelo/Gen1Recomp-MusicMods",
       "tags": [
         "audio",
         "music"
       ],
-      "github": "DarioMelo/Gen1Recomp-MusicMods",
-      "game_version": ">=0.1.68",
+      "repo": "https://github.com/DarioMelo/Gen1Recomp-Music1-FRLG",
+      "github": "DarioMelo/Gen1Recomp-Music1-FRLG",
+      "automatic_version_check": true,
+      "game_version": ">=0.1.83",
+      "games": [
+        "gen1"
+      ],
       "api": 2,
       "profile": "content",
-      "thumbnail": "data/mods/DarioMelo@Music_HGSS/thumbnail.png",
-      "description_url": "data/mods/DarioMelo@Music_HGSS/description.md",
+      "thumbnail": "data/mods/DarioMelo@Music1_FRLG/thumbnail.png",
+      "description_url": "data/mods/DarioMelo@Music1_FRLG/description.md",
+      "latest": {
+        "version": "26.08.14",
+        "tag": "26.08.14",
+        "name": "26.08.14",
+        "prerelease": false,
+        "published_at": "2026-08-15T02:12:35Z",
+        "zip": {
+          "name": "Music1_FRLG-26.08.14.zip",
+          "url": "https://github.com/DarioMelo/Gen1Recomp-Music1-FRLG/releases/download/26.08.14/Music1_FRLG-26.08.14.zip",
+          "size": 161799971
+        }
+      },
+      "update_check": "ok",
+      "downloads": {
+        "total": 52,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-21T01:28:00.546Z"
+      }
+    },
+    {
+      "folder": "DarioMelo@Music1_HGSS",
+      "id": "Music1_HGSS",
+      "title": "Music1-HGSS",
+      "author": "DarioMelo",
       "summary": "Music from HeartGold / SoulSilver",
-      "latest": {
-        "version": "26.08.04",
-        "tag": "26.08.04",
-        "name": "26.08.04",
-        "prerelease": false,
-        "published_at": "2026-08-04T07:08:01Z",
-        "zip": {
-          "name": "Music_HGSS-26.08.04.zip",
-          "url": "https://github.com/DarioMelo/Gen1Recomp-MusicMods/releases/download/26.08.04/Music_HGSS-26.08.04.zip",
-          "size": 138488632
-        }
-      },
-      "update_check": "ok",
-      "downloads": {
-        "total": 8390,
-        "recent": 398,
-        "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
-      }
-    },
-    {
-      "folder": "DarioMelo@Music_LGPE",
-      "id": "Music_LGPE",
-      "title": "Music-LGPE",
-      "author": "DarioMelo",
-      "version": "26.08.04",
+      "version": "26.08.14",
       "categories": [
         "AUDIO"
       ],
-      "repo": "https://github.com/DarioMelo/Gen1Recomp-MusicMods",
       "tags": [
         "audio",
         "music"
       ],
-      "github": "DarioMelo/Gen1Recomp-MusicMods",
-      "game_version": ">=0.1.68",
+      "repo": "https://github.com/DarioMelo/Gen1Recomp-Music1-HGSS",
+      "github": "DarioMelo/Gen1Recomp-Music1-HGSS",
+      "automatic_version_check": true,
+      "game_version": ">=0.1.83",
+      "games": [
+        "gen1"
+      ],
       "api": 2,
       "profile": "content",
-      "thumbnail": "data/mods/DarioMelo@Music_LGPE/thumbnail.png",
-      "description_url": "data/mods/DarioMelo@Music_LGPE/description.md",
-      "summary": "Music from Let's Go Pikachu / Let's Go Eevee",
+      "thumbnail": "data/mods/DarioMelo@Music1_HGSS/thumbnail.png",
+      "description_url": "data/mods/DarioMelo@Music1_HGSS/description.md",
       "latest": {
-        "version": "26.08.04",
-        "tag": "26.08.04",
-        "name": "26.08.04",
+        "version": "26.08.14",
+        "tag": "26.08.14",
+        "name": "26.08.14",
         "prerelease": false,
-        "published_at": "2026-08-04T07:08:01Z",
+        "published_at": "2026-08-15T02:12:30Z",
         "zip": {
-          "name": "Music_LGPE-26.08.04.zip",
-          "url": "https://github.com/DarioMelo/Gen1Recomp-MusicMods/releases/download/26.08.04/Music_LGPE-26.08.04.zip",
-          "size": 142822966
+          "name": "Music1_HGSS-26.08.14.zip",
+          "url": "https://github.com/DarioMelo/Gen1Recomp-Music1-HGSS/releases/download/26.08.14/Music1_HGSS-26.08.14.zip",
+          "size": 205619121
         }
       },
       "update_check": "ok",
       "downloads": {
-        "total": 8390,
-        "recent": 398,
-        "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "total": 38,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
-      "folder": "DaroMelo@Music2_HGSS",
+      "folder": "DarioMelo@Music1_LGPE",
+      "id": "Music1_LGPE",
+      "title": "Music1-LGPE",
+      "author": "DarioMelo",
+      "summary": "Music from Let's Go Pikachu / Let's Go Eevee",
+      "version": "26.08.14",
+      "categories": [
+        "AUDIO"
+      ],
+      "tags": [
+        "audio",
+        "music"
+      ],
+      "repo": "https://github.com/DarioMelo/Gen1Recomp-Music1-LGPE",
+      "github": "DarioMelo/Gen1Recomp-Music1-LGPE",
+      "automatic_version_check": true,
+      "game_version": ">=0.1.83",
+      "games": [
+        "gen1"
+      ],
+      "api": 2,
+      "profile": "content",
+      "thumbnail": "data/mods/DarioMelo@Music1_LGPE/thumbnail.png",
+      "description_url": "data/mods/DarioMelo@Music1_LGPE/description.md",
+      "latest": {
+        "version": "26.08.14",
+        "tag": "26.08.14",
+        "name": "26.08.14",
+        "prerelease": false,
+        "published_at": "2026-08-15T02:12:26Z",
+        "zip": {
+          "name": "Music1_LGPE-26.08.14.zip",
+          "url": "https://github.com/DarioMelo/Gen1Recomp-Music1-LGPE/releases/download/26.08.14/Music1_LGPE-26.08.14.zip",
+          "size": 161839029
+        }
+      },
+      "update_check": "ok",
+      "downloads": {
+        "total": 52,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-21T01:28:00.546Z"
+      }
+    },
+    {
+      "folder": "DarioMelo@Music2_HGSS",
       "id": "Music2_HGSS",
       "title": "Music2-HGSS",
-      "author": "DaríoMelo",
-      "version": "26.08.11",
+      "author": "DarioMelo",
+      "summary": "Music from HeartGold / SoulSilver",
+      "version": "26.08.14",
       "categories": [
-        "CONTENT",
         "AUDIO"
       ],
-      "repo": "https://github.com/DarioMelo/Gen1Recomp-Music2-HGSS",
       "tags": [
         "audio",
         "music"
       ],
+      "repo": "https://github.com/DarioMelo/Gen1Recomp-Music2-HGSS",
       "github": "DarioMelo/Gen1Recomp-Music2-HGSS",
-      "game_version": ">=0.1.78",
+      "automatic_version_check": true,
+      "game_version": ">=0.1.83",
+      "games": [
+        "gen2"
+      ],
       "api": 2,
       "profile": "content",
-      "thumbnail": null,
-      "description_url": "data/mods/DaroMelo@Music2_HGSS/description.md",
-      "summary": "Music from HeartGold / SoulSilver",
+      "thumbnail": "data/mods/DarioMelo@Music2_HGSS/thumbnail.png",
+      "description_url": "data/mods/DarioMelo@Music2_HGSS/description.md",
       "latest": {
         "version": "26.08.14",
         "tag": "26.08.14",
@@ -3096,10 +3514,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 512,
-        "recent": 65,
-        "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "total": 532,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -3138,10 +3556,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 63,
-        "recent": 11,
+        "total": 64,
+        "recent": 12,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -3190,10 +3608,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 3493,
-        "recent": 328,
+        "total": 3538,
+        "recent": 373,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -3234,10 +3652,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 1305,
-        "recent": 81,
+        "total": 1329,
+        "recent": 105,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -3279,10 +3697,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 4505,
-        "recent": 185,
+        "total": 4530,
+        "recent": 210,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -3310,7 +3728,7 @@
         "total": 0,
         "recent": 0,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -3357,10 +3775,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 948,
-        "recent": 41,
+        "total": 952,
+        "recent": 45,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -3408,10 +3826,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 610,
-        "recent": 68,
+        "total": 621,
+        "recent": 79,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -3439,7 +3857,7 @@
         "total": 0,
         "recent": 0,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -3483,10 +3901,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 2603,
-        "recent": 123,
+        "total": 2622,
+        "recent": 142,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -3539,10 +3957,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 8792,
-        "recent": 1748,
+        "total": 9115,
+        "recent": 2071,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -3585,10 +4003,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 12539,
-        "recent": 1411,
+        "total": 12848,
+        "recent": 1720,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -3628,10 +4046,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 49922,
-        "recent": 1856,
+        "total": 50186,
+        "recent": 2120,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -3669,10 +4087,68 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 581,
-        "recent": 110,
+        "total": 599,
+        "recent": 128,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
+      }
+    },
+    {
+      "folder": "inmento@randomized_gym_challenge",
+      "id": "randomized_gym_challenge",
+      "title": "Randomized Gym Challenge",
+      "author": "inmento",
+      "summary": "Configurable gym-battle generator with Gold Continue-gated two-league progression, Gym Challenge recovery, guarded routing diagnostics, start summaries, leader and team rules, and Gold held items.",
+      "version": "1.1.4",
+      "categories": [
+        "GAMEPLAY",
+        "BALANCE"
+      ],
+      "tags": [
+        "gym leaders",
+        "randomizer",
+        "challenge mode",
+        "kanto",
+        "johto",
+        "wip"
+      ],
+      "repo": "https://github.com/inmento/Randomized-Gym-Challenge",
+      "github": "inmento/Randomized-Gym-Challenge",
+      "automatic_version_check": true,
+      "api": 2,
+      "game_version": ">=0.1.99",
+      "games": [
+        "gen1",
+        "gen2"
+      ],
+      "profile": "content",
+      "affects_link": false,
+      "permissions": [
+        "engine_internals"
+      ],
+      "conflicts": [
+        "gym_leader_shuffle"
+      ],
+      "thumbnail": null,
+      "description_url": "data/mods/inmento@randomized_gym_challenge/description.md",
+      "latest": {
+        "version": "1.1.10",
+        "tag": "v1.1.10",
+        "name": "Randomized Gym Challenge 1.1.10",
+        "prerelease": false,
+        "published_at": "2026-08-20T23:56:56Z",
+        "zip": {
+          "name": "randomized_gym_challenge-1.1.10.zip",
+          "url": "https://github.com/inmento/Randomized-Gym-Challenge/releases/download/v1.1.10/randomized_gym_challenge-1.1.10.zip",
+          "size": 46567
+        }
+      },
+      "update_check": "ok",
+      "downloads": {
+        "total": 27,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -3712,10 +4188,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 4888,
-        "recent": 163,
+        "total": 4912,
+        "recent": 187,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -3763,10 +4239,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 404,
-        "recent": 81,
+        "total": 416,
+        "recent": 93,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -3819,10 +4295,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 3966,
-        "recent": 380,
+        "total": 4028,
+        "recent": 442,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -3855,10 +4331,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 108,
-        "recent": 7,
+        "total": 109,
+        "recent": 8,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -3910,10 +4386,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 551,
-        "recent": 33,
+        "total": 571,
+        "recent": 53,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -3968,10 +4444,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 210,
-        "recent": 161,
+        "total": 225,
+        "recent": 176,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -4015,10 +4491,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 7175,
-        "recent": 220,
+        "total": 7208,
+        "recent": 253,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -4063,10 +4539,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 12951,
-        "recent": 1232,
+        "total": 13144,
+        "recent": 1425,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -4115,10 +4591,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 202,
-        "recent": 34,
+        "total": 208,
+        "recent": 40,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -4168,10 +4644,123 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 300,
-        "recent": 70,
+        "total": 316,
+        "recent": 86,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
+      }
+    },
+    {
+      "folder": "inmento@shedinja",
+      "id": "shedinja",
+      "title": "Shedinja",
+      "author": "inmento",
+      "summary": "R/B/Y and Gold Shedinja #292 with Wonder Guard, Gold rift progression, Electric Tera Orb, Air Balloon, credited art, and one optional Crystal 251 or Expanded Species bridge.",
+      "version": "0.3.1",
+      "categories": [
+        "GAMEPLAY",
+        "CONTENT"
+      ],
+      "tags": [
+        "shedinja",
+        "wonder guard",
+        "kanto",
+        "johto",
+        "gold",
+        "animated sprites"
+      ],
+      "repo": "https://github.com/inmento/Shedinja",
+      "github": "inmento/Shedinja",
+      "automatic_version_check": true,
+      "api": 2,
+      "game_version": ">=0.2.3 <1.0.0",
+      "games": [
+        "gen1",
+        "gen2"
+      ],
+      "profile": "overhaul",
+      "affects_link": true,
+      "permissions": [
+        "engine_internals"
+      ],
+      "thumbnail": null,
+      "description_url": "data/mods/inmento@shedinja/description.md",
+      "latest": {
+        "version": "0.3.5",
+        "tag": "v0.3.5",
+        "name": "Shedinja 0.3.5",
+        "prerelease": false,
+        "published_at": "2026-08-20T23:38:18Z",
+        "zip": {
+          "name": "shedinja-0.3.5.zip",
+          "url": "https://github.com/inmento/Shedinja/releases/download/v0.3.5/shedinja-0.3.5.zip",
+          "size": 74109
+        }
+      },
+      "update_check": "ok",
+      "downloads": {
+        "total": 25,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-21T01:28:00.546Z"
+      }
+    },
+    {
+      "folder": "inmento@shedinja_expanded_bridge",
+      "id": "shedinja_expanded_bridge",
+      "title": "Shedinja Compatibility Bridge",
+      "author": "inmento",
+      "summary": "One optional Shedinja bridge: Crystal-safe index and runtime metadata with Crystal 251 in R/B/Y, or #292 framework repair with Expanded Species in Gold.",
+      "version": "0.1.4",
+      "categories": [
+        "CONTENT",
+        "OTHER"
+      ],
+      "tags": [
+        "shedinja",
+        "crystal 251",
+        "gold",
+        "expanded species",
+        "species compatibility",
+        "pokedex"
+      ],
+      "repo": "https://github.com/inmento/Shedinja-Expanded-Bridge",
+      "github": "inmento/Shedinja-Expanded-Bridge",
+      "automatic_version_check": true,
+      "api": 2,
+      "game_version": ">=0.2.10 <1.0.0",
+      "games": [
+        "gen1",
+        "gen2"
+      ],
+      "profile": "content",
+      "affects_link": true,
+      "permissions": [
+        "engine_internals"
+      ],
+      "dependencies": [
+        "shedinja@>=0.3.0 <1.0.0"
+      ],
+      "thumbnail": null,
+      "description_url": "data/mods/inmento@shedinja_expanded_bridge/description.md",
+      "latest": {
+        "version": "0.1.5",
+        "tag": "0.1.5",
+        "name": "Shedinja Compatibility Bridge 0.1.5",
+        "prerelease": false,
+        "published_at": "2026-08-20T23:42:56Z",
+        "zip": {
+          "name": "shedinja-compatibility-bridge-0.1.5.zip",
+          "url": "https://github.com/inmento/Shedinja-Expanded-Bridge/releases/download/0.1.5/shedinja-compatibility-bridge-0.1.5.zip",
+          "size": 6474
+        }
+      },
+      "update_check": "ok",
+      "downloads": {
+        "total": 13,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -4217,10 +4806,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 1059,
-        "recent": 72,
+        "total": 1077,
+        "recent": 90,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -4262,10 +4851,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 12494,
-        "recent": 563,
+        "total": 12595,
+        "recent": 664,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -4310,10 +4899,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 254,
-        "recent": 70,
+        "total": 269,
+        "recent": 85,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -4357,10 +4946,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 243,
-        "recent": 13,
+        "total": 253,
+        "recent": 23,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -4401,10 +4990,120 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 173,
-        "recent": 14,
+        "total": 176,
+        "recent": 17,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
+      }
+    },
+    {
+      "folder": "inmento@sound_effect_replacer",
+      "id": "sound_effect_replacer",
+      "title": "Sound Effect Replacer",
+      "author": "inmento",
+      "summary": "Two-folder sound replacement for named effects, move sounds, cries, Yellow Pikachu voice clips, and both evolution moments in Red, Blue, Yellow, and Gold.",
+      "version": "0.3.3",
+      "categories": [
+        "AUDIO",
+        "QOL"
+      ],
+      "tags": [
+        "sound effects",
+        "audio",
+        "cries",
+        "moves",
+        "evolution",
+        "gold"
+      ],
+      "repo": "https://github.com/inmento/Sound-Effect-Replacer",
+      "github": "inmento/Sound-Effect-Replacer",
+      "automatic_version_check": true,
+      "api": 2,
+      "game_version": ">=0.1.99",
+      "games": [
+        "gen1",
+        "gen2"
+      ],
+      "profile": "content",
+      "affects_link": false,
+      "permissions": [
+        "engine_internals"
+      ],
+      "thumbnail": null,
+      "description_url": "data/mods/inmento@sound_effect_replacer/description.md",
+      "latest": {
+        "version": "0.3.4",
+        "tag": "0.3.4",
+        "name": "Sound Effect Replacer 0.3.4",
+        "prerelease": false,
+        "published_at": "2026-08-21T00:02:06Z",
+        "zip": {
+          "name": "sound_effect_replacer-0.3.4.zip",
+          "url": "https://github.com/inmento/Sound-Effect-Replacer/releases/download/0.3.4/sound_effect_replacer-0.3.4.zip",
+          "size": 389788
+        }
+      },
+      "update_check": "ok",
+      "downloads": {
+        "total": 13,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-21T01:28:00.546Z"
+      }
+    },
+    {
+      "folder": "inmento@starter_picker",
+      "id": "starter_picker",
+      "title": "Starter Picker",
+      "author": "inmento",
+      "summary": "Choose Gen 1 and Gold starters by ball position, sync supported Randomizer assignments, apply weakness-aware rival picks, use mobile-safe Gold labels, and optionally integrate with Shedinja.",
+      "version": "1.0.13",
+      "categories": [
+        "GAMEPLAY",
+        "QOL"
+      ],
+      "tags": [
+        "starters",
+        "oak lab",
+        "elm lab",
+        "dvs",
+        "gold",
+        "randomizer compatibility"
+      ],
+      "repo": "https://github.com/inmento/Starter-Picker",
+      "github": "inmento/Starter-Picker",
+      "automatic_version_check": true,
+      "api": 2,
+      "game_version": ">=0.1.99",
+      "games": [
+        "gen1",
+        "gen2"
+      ],
+      "profile": "content",
+      "affects_link": false,
+      "permissions": [
+        "engine_internals"
+      ],
+      "thumbnail": null,
+      "description_url": "data/mods/inmento@starter_picker/description.md",
+      "latest": {
+        "version": "1.0.14",
+        "tag": "1.0.14",
+        "name": "Starter Picker 1.0.14",
+        "prerelease": false,
+        "published_at": "2026-08-20T23:45:33Z",
+        "zip": {
+          "name": "starter_picker-1.0.14.zip",
+          "url": "https://github.com/inmento/Starter-Picker/releases/download/1.0.14/starter_picker-1.0.14.zip",
+          "size": 20850
+        }
+      },
+      "update_check": "ok",
+      "downloads": {
+        "total": 203,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -4448,10 +5147,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 7573,
-        "recent": 627,
+        "total": 7672,
+        "recent": 726,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -4497,10 +5196,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 461,
-        "recent": 28,
+        "total": 464,
+        "recent": 31,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -4551,10 +5250,67 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 6567,
-        "recent": 424,
+        "total": 6643,
+        "recent": 500,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
+      }
+    },
+    {
+      "folder": "castdrian@tloz-recomp-mania",
+      "id": "tloz-recomp-mania",
+      "title": "TLoZ: Recomp Mania",
+      "author": "castdrian",
+      "version": "0.1.0",
+      "categories": [
+        "GAMEPLAY",
+        "ART",
+        "AUDIO"
+      ],
+      "repo": "https://github.com/castdrian/tloz-recomp-mania",
+      "summary": "The Legend of Zelda, sort of?",
+      "tags": [
+        "zelda",
+        "link",
+        "sword",
+        "shield",
+        "audio"
+      ],
+      "github": "castdrian/tloz-recomp-mania",
+      "automatic_version_check": true,
+      "api": 2,
+      "profile": "overhaul",
+      "game_version": ">=0.0.0-0 <2.0.0",
+      "games": [
+        "gen1",
+        "gen2"
+      ],
+      "affects_link": true,
+      "permissions": [
+        "engine_internals"
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "thumbnail": null,
+      "description_url": "data/mods/castdrian@tloz-recomp-mania/description.md",
+      "latest": {
+        "version": "0.5.0",
+        "tag": "v0.5.0",
+        "name": "0.5.0",
+        "prerelease": false,
+        "published_at": "2026-08-15T18:50:19Z",
+        "zip": {
+          "name": "tloz-recomp-mania-0.5.0.zip",
+          "url": "https://github.com/castdrian/tloz-recomp-mania/releases/download/v0.5.0/tloz-recomp-mania-0.5.0.zip",
+          "size": 5286660
+        }
+      },
+      "update_check": "ok",
+      "downloads": {
+        "total": 113,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -4598,10 +5354,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 167,
-        "recent": 14,
+        "total": 171,
+        "recent": 18,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -4647,10 +5403,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 533,
-        "recent": 34,
+        "total": 547,
+        "recent": 48,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -4691,10 +5447,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 99,
-        "recent": 3,
+        "total": 101,
+        "recent": 5,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -4737,10 +5493,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 6409,
-        "recent": 245,
+        "total": 6454,
+        "recent": 290,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -4784,10 +5540,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 12150,
-        "recent": 702,
+        "total": 12259,
+        "recent": 811,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -4830,10 +5586,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 12806,
-        "recent": 599,
+        "total": 12898,
+        "recent": 691,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -4876,10 +5632,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 6884,
-        "recent": 207,
+        "total": 6918,
+        "recent": 241,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -4924,10 +5680,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 1805,
-        "recent": 94,
+        "total": 1820,
+        "recent": 109,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -4970,10 +5726,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 8292,
-        "recent": 288,
+        "total": 8340,
+        "recent": 336,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -5012,10 +5768,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 3771,
-        "recent": 99,
+        "total": 3794,
+        "recent": 122,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -5066,10 +5822,63 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 1356,
-        "recent": 143,
+        "total": 1378,
+        "recent": 165,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
+      }
+    },
+    {
+      "folder": "adrian@what-the-heck",
+      "id": "what-the-heck",
+      "title": "what-the-heck",
+      "author": "adrian",
+      "summary": "what the heck is this?",
+      "version": "0.1.0",
+      "categories": [
+        "TRANSLATION"
+      ],
+      "tags": [
+        "translation",
+        "back-translation",
+        "nonsense",
+        "pokemon"
+      ],
+      "repo": "https://github.com/castdrian/what-the-heck",
+      "github": "castdrian/what-the-heck",
+      "automatic_version_check": true,
+      "api": 2,
+      "game_version": ">=0.0.0-dev <2.0.0",
+      "games": [
+        "red",
+        "blue",
+        "yellow",
+        "gold"
+      ],
+      "profile": "content",
+      "permissions": [],
+      "dependencies": [],
+      "conflicts": [],
+      "thumbnail": null,
+      "description_url": "data/mods/adrian@what-the-heck/description.md",
+      "latest": {
+        "version": "0.2.0",
+        "tag": "v0.2.0",
+        "name": "0.2.0",
+        "prerelease": false,
+        "published_at": "2026-08-19T16:21:30Z",
+        "zip": {
+          "name": "what-the-heck-0.2.0.zip",
+          "url": "https://github.com/castdrian/what-the-heck/releases/download/v0.2.0/what-the-heck-0.2.0.zip",
+          "size": 413809
+        }
+      },
+      "update_check": "ok",
+      "downloads": {
+        "total": 28,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -5118,10 +5927,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 1426,
-        "recent": 41,
+        "total": 1434,
+        "recent": 49,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -5163,10 +5972,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 10293,
-        "recent": 272,
+        "total": 10347,
+        "recent": 326,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -5213,10 +6022,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 9198,
-        "recent": 1075,
+        "total": 9331,
+        "recent": 1208,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -5265,10 +6074,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 60441,
-        "recent": 4248,
+        "total": 61085,
+        "recent": 4892,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     },
     {
@@ -5311,10 +6120,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 5370,
-        "recent": 503,
+        "total": 5452,
+        "recent": 585,
         "window_days": 2,
-        "as_of": "2026-08-20T18:44:19.859Z"
+        "as_of": "2026-08-21T01:28:00.546Z"
       }
     }
   ]
