@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-// Fold mods/ into the single file the site (and anything else) reads:
-// site/data/index.json, plus copies of each entry's description.md and
+// Fold mods/ and carts/ into the single file the site (and anything else)
+// reads: site/data/index.json, plus copies of each entry's description.md and
 // thumbnail so the published Pages site is self-contained.
 //
 //   node scripts/build-index.mjs                # metadata only
@@ -21,7 +21,13 @@
 import { copyFileSync, existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { checkModFolder, listModFolders, loadSchema } from './lib/index-rules.mjs';
+import {
+  checkCartFolder,
+  checkModFolder,
+  listEntryFolders,
+  loadCartSchema,
+  loadSchema,
+} from './lib/index-rules.mjs';
 import {
   downloadsStatePath,
   loadDownloads,
@@ -34,12 +40,13 @@ import {
 
 const repoRoot = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const modsDir = join(repoRoot, 'mods');
+const cartsDir = join(repoRoot, 'carts');
 const outDir = join(repoRoot, 'site', 'data');
 const withReleases = process.argv.includes('--releases');
 const token = process.env.GITHUB_TOKEN || '';
 
 const schema = loadSchema(repoRoot);
-const folders = listModFolders(modsDir);
+const cartSchema = loadCartSchema(repoRoot);
 const downloadsPath = downloadsStatePath(repoRoot);
 const downloads = loadDownloads(downloadsPath);
 const now = new Date().toISOString();
@@ -48,83 +55,99 @@ const now = new Date().toISOString();
 // CI uses. Copying beats a second implementation drifting out of step.
 mkdirSync(outDir, { recursive: true });
 copyFileSync(join(repoRoot, 'schema', 'mod.schema.json'), join(outDir, 'mod.schema.json'));
+copyFileSync(join(repoRoot, 'schema', 'cart.schema.json'), join(outDir, 'cart.schema.json'));
 copyFileSync(join(repoRoot, 'scripts', 'lib', 'jsonschema.mjs'), join(repoRoot, 'site', 'assets', 'jsonschema.js'));
 
-rmSync(join(outDir, 'mods'), { recursive: true, force: true });
-mkdirSync(join(outDir, 'mods'), { recursive: true });
-
-const mods = [];
-for (const folder of folders) {
-  const dir = join(modsDir, folder);
-  const { meta, errors } = checkModFolder(dir, folder, schema);
-  if (!meta || errors.length) {
-    console.error(`skipping ${folder}: ${errors[0] ?? 'unreadable meta.json'}`);
-    continue;
-  }
-
-  const destDir = join(outDir, 'mods', folder);
-  mkdirSync(destDir, { recursive: true });
-  copyFileSync(join(dir, 'description.md'), join(destDir, 'description.md'));
-
-  let thumbnail = null;
-  for (const name of ['thumbnail.png', 'thumbnail.jpg']) {
-    if (existsSync(join(dir, name))) {
-      copyFileSync(join(dir, name), join(destDir, name));
-      thumbnail = `data/mods/${folder}/${name}`;
-      break;
-    }
-  }
-
-  const description = readFileSync(join(dir, 'description.md'), 'utf8');
-  mods.push({
-    folder,
-    ...meta,
-    thumbnail,
-    description_url: `data/mods/${folder}/description.md`,
-    summary: meta.summary || firstLine(description),
-    latest: null,
-    update_check: meta.github && meta.automatic_version_check !== false ? 'pending' : 'off',
-    downloads: null,
-  });
-}
+const mods = collect(modsDir, 'mods', schema, checkModFolder);
+const carts = collect(cartsDir, 'carts', cartSchema, checkCartFolder);
+const everything = [...mods, ...carts];
 
 if (withReleases) {
-  for (const mod of mods) {
-    if (mod.update_check !== 'pending') continue;
+  for (const entry of everything) {
+    if (entry.update_check !== 'pending') continue;
     try {
-      const releases = await fetchReleases(mod.github);
-      mod.latest = pickRelease(releases, mod);
-      mod.update_check = mod.latest ? 'ok' : 'no installable release';
-      record(downloads, mod.folder, zipDownloadsByTag(releases), now);
+      const releases = await fetchReleases(entry.github);
+      entry.latest = pickRelease(releases, entry);
+      entry.update_check = entry.latest ? 'ok' : 'no installable release';
+      record(downloads, entry.downloads_key, zipDownloadsByTag(releases), now);
     } catch (err) {
-      mod.update_check = `error: ${err.message}`;
-      console.error(`${mod.folder}: ${err.message}`);
+      entry.update_check = `error: ${err.message}`;
+      console.error(`${entry.folder}: ${err.message}`);
     }
   }
-  pruneDownloads(downloads, mods.map((mod) => mod.folder));
+  pruneDownloads(downloads, everything.map((entry) => entry.downloads_key));
   saveDownloads(downloadsPath, downloads);
 }
 
-for (const mod of mods) {
-  mod.downloads = summarize(downloads.mods[mod.folder], now);
+for (const entry of everything) {
+  entry.downloads = summarize(downloads.mods[entry.downloads_key], now);
+  delete entry.downloads_key;
 }
 
 mods.sort((a, b) => a.title.localeCompare(b.title));
+carts.sort((a, b) => a.title.localeCompare(b.title));
 
 const index = {
   // Bump when the shape changes in a way a consumer has to notice.
   schema_version: 1,
   generated_at: now,
   count: mods.length,
+  cart_count: carts.length,
   categories: schema.properties.categories.items.enum,
+  base_games: cartSchema.properties.base.enum,
   mods,
+  carts,
 };
 
 mkdirSync(outDir, { recursive: true });
 writeFileSync(join(outDir, 'index.json'), `${JSON.stringify(index, null, 2)}\n`);
-console.log(`wrote site/data/index.json — ${mods.length} mod(s)${withReleases ? ', releases refreshed' : ''}`);
+console.log(
+  `wrote site/data/index.json — ${mods.length} mod(s), ${carts.length} cart(s)${withReleases ? ', releases refreshed' : ''}`,
+);
 
 // ---------------------------------------------------------------- helpers
+
+function collect(dir, root, entrySchema, check) {
+  rmSync(join(outDir, root), { recursive: true, force: true });
+  mkdirSync(join(outDir, root), { recursive: true });
+
+  const rows = [];
+  for (const folder of listEntryFolders(dir)) {
+    const from = join(dir, folder);
+    const { meta, errors } = check(from, folder, entrySchema);
+    if (!meta || errors.length) {
+      console.error(`skipping ${folder}: ${errors[0] ?? 'unreadable meta.json'}`);
+      continue;
+    }
+
+    const destDir = join(outDir, root, folder);
+    mkdirSync(destDir, { recursive: true });
+    copyFileSync(join(from, 'description.md'), join(destDir, 'description.md'));
+
+    let thumbnail = null;
+    for (const name of ['thumbnail.png', 'thumbnail.jpg']) {
+      if (existsSync(join(from, name))) {
+        copyFileSync(join(from, name), join(destDir, name));
+        thumbnail = `data/${root}/${folder}/${name}`;
+        break;
+      }
+    }
+
+    const description = readFileSync(join(from, 'description.md'), 'utf8');
+    rows.push({
+      folder,
+      ...meta,
+      thumbnail,
+      description_url: `data/${root}/${folder}/description.md`,
+      summary: meta.summary || firstLine(description),
+      latest: null,
+      update_check: meta.github && meta.automatic_version_check !== false ? 'pending' : 'off',
+      downloads: null,
+      downloads_key: root === 'mods' ? folder : `${root}/${folder}`,
+    });
+  }
+  return rows;
+}
 
 function firstLine(markdown) {
   for (const raw of markdown.split('\n')) {

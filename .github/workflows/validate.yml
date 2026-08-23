@@ -33,13 +33,13 @@ jobs:
             git fetch --no-tags origin "${{ github.base_ref }}"
             files=$(git diff --name-only "$base"...HEAD)
           else
-            files=$(git ls-files 'mods/*')
+            files=$(git ls-files 'mods/*' 'carts/*')
           fi
-          # Keep only real entry directories — stray files directly under mods/
-          # (and folders deleted by the diff) are not entries.
-          folders=$(printf '%s\n' "$files" | grep '^mods/' | cut -d/ -f1,2 | sort -u \
+          # Keep only real entry directories — stray files directly under
+          # mods/ or carts/ (and folders deleted by the diff) are not entries.
+          folders=$(printf '%s\n' "$files" | grep -E '^(mods|carts)/' | cut -d/ -f1,2 | sort -u \
             | while read -r f; do [ -d "$f" ] && printf '%s\n' "$f"; done | tr '\n' ' ')
-          outside=$(printf '%s\n' "$files" | grep -v '^mods/' | grep -v '^$' || true)
+          outside=$(printf '%s\n' "$files" | grep -vE '^(mods|carts)/' | grep -v '^$' || true)
           echo "folders=$folders" >> "$GITHUB_OUTPUT"
           {
             echo "### Changed entries"

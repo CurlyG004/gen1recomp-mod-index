@@ -38,8 +38,8 @@ jobs:
             echo '### index.json'
             echo
             node -e "const i=require('./site/data/index.json');
-              console.log('- ' + i.count + ' mod(s), generated ' + i.generated_at);
-              for (const m of i.mods) console.log('- \`' + m.folder + '\` ' + (m.latest ? m.latest.version + ' (' + m.update_check + ')' : m.update_check));"
+              console.log('- ' + i.count + ' mod(s), ' + i.cart_count + ' cart(s), generated ' + i.generated_at);
+              for (const m of [...i.mods, ...i.carts]) console.log('- \`' + m.folder + '\` ' + (m.latest ? m.latest.version + ' (' + m.update_check + ')' : m.update_check));"
           } >> "$GITHUB_STEP_SUMMARY"
 
       - uses: actions/configure-pages@v5

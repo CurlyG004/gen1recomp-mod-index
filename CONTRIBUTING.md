@@ -1,4 +1,4 @@
-# Submitting a mod
+# Submitting to the index
 
 ## The easy way
 
@@ -30,6 +30,51 @@ and edit it, then check your work:
 ```sh
 node scripts/validate.mjs mods/YourName@your_mod
 ```
+
+## Submitting a cart
+
+A custom cart is a version-pinned mod setup that plays as its own game. It
+ships no code: the bundle is a manifest plus label art, and every mod on it is
+published separately. The listing is the same three files, one folder deeper
+in a different root:
+
+```
+carts/<Author>@<cart id>/
+  meta.json
+  description.md
+  thumbnail.png      (optional; or .jpg, 2 MB max, doubles as the label preview)
+```
+
+Copy [`examples/YourName@example_cart/`](examples/YourName@example_cart), then:
+
+```sh
+node scripts/validate.mjs carts/YourName@your_cart
+```
+
+The submission helper only knows the mod form, so a cart goes in by hand.
+Everything else is identical: same folder rules, same duplicate and blocklist
+checks, same nightly release tracking, one entry in the same `data/index.json`.
+
+`base`, `seal`, `mods` and `load_order` are the same names and shapes your
+bundle's `cart.json` already uses, so paste that file in and add `title`,
+`author`, `repo` and the rest around it. Beyond the mod rules, a cart entry has
+to hold:
+
+- `base` is one of red, blue, yellow, gold, silver; `seal` is `sealed` (the
+  engine loads this list and nothing else) or `open` (the player may add more).
+- Every row of `mods` names one exact build, flat: `"source": "github"` needs
+  `repo`, `version` and the zip's `sha256`; `"source": "gamebanana"` needs
+  `mod`, `file` and the `md5` GameBanana reports. There is no third kind, and a
+  pin with no source is refused by the schema, not by review.
+- `options` on a pin is the author's frozen option values, exactly as the cart
+  loads them.
+- `load_order`, if present, names exactly the ids in `mods` and nothing else.
+- The bundle contains no `.lua`. CI reads the zip and fails on any.
+
+Pin builds that are already public. CI resolves every pin: a GitHub pin needs a
+release under `<version>` or `v<version>`, and a GameBanana pin has to still
+carry that `file` under that `md5`. Credit every mod author in
+`description.md`; a cart is other people's work arranged.
 
 ## Before you submit
 
@@ -75,6 +120,9 @@ worker runs in its own Lua state and a test runs on your machine, so neither
 passes through the sandbox. The contents of `[[ long strings ]]` are skipped
 for the same reason: that is how worker source travels.
 
+For a cart bundle the policy is one line: any `.lua` fails. A cart is a
+manifest and label art, so there is no code for a sandbox to judge.
+
 The scan runs on your pull request **and again every time the index picks up a
 new release of your mod**. A version that does not pass is held: the index goes
 on serving the last release that did, and an issue is opened here. Merging is
@@ -84,7 +132,9 @@ not a permanent pass.
 
 A job runs every six hours and probes every entry: the `github` repo has to
 resolve, and a `downloadURL` has to answer with something that is not a 404
-and not an HTML page.
+and not an HTML page. A cart is probed on its own bundle only: a pin that
+rots is somebody else's repo, so it fails your pull request but never strikes
+a listing that already merged.
 
 An entry that fails takes a strike. Four consecutive strikes — a full day of
 staying broken — and the folder is deleted and the removal is recorded in an
@@ -114,11 +164,15 @@ checks the parts a machine cannot:
 - declared permissions match what the code does
 - nothing distributed is ROM-derived
 - the mod is presented as its author's own work, not as an official product
+- for a cart: the pinned list is what the description says it is, and every mod
+  on it is credited
 
 ## House rules
 
-- One entry per mod. Reuploads of someone else's work get closed — link to the
-  original instead.
+- One entry per mod, one per cart. Reuploads of someone else's work get closed
+  — link to the original instead.
+- A cart may pin any published mod, but it does not republish one: pin the
+  author's build, do not mirror it.
 - Name and present your mod as yours. No official branding.
 - Descriptions are rendered as markdown with HTML stripped. Do not bother with
   script tags.

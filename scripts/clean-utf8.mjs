@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Remove bytes that are not valid UTF-8 from the text files of index entries.
 //
-//   node scripts/clean-utf8.mjs             report every mods/ entry, fix nothing
+//   node scripts/clean-utf8.mjs             report every mods/ and carts/ entry, fix nothing
 //   node scripts/clean-utf8.mjs --write     rewrite offending files in place
 //   node scripts/clean-utf8.mjs mods/You@my_mod [--write]   one entry
 //
@@ -10,14 +10,14 @@
 // never gains U+FFFD replacement characters. Exit code is the number of files
 // that contained invalid bytes (0 = already clean), so CI can gate on it.
 
-import { readdirSync, readFileSync, writeFileSync, statSync } from 'node:fs';
+import { existsSync, readdirSync, readFileSync, writeFileSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 
 const args = process.argv.slice(2);
 const write = args.includes('--write');
 const targets = args.filter((a) => a !== '--write');
 
-const roots = targets.length ? targets : ['mods'];
+const roots = (targets.length ? targets : ['mods', 'carts']).filter((r) => existsSync(r));
 const files = [];
 const pushEntryFiles = (dir) => {
   for (const name of ['meta.json', 'description.md']) {

@@ -1,0 +1,37 @@
+{
+  "id": "example_cart",
+  "title": "Example Cart",
+  "author": "YourName",
+  "summary": "A template cart entry - copy this folder, rename it, and edit every field.",
+  "version": "1.0.0",
+  "base": "red",
+  "seal": "sealed",
+  "shell": "#B3181C",
+  "tags": ["template"],
+  "repo": "https://github.com/yourname/example_cart",
+  "github": "yourname/example_cart",
+  "automatic_version_check": true,
+  "game_version": ">=0.9",
+  "mods": [
+    {
+      "id": "example_mod",
+      "source": "github",
+      "repo": "yourname/example_mod",
+      "version": "1.2.0",
+      "sha256": "80b43ca703c8f27dda75c01b898739950227502977bdf770898d6de2eb03a99b",
+      "options": {
+        "difficulty": "hard",
+        "show_ivs": true
+      }
+    },
+    {
+      "id": "example_sprites",
+      "source": "gamebanana",
+      "mod": 512345,
+      "file": 987654,
+      "md5": "1c1ac7f4bcd0c9125b185204a2739676"
+    }
+  ],
+  "load_order": ["example_sprites", "example_mod"],
+  "license": "MIT"
+}

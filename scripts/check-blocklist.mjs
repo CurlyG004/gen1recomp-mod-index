@@ -5,12 +5,11 @@
 //   node scripts/check-blocklist.mjs [mods/Author@id ...]   # default: all
 
 import { existsSync, readFileSync } from 'node:fs';
-import { basename, dirname, join, resolve } from 'node:path';
+import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { listModFolders } from './lib/index-rules.mjs';
+import { listEntryFolders } from './lib/index-rules.mjs';
 
 const repoRoot = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-const modsDir = join(repoRoot, 'mods');
 const listPath = join(repoRoot, 'blocklist.json');
 
 if (!existsSync(listPath)) {
@@ -23,12 +22,13 @@ const repos = new Map(Object.entries(blocklist.repos || {}).map(([k, v]) => [k.t
 
 const targets = process.argv.slice(2).filter((a) => !a.startsWith('--'));
 const folders = targets.length
-  ? targets.map((t) => basename(t.replace(/\/+$/, ''))).filter((f) => existsSync(join(modsDir, f)))
-  : listModFolders(modsDir);
+  ? targets.map((t) => t.replace(/\/+$/, '')).filter((f) => existsSync(join(repoRoot, f)))
+  : ['mods', 'carts'].flatMap((root) => listEntryFolders(join(repoRoot, root)).map((f) => `${root}/${f}`));
 
 let blocked = 0;
-for (const folder of folders) {
-  const metaPath = join(modsDir, folder, 'meta.json');
+for (const path of folders) {
+  const folder = path.split('/').pop();
+  const metaPath = join(repoRoot, path, 'meta.json');
   let meta = {};
   if (existsSync(metaPath)) {
     try {
@@ -40,13 +40,13 @@ for (const folder of folders) {
 
   const repoHit = meta.github && repos.get(meta.github.toLowerCase());
   if (repoHit) {
-    fail(folder, `repo "${meta.github}" is blocklisted since ${repoHit.since}: ${repoHit.reason}`);
+    fail(path, `repo "${meta.github}" is blocklisted since ${repoHit.since}: ${repoHit.reason}`);
     continue;
   }
   for (const name of [folder.split('@')[0], meta.author, (meta.github || '').split('/')[0]]) {
     const hit = name && authors.get(slug(name));
     if (hit) {
-      fail(folder, `author "${name}" is blocklisted since ${hit.since}: ${hit.reason}`);
+      fail(path, `author "${name}" is blocklisted since ${hit.since}: ${hit.reason}`);
       break;
     }
   }
@@ -55,9 +55,9 @@ for (const folder of folders) {
 console.log(blocked ? `\n${blocked} blocklisted entr${blocked === 1 ? 'y' : 'ies'}.` : `\nNo blocklisted entries (${folders.length} checked).`);
 process.exit(blocked ? 1 : 0);
 
-function fail(folder, message) {
+function fail(path, message) {
   blocked += 1;
-  console.log(`BLOCKED  ${folder}: ${message}`);
+  console.log(`BLOCKED  ${path}: ${message}`);
 }
 
 function slug(s) {

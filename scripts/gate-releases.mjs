@@ -7,7 +7,8 @@
 // entry merged clean can tag a hostile version an hour later and the six-hourly
 // refresh would publish it unattended. Every version is scanned once, on the
 // way in, and a version that reaches past the sandbox is held: the index keeps
-// serving the last cleared release instead.
+// serving the last cleared release instead. A cart bundle is a manifest and
+// label art, so for a cart the bar is any Lua at all.
 //
 // Env: GITHUB_TOKEN, GATE_STATE (default .health/scanned.json)
 
@@ -29,44 +30,52 @@ const held = [];
 const cleared = [];
 const skipped = [];
 
-for (const mod of index.mods) {
+const entries = [
+  ...index.mods.map((mod) => ({ mod, key: mod.folder })),
+  ...(index.carts ?? []).map((mod) => ({ mod, key: `carts/${mod.folder}`, cart: true })),
+];
+
+for (const { mod, key, cart } of entries) {
   const version = mod.latest?.version;
   const url = mod.latest?.zip?.url;
   if (!version || !url) continue;
-  if (state.cleared[mod.folder] === version) continue;
+  if (state.cleared[key] === version) continue;
 
-  if (state.held[mod.folder]?.version === version) {
-    holdBack(mod, state.held[mod.folder].reason);
+  if (state.held[key]?.version === version) {
+    holdBack(mod, key, state.held[key].reason);
     continue;
   }
 
   let result;
   try {
     const files = await luaFilesIn(url);
-    result = scanFiles(files, mod.permissions || []);
+    result = cart
+      ? { errors: files.map((f) => ({ name: f.name, line: 1, message: 'a cart bundle ships no code' })), warnings: [] }
+      : scanFiles(files, mod.permissions || []);
   } catch (err) {
-    skipped.push({ folder: mod.folder, version, message: err.message });
+    skipped.push({ folder: key, version, message: err.message });
     continue;
   }
 
   if (result.errors.length) {
     const reason = result.errors.map((e) => `${e.name}:${e.line} ${e.message}`).join('; ');
-    state.held[mod.folder] = { version, reason, at: new Date().toISOString() };
-    delete state.cleared[mod.folder];
-    holdBack(mod, reason);
-    held.push({ folder: mod.folder, version, errors: result.errors });
+    state.held[key] = { version, reason, at: new Date().toISOString() };
+    delete state.cleared[key];
+    holdBack(mod, key, reason);
+    held.push({ folder: key, version, errors: result.errors });
   } else {
-    state.cleared[mod.folder] = version;
-    delete state.held[mod.folder];
-    cleared.push({ folder: mod.folder, version, warnings: result.warnings });
+    state.cleared[key] = version;
+    delete state.held[key];
+    cleared.push({ folder: key, version, warnings: result.warnings });
   }
 }
 
-for (const folder of Object.keys(state.cleared)) {
-  if (!index.mods.some((m) => m.folder === folder)) delete state.cleared[folder];
+const listed = new Set(entries.map((e) => e.key));
+for (const key of Object.keys(state.cleared)) {
+  if (!listed.has(key)) delete state.cleared[key];
 }
-for (const folder of Object.keys(state.held)) {
-  if (!index.mods.some((m) => m.folder === folder)) delete state.held[folder];
+for (const key of Object.keys(state.held)) {
+  if (!listed.has(key)) delete state.held[key];
 }
 
 writeFileSync(indexPath, `${JSON.stringify(index, null, 2)}\n`);
@@ -96,9 +105,9 @@ for (const h of held) {
 // Publish the last release this gate cleared rather than the new one. With no
 // cleared release to fall back to, the entry stays listed but uninstallable --
 // a listing nobody can install beats one that installs something hostile.
-function holdBack(mod, reason) {
-  const before = previous.get(mod.folder);
-  const fallback = before?.latest && before.latest.version === state.cleared[mod.folder]
+function holdBack(mod, key, reason) {
+  const before = previous.get(key);
+  const fallback = before?.latest && before.latest.version === state.cleared[key]
     ? before.latest
     : null;
   mod.latest = fallback;
@@ -113,7 +122,9 @@ function loadPrevious() {
       encoding: 'utf8',
       maxBuffer: 64 * 1024 * 1024,
     });
-    for (const mod of JSON.parse(text).mods || []) map.set(mod.folder, mod);
+    const doc = JSON.parse(text);
+    for (const mod of doc.mods || []) map.set(mod.folder, mod);
+    for (const cart of doc.carts || []) map.set(`carts/${cart.folder}`, cart);
   } catch {
     // no committed index yet
   }
