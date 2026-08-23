@@ -1,0 +1,16 @@
+{
+  "id": "FAST_NURSE_JOY",
+  "title": "Fast Nurse Joy",
+  "author": "duderosier",
+  "version": "0.2.19",
+  "categories": [
+    "QOL"
+  ],
+  "repo": "https://github.com/duderosier/fast-nurse-joy",
+  "github": "duderosier/fast-nurse-joy",
+  "downloadURL": "https://github.com/duderosier/fast-nurse-joy/releases/download/v0.2.19/FAST_NURSE_JOY-0_2_19.zip",
+  "game_version": "v0.2.15+",
+  "license": "MIT",
+  "api": 2,
+  "profile": "content"
+}
