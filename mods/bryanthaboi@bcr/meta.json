@@ -1,0 +1,14 @@
+{
+  "id": "bcr",
+  "title": "Bois Club Randomizer",
+  "author": "bryanthaboi",
+  "summary": "Seeded Red/Blue randomizer: wild species at vanilla levels, ground items, shop stock, wild movesets, the three starters, paired two-way warps and map music.",
+  "version": "1.0.0",
+  "categories": ["GAMEPLAY"],
+  "tags": ["randomizer", "seeded", "challenge"],
+  "repo": "https://github.com/bryanthaboi/bcr",
+  "github": "bryanthaboi/bcr",
+  "automatic_version_check": true,
+  "api": 2,
+  "license": "MIT"
+}

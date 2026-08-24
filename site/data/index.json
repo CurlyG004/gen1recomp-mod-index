@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-24T01:14:24.161Z",
-  "count": 128,
-  "cart_count": 0,
+  "generated_at": "2026-08-24T01:22:17.148Z",
+  "count": 129,
+  "cart_count": 1,
   "categories": [
     "GAMEPLAY",
     "CONTENT",
@@ -512,6 +512,32 @@
         "window_days": 5,
         "as_of": "2026-08-23T18:33:59.026Z"
       }
+    },
+    {
+      "folder": "bryanthaboi@bcr",
+      "id": "bcr",
+      "title": "Bois Club Randomizer",
+      "author": "bryanthaboi",
+      "summary": "Seeded Red/Blue randomizer: wild species at vanilla levels, ground items, shop stock, wild movesets, the three starters, paired two-way warps and map music.",
+      "version": "1.0.0",
+      "categories": [
+        "GAMEPLAY"
+      ],
+      "tags": [
+        "randomizer",
+        "seeded",
+        "challenge"
+      ],
+      "repo": "https://github.com/bryanthaboi/bcr",
+      "github": "bryanthaboi/bcr",
+      "automatic_version_check": true,
+      "api": 2,
+      "license": "MIT",
+      "thumbnail": null,
+      "description_url": "data/mods/bryanthaboi@bcr/description.md",
+      "latest": null,
+      "update_check": "pending",
+      "downloads": null
     },
     {
       "folder": "bryanthaboi@bookers_heaven",
@@ -4782,5 +4808,48 @@
       }
     }
   ],
-  "carts": []
+  "carts": [
+    {
+      "folder": "bryanthaboi@omega_random_competition",
+      "id": "omega_random_competition",
+      "title": "OMEGA RANDOM COMPETITION",
+      "author": "bryanthaboi",
+      "summary": "Bois Club Randomizer as its own cartridge. One seed from your name and the clock, paired warps, and a speed ladder pinned to 1x or 2x.",
+      "version": "1.0.0",
+      "base": "red",
+      "seal": "sealed",
+      "shell": "#7B1B22",
+      "finish": "holo",
+      "speeds": [
+        1,
+        2
+      ],
+      "tags": [
+        "randomizer",
+        "competition",
+        "seeded"
+      ],
+      "repo": "https://github.com/bryanthaboi/bcr",
+      "github": "bryanthaboi/bcr",
+      "automatic_version_check": true,
+      "mods": [
+        {
+          "id": "bcr",
+          "source": "github",
+          "repo": "bryanthaboi/bcr",
+          "version": "1.0.0",
+          "sha256": "83a111b49c4e8c4fd4d6886d60a673372cb9e9d334e091360048587da23938f0"
+        }
+      ],
+      "load_order": [
+        "bcr"
+      ],
+      "license": "MIT",
+      "thumbnail": null,
+      "description_url": "data/carts/bryanthaboi@omega_random_competition/description.md",
+      "latest": null,
+      "update_check": "pending",
+      "downloads": null
+    }
+  ]
 }
