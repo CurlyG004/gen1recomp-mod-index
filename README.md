@@ -13,9 +13,9 @@ the same feed as mods.
 
 - **Submit a mod:** the [submission helper](https://bryanthaboi.github.io/gen1recomp-mod-index/)
   fills in the form for you and opens the pull request.
-- **Submit a cart:** by hand for now. Copy
-  [`examples/YourName@example_cart/`](examples/YourName@example_cart) into
-  `carts/`. The helper only knows the mod form.
+- **Submit a cart:** the same helper, **Carts** tab. It takes the pin list row
+  by row, or straight out of the bundle's `cart.json`. By hand, copy
+  [`examples/YourName@example_cart/`](examples/YourName@example_cart) into `carts/`.
 - **Consume the index:** `data/index.json`, published on every push and
   refreshed nightly (see [The feed](#the-feed)).
 - **See one done:** [#1, adding Nuzlocke](https://github.com/bryanthaboi/gen1recomp-mod-index/pull/1)

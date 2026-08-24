@@ -377,6 +377,59 @@ dialog.detail .framed {
   height: 1.1em;
 }
 
+.form-kind {
+  display: contents;
+}
+
+.pin {
+  border: 3px solid var(--contrast);
+  padding: 0.75em 1em 0;
+  margin-bottom: 1em;
+}
+
+.pin-head {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  align-items: center;
+  margin-bottom: 0.75em;
+}
+
+.pin-head .label {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 0.85em;
+}
+
+.pin-head select {
+  font-family: inherit;
+  font-size: 0.85em;
+  color: var(--contrast);
+  background: #fff;
+  border: 2px solid var(--contrast);
+  padding: 0.2em 0.3em;
+}
+
+.pin-head .spacer {
+  flex: 1;
+}
+
+.raw-json {
+  margin-top: 1em;
+  font-size: 0.9em;
+}
+
+.raw-json summary {
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 0.85em;
+}
+
+.raw-json textarea {
+  font-family: ui-monospace, 'SFMono-Regular', monospace;
+  font-size: 0.85em;
+}
+
 .dropzone {
   display: grid;
   place-items: center;

@@ -168,11 +168,11 @@ export const gh = {
     });
   },
 
-  // Does mods/<folder>/ already exist upstream? Decides "add" vs "update"
+  // Does <root>/<folder>/ already exist upstream? Decides "add" vs "update"
   // wording, and warns before someone overwrites another author's entry.
-  async folderExists(folder) {
+  async folderExists(root, folder) {
     try {
-      await api(`/repos/${CONFIG.owner}/${CONFIG.repo}/contents/mods/${encodeURIComponent(folder)}`);
+      await api(`/repos/${CONFIG.owner}/${CONFIG.repo}/contents/${root}/${encodeURIComponent(folder)}`);
       return true;
     } catch (err) {
       if (err.status === 404) return false;

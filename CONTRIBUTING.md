@@ -3,10 +3,11 @@
 ## The easy way
 
 Open the [submission helper](https://bryanthaboi.github.io/gen1recomp-mod-index/),
-fill in the form, sign in with GitHub, press **Open pull request**. The page
-forks this repo to your account, commits `mods/<Author>@<id>/`, and opens the
-PR. It validates against the same schema CI does, so if the form is happy the
-build usually is too.
+pick **Mods** or **Carts**, fill in the form, sign in with GitHub, press **Open
+pull request**. The page forks this repo to your account, commits
+`mods/<Author>@<id>/` or `carts/<Author>@<id>/`, and opens the PR. It validates
+against the same schema CI does, so if the form is happy the build usually is
+too.
 
 No account, or you would rather not hand a token to a web page? The same page's
 **Submit by hand** button gives you prefilled github.com links, and the layout
@@ -51,8 +52,8 @@ Copy [`examples/YourName@example_cart/`](examples/YourName@example_cart), then:
 node scripts/validate.mjs carts/YourName@your_cart
 ```
 
-The submission helper only knows the mod form, so a cart goes in by hand.
-Everything else is identical: same folder rules, same duplicate and blocklist
+The submission helper's **Carts** tab builds all of this for you, pin list and
+all. Everything else is identical: same folder rules, same duplicate and blocklist
 checks, same nightly release tracking, one entry in the same `data/index.json`.
 
 `base`, `seal`, `mods` and `load_order` are the same names and shapes your

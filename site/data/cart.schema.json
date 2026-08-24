@@ -190,6 +190,10 @@
             "pattern": "^[0-9a-f]{32}$",
             "description": "gamebanana: digest GameBanana reports for that file."
           },
+          "enabled": {
+            "type": "boolean",
+            "description": "Ship this mod pinned but switched off. Absent means on. Pair it with the sealed+ seal so the player can switch it on and get your settings."
+          },
           "options": {
             "type": "object",
             "description": "The mod's option values, frozen as the cart author set them."

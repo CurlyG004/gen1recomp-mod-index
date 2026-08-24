@@ -31,6 +31,23 @@
         </ul>
       </nav>
 
+      <!-- ------------------------------------------------------------ kind -->
+      <section class="framed neutral" id="kind-panel">
+        <h2>Submission type</h2>
+        <div class="actions" style="margin-top: 0" role="group" aria-label="Submission type">
+          <button id="tab-mods" aria-pressed="true">Mods</button>
+          <button id="tab-carts" aria-pressed="false">Carts</button>
+        </div>
+        <p class="message" id="mod-note">
+          <span>A mod</span> is one folder under <code>mods/</code>, carrying the same fields your
+          <code>manifest.json</code> declares.
+        </p>
+        <p class="message" id="cart-note" hidden>
+          <span>A cart</span> is one folder under <code>carts/</code>. It ships no code: it names a base game and pins
+          published mods to exact builds, so every mod on it stays its own entry.
+        </p>
+      </section>
+
       <!-- ------------------------------------------------------------ auth -->
       <section class="framed neutral" id="auth-panel">
         <h2>1 &middot; GitHub</h2>
@@ -57,7 +74,7 @@
       <main class="split">
         <!-- ------------------------------------------------------ description -->
         <section class="framed neutral">
-          <h2>2 &middot; Description</h2>
+          <h2>2 &middot; Description and thumbnail</h2>
           <div class="actions" style="margin-bottom: 0.5em">
             <button id="tab-edit" aria-pressed="true">Edit</button>
             <button id="tab-preview" aria-pressed="false">Preview</button>
@@ -72,11 +89,6 @@
             <span class="hint">Becomes <code>description.md</code>. Required. Keep it under 64 KB.</span>
           </div>
           <div class="detail-body" id="preview" hidden></div>
-        </section>
-
-        <!-- --------------------------------------------------------- metadata -->
-        <section class="framed neutral">
-          <h2>3 &middot; Core metadata</h2>
 
           <div class="field">
             <span class="label">Thumbnail <span class="optional">optional</span></span>
@@ -90,157 +102,331 @@
             </div>
             <span class="hint" id="thumb-hint">PNG or JPEG, 2 MB max. 16:9 reads best on a card — 1920×1080 or smaller.</span>
           </div>
-
-          <div class="two-col">
-            <label class="field">
-              <span class="label">Title <span class="required">required</span></span>
-              <input id="title" type="text" data-required />
-              <span class="hint">Display name in the index.</span>
-            </label>
-            <label class="field">
-              <span class="label">Author <span class="required">required</span></span>
-              <input id="author" type="text" data-required />
-              <span class="hint">Creator or maintainer shown to players.</span>
-            </label>
-            <label class="field">
-              <span class="label">Mod id <span class="required">required</span></span>
-              <input id="id" type="text" data-required placeholder="my_mod" />
-              <span class="hint">Exactly the <code>id</code> in your <code>manifest.json</code>.</span>
-            </label>
-            <label class="field">
-              <span class="label">Version <span class="required">required</span></span>
-              <input id="version" type="text" data-required placeholder="1.0.0" />
-              <span class="hint">Semver of the release this entry describes.</span>
-            </label>
-          </div>
-
-          <label class="field">
-            <span class="label">Summary <span class="optional">optional</span></span>
-            <input id="summary" type="text" maxlength="200" />
-            <span class="hint">One line for the card. Falls back to the first line of your description.</span>
-          </label>
-
-          <div class="field">
-            <span class="label">Categories <span class="required">required</span></span>
-            <div class="checkgrid" id="categories"></div>
-            <span class="hint">Pick up to four.</span>
-          </div>
-
-          <label class="field">
-            <span class="label">Tags <span class="optional">optional</span></span>
-            <input id="tags" type="text" placeholder="hard mode, sprites, qol" />
-            <span class="hint">Comma separated, lowercase, up to eight.</span>
-          </label>
-
-          <label class="field">
-            <span class="label">Submission path override <span class="optional">optional</span></span>
-            <input id="folder" type="text" placeholder="Author@modid" />
-            <span class="hint">
-              Only when the folder must differ from the generated name.<br />
-              Resolved folder: <code id="folder-resolved">mods/Author@modid/</code>
-            </span>
-          </label>
         </section>
 
-        <!-- ----------------------------------------------------- distribution -->
-        <section class="framed neutral">
-          <h2>4 &middot; Where it downloads from</h2>
-          <p class="message">
-            <span>Set github</span> and the launcher's <em>Update</em> and <em>Versions</em> buttons work: it reads that
-            repo's Releases and installs the newest <code>&lt;id&gt;-&lt;version&gt;.zip</code>. The index re-checks
-            nightly, so you do not open a PR per version bump.
-          </p>
+        <div class="form-kind" id="mod-form">
+          <!-- --------------------------------------------------------- metadata -->
+          <section class="framed neutral">
+            <h2>3 &middot; Core metadata</h2>
 
-          <label class="field">
-            <span class="label">Source repo URL <span class="required">required</span></span>
-            <input id="repo" type="url" data-required placeholder="https://github.com/you/my_mod" />
-          </label>
-
-          <label class="field">
-            <span class="label">GitHub owner/repo <span class="optional">recommended</span></span>
-            <input id="github" type="text" placeholder="you/my_mod" />
-            <span class="hint">The manifest's <code>github</code> field. Enables auto-update and version history.</span>
-          </label>
-
-          <label class="field">
-            <span class="label">Direct download URL <span class="optional">optional</span></span>
-            <input id="downloadURL" type="url" placeholder="https://github.com/you/my_mod/releases/latest/download/my_mod-1.0.0.zip" />
-            <span class="hint">
-              Required if you have no <code>github</code>. Must resolve straight to a .zip with the mod's files at the
-              archive root — not a release page.
-            </span>
-          </label>
-
-          <div class="checkgrid">
-            <label><input id="automatic_version_check" type="checkbox" checked /> Track new releases automatically</label>
-            <label><input id="experimental" type="checkbox" /> Marked experimental</label>
-          </div>
-
-          <label class="field" style="margin-top: 1em">
-            <span class="label">Pin to release tag <span class="optional">optional</span></span>
-            <input id="fixed_release_tag" type="text" placeholder="v1.2.0" />
-            <span class="hint">Index stays on this tag instead of following the newest release.</span>
-          </label>
-        </section>
-
-        <!-- -------------------------------------------------------- engine fit -->
-        <section class="framed neutral">
-          <h2>5 &middot; Engine fit</h2>
-          <div class="two-col">
-            <label class="field">
-              <span class="label">Mod API</span>
-              <select id="api">
-                <option value="2" selected>2 (current)</option>
-                <option value="1">1</option>
-              </select>
-            </label>
-            <label class="field">
-              <span class="label">Profile</span>
-              <select id="profile">
-                <option value="content" selected>content</option>
-                <option value="overhaul">overhaul</option>
-                <option value="total_conversion">total_conversion</option>
-              </select>
-            </label>
-            <label class="field">
-              <span class="label">Engine version range <span class="optional">optional</span></span>
-              <input id="game_version" type="text" placeholder=">=0.9" />
-            </label>
-            <label class="field">
-              <span class="label">License <span class="optional">optional</span></span>
-              <input id="license" type="text" placeholder="MIT" />
-            </label>
-          </div>
-
-          <div class="field">
-            <span class="label">Permissions declared</span>
-            <div class="checkgrid">
-              <label><input type="checkbox" class="perm" value="network" /> network</label>
-              <label><input type="checkbox" class="perm" value="filesystem" /> filesystem</label>
-              <label><input type="checkbox" class="perm" value="engine_internals" /> engine_internals</label>
+            <div class="two-col">
+              <label class="field">
+                <span class="label">Title <span class="required">required</span></span>
+                <input id="title" type="text" data-required />
+                <span class="hint">Display name in the index.</span>
+              </label>
+              <label class="field">
+                <span class="label">Author <span class="required">required</span></span>
+                <input id="author" type="text" data-required />
+                <span class="hint">Creator or maintainer shown to players.</span>
+              </label>
+              <label class="field">
+                <span class="label">Mod id <span class="required">required</span></span>
+                <input id="id" type="text" data-required placeholder="my_mod" />
+                <span class="hint">Exactly the <code>id</code> in your <code>manifest.json</code>.</span>
+              </label>
+              <label class="field">
+                <span class="label">Version <span class="required">required</span></span>
+                <input id="version" type="text" data-required placeholder="1.0.0" />
+                <span class="hint">Semver of the release this entry describes.</span>
+              </label>
             </div>
-            <span class="hint">Disclosure, not a sandbox — copy what your manifest declares.</span>
-          </div>
 
-          <div class="field">
-            <span class="label">Link play</span>
-            <div class="checkgrid">
-              <label><input id="affects_link" type="checkbox" /> Moves the link fingerprint</label>
+            <label class="field">
+              <span class="label">Summary <span class="optional">optional</span></span>
+              <input id="summary" type="text" maxlength="200" />
+              <span class="hint">One line for the card. Falls back to the first line of your description.</span>
+            </label>
+
+            <div class="field">
+              <span class="label">Categories <span class="required">required</span></span>
+              <div class="checkgrid" id="categories"></div>
+              <span class="hint">Pick up to four.</span>
             </div>
-            <span class="hint">Leave unchecked for a pure <code>content</code> mod. Overhauls and conversions normally check it.</span>
-          </div>
 
-          <div class="two-col">
             <label class="field">
-              <span class="label">Dependencies <span class="optional">optional</span></span>
-              <input id="dependencies" type="text" placeholder="some_lib, other@^1.2" />
+              <span class="label">Tags <span class="optional">optional</span></span>
+              <input id="tags" type="text" placeholder="hard mode, sprites, qol" />
+              <span class="hint">Comma separated, lowercase, up to eight.</span>
             </label>
+
             <label class="field">
-              <span class="label">Conflicts <span class="optional">optional</span></span>
-              <input id="conflicts" type="text" placeholder="rival_mod" />
+              <span class="label">Submission path override <span class="optional">optional</span></span>
+              <input id="folder" type="text" placeholder="Author@modid" />
+              <span class="hint">
+                Only when the folder must differ from the generated name.<br />
+                Resolved folder: <code id="folder-resolved">mods/Author@modid/</code>
+              </span>
             </label>
-          </div>
-        </section>
+          </section>
+
+          <!-- ----------------------------------------------------- distribution -->
+          <section class="framed neutral">
+            <h2>4 &middot; Where it downloads from</h2>
+            <p class="message">
+              <span>Set github</span> and the launcher's <em>Update</em> and <em>Versions</em> buttons work: it reads that
+              repo's Releases and installs the newest <code>&lt;id&gt;-&lt;version&gt;.zip</code>. The index re-checks
+              nightly, so you do not open a PR per version bump.
+            </p>
+
+            <label class="field">
+              <span class="label">Source repo URL <span class="required">required</span></span>
+              <input id="repo" type="url" data-required placeholder="https://github.com/you/my_mod" />
+            </label>
+
+            <label class="field">
+              <span class="label">GitHub owner/repo <span class="optional">recommended</span></span>
+              <input id="github" type="text" placeholder="you/my_mod" />
+              <span class="hint">The manifest's <code>github</code> field. Enables auto-update and version history.</span>
+            </label>
+
+            <label class="field">
+              <span class="label">Direct download URL <span class="optional">optional</span></span>
+              <input id="downloadURL" type="url" placeholder="https://github.com/you/my_mod/releases/latest/download/my_mod-1.0.0.zip" />
+              <span class="hint">
+                Required if you have no <code>github</code>. Must resolve straight to a .zip with the mod's files at the
+                archive root — not a release page.
+              </span>
+            </label>
+
+            <div class="checkgrid">
+              <label><input id="automatic_version_check" type="checkbox" checked /> Track new releases automatically</label>
+              <label><input id="experimental" type="checkbox" /> Marked experimental</label>
+            </div>
+
+            <label class="field" style="margin-top: 1em">
+              <span class="label">Pin to release tag <span class="optional">optional</span></span>
+              <input id="fixed_release_tag" type="text" placeholder="v1.2.0" />
+              <span class="hint">Index stays on this tag instead of following the newest release.</span>
+            </label>
+          </section>
+
+          <!-- -------------------------------------------------------- engine fit -->
+          <section class="framed neutral">
+            <h2>5 &middot; Engine fit</h2>
+            <div class="two-col">
+              <label class="field">
+                <span class="label">Mod API</span>
+                <select id="api">
+                  <option value="2" selected>2 (current)</option>
+                  <option value="1">1</option>
+                </select>
+              </label>
+              <label class="field">
+                <span class="label">Profile</span>
+                <select id="profile">
+                  <option value="content" selected>content</option>
+                  <option value="overhaul">overhaul</option>
+                  <option value="total_conversion">total_conversion</option>
+                </select>
+              </label>
+              <label class="field">
+                <span class="label">Engine version range <span class="optional">optional</span></span>
+                <input id="game_version" type="text" placeholder=">=0.9" />
+              </label>
+              <label class="field">
+                <span class="label">License <span class="optional">optional</span></span>
+                <input id="license" type="text" placeholder="MIT" />
+              </label>
+            </div>
+
+            <div class="field">
+              <span class="label">Permissions declared</span>
+              <div class="checkgrid">
+                <label><input type="checkbox" class="perm" value="network" /> network</label>
+                <label><input type="checkbox" class="perm" value="filesystem" /> filesystem</label>
+                <label><input type="checkbox" class="perm" value="engine_internals" /> engine_internals</label>
+              </div>
+              <span class="hint">Disclosure, not a sandbox — copy what your manifest declares.</span>
+            </div>
+
+            <div class="field">
+              <span class="label">Link play</span>
+              <div class="checkgrid">
+                <label><input id="affects_link" type="checkbox" /> Moves the link fingerprint</label>
+              </div>
+              <span class="hint">Leave unchecked for a pure <code>content</code> mod. Overhauls and conversions normally check it.</span>
+            </div>
+
+            <div class="two-col">
+              <label class="field">
+                <span class="label">Dependencies <span class="optional">optional</span></span>
+                <input id="dependencies" type="text" placeholder="some_lib, other@^1.2" />
+              </label>
+              <label class="field">
+                <span class="label">Conflicts <span class="optional">optional</span></span>
+                <input id="conflicts" type="text" placeholder="rival_mod" />
+              </label>
+            </div>
+          </section>
+        </div>
+
+        <div class="form-kind" id="cart-form" hidden>
+          <!-- ---------------------------------------------------- cart identity -->
+          <section class="framed neutral">
+            <h2>3 &middot; Cart identity</h2>
+
+            <div class="two-col">
+              <label class="field">
+                <span class="label">Title <span class="required">required</span></span>
+                <input id="cart-title" type="text" data-required />
+                <span class="hint">Name on the cartridge label.</span>
+              </label>
+              <label class="field">
+                <span class="label">Author <span class="required">required</span></span>
+                <input id="cart-author" type="text" data-required />
+                <span class="hint">Whoever arranged the cart, not the pinned mods' authors.</span>
+              </label>
+              <label class="field">
+                <span class="label">Cart id <span class="required">required</span></span>
+                <input id="cart-id" type="text" data-required placeholder="my_cart" />
+                <span class="hint">Exactly the <code>id</code> in the bundle's <code>cart.json</code>.</span>
+              </label>
+              <label class="field">
+                <span class="label">Version <span class="required">required</span></span>
+                <input id="cart-version" type="text" data-required placeholder="1.0.0" />
+                <span class="hint">Semver of the cart bundle this entry describes.</span>
+              </label>
+            </div>
+
+            <label class="field">
+              <span class="label">Summary <span class="optional">optional</span></span>
+              <input id="cart-summary" type="text" maxlength="200" />
+              <span class="hint">One line for the card. Falls back to the first line of your description.</span>
+            </label>
+
+            <div class="two-col">
+              <label class="field">
+                <span class="label">Base game <span class="required">required</span></span>
+                <select id="cart-base"></select>
+                <span class="hint">The game the cart plays as.</span>
+              </label>
+              <label class="field">
+                <span class="label">Seal <span class="required">required</span></span>
+                <select id="cart-seal"></select>
+                <span class="hint" id="cart-seal-hint"></span>
+              </label>
+              <label class="field">
+                <span class="label">Shell colour <span class="optional">optional</span></span>
+                <input id="cart-shell" type="text" placeholder="#B3181C" spellcheck="false" />
+                <span class="hint">Cartridge plastic, <code>#rrggbb</code>. The thumbnail is the label art.</span>
+              </label>
+              <label class="field">
+                <span class="label">Finish <span class="optional">optional</span></span>
+                <select id="cart-finish"></select>
+                <span class="hint" id="cart-finish-hint"></span>
+              </label>
+            </div>
+
+            <div class="field">
+              <span class="label">Game speeds <span class="optional">optional</span></span>
+              <div class="checkgrid" id="cart-speeds"></div>
+              <span class="hint">The only multipliers the cart permits. Tick one to pin the speed outright, none to allow all.</span>
+            </div>
+
+            <label class="field">
+              <span class="label">Tags <span class="optional">optional</span></span>
+              <input id="cart-tags" type="text" placeholder="randomizer, competition, seeded" />
+              <span class="hint">Comma separated, lowercase, up to eight.</span>
+            </label>
+
+            <label class="field">
+              <span class="label">Submission path override <span class="optional">optional</span></span>
+              <input id="cart-folder" type="text" placeholder="Author@cartid" />
+              <span class="hint">
+                Only when the folder must differ from the generated name.<br />
+                Resolved folder: <code id="cart-folder-resolved">carts/Author@cartid/</code>
+              </span>
+            </label>
+          </section>
+
+          <!-- -------------------------------------------------------- cart pins -->
+          <section class="framed neutral">
+            <h2>4 &middot; Pinned mods</h2>
+            <p class="message">
+              <span>A cart is the pin list.</span> Each row names one published build the engine can fetch on its own:
+              a GitHub release by <code>owner/repo</code>, version and zip <code>sha256</code>, or a GameBanana upload by
+              mod, file and <code>md5</code>. Pin builds that are already public -- CI resolves every one of them.
+            </p>
+
+            <div id="cart-pins"></div>
+
+            <div class="actions">
+              <button id="cart-pin-add" class="chip">Add a pin</button>
+            </div>
+
+            <div class="field" style="margin-top: 1em">
+              <span class="label">Load order</span>
+              <div class="checkgrid">
+                <label><input id="cart-load-order" type="checkbox" /> <span>Write <code>load_order</code> into the file</span></label>
+              </div>
+              <span class="hint">Rows load top to bottom either way. Tick this only to state the order in the file.</span>
+            </div>
+
+            <details class="raw-json">
+              <summary>Paste the bundle's pin list instead</summary>
+              <label class="field" style="margin-top: 0.75em">
+                <span class="visually-hidden">Pinned mods JSON</span>
+                <textarea id="cart-pins-json" spellcheck="false" placeholder='[{ "id": "bcr", "source": "github", "repo": "you/bcr", "version": "1.0.0", "sha256": "…" }]' style="min-height: 8em"></textarea>
+                <span class="hint">The <code>mods</code> array straight out of <code>cart.json</code>. Loading it replaces every row.</span>
+              </label>
+              <div class="actions" style="margin-top: 0">
+                <button id="cart-pins-load" class="chip">Load into rows</button>
+              </div>
+            </details>
+          </section>
+
+          <!-- ------------------------------------------------- cart distribution -->
+          <section class="framed neutral">
+            <h2>5 &middot; Where it downloads from</h2>
+            <p class="message">
+              <span>Set github</span> and the launcher tracks the bundle's Releases the same way it does a mod's, so a
+              version bump does not need a new pull request. The bundle itself is a manifest plus label art: any
+              <code>.lua</code> inside it fails CI.
+            </p>
+
+            <label class="field">
+              <span class="label">Source repo URL <span class="required">required</span></span>
+              <input id="cart-repo" type="url" data-required placeholder="https://github.com/you/my_cart" />
+            </label>
+
+            <label class="field">
+              <span class="label">GitHub owner/repo <span class="optional">recommended</span></span>
+              <input id="cart-github" type="text" placeholder="you/my_cart" />
+              <span class="hint">Enables auto-update and version history for the cart bundle.</span>
+            </label>
+
+            <label class="field">
+              <span class="label">Direct download URL <span class="optional">optional</span></span>
+              <input id="cart-downloadURL" type="url" placeholder="https://github.com/you/my_cart/releases/latest/download/my_cart-1.0.0.zip" />
+              <span class="hint">
+                Required if you have no <code>github</code>. Must resolve straight to a .zip with the manifest and label
+                art at the archive root.
+              </span>
+            </label>
+
+            <div class="checkgrid">
+              <label><input id="cart-automatic_version_check" type="checkbox" checked /> Track new releases automatically</label>
+            </div>
+
+            <label class="field" style="margin-top: 1em">
+              <span class="label">Pin to release tag <span class="optional">optional</span></span>
+              <input id="cart-fixed_release_tag" type="text" placeholder="v1.2.0" />
+              <span class="hint">Index stays on this tag instead of following the newest release.</span>
+            </label>
+
+            <div class="two-col">
+              <label class="field">
+                <span class="label">Engine version range <span class="optional">optional</span></span>
+                <input id="cart-game_version" type="text" placeholder=">=0.9" />
+              </label>
+              <label class="field">
+                <span class="label">License <span class="optional">optional</span></span>
+                <input id="cart-license" type="text" placeholder="MIT" />
+              </label>
+            </div>
+          </section>
+        </div>
 
         <!-- ----------------------------------------------------------- submit -->
         <section class="framed neutral full">
@@ -262,10 +448,14 @@
       </main>
 
       <footer class="framed neutral" style="margin-top: 2em">
-        <p class="message">
+        <p class="message" id="mod-footnote">
           <span>Before you submit:</span> run <code>python3 tools/modkit.py validate my_mod --strict</code> and
           <code>lint my_mod</code> in the engine repo. A distributed mod carries no ROM-derived content — see the
           Publishing guide on the wiki.
+        </p>
+        <p class="message" id="cart-footnote" hidden>
+          <span>Before you submit:</span> every pinned build has to be public already, and
+          <code>description.md</code> credits each mod it borrows. A cart is other people's work arranged.
         </p>
       </footer>
     </div>
