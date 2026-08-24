@@ -1,31 +1,36 @@
 # Bill's PC Plus
 
 Bill's PC+ replaces the built-in PC box screen with a grid interface. Browse
-and rearrange your boxes freely — the game is only written when you actually
+and rearrange your boxes freely ΓÇö the game is only written when you actually
 move something, and it tells you when it does.
 
 ## Features
 
-- **Free box paging** — walk the cursor off the left or right edge of the grid
+- **Free box paging** ΓÇö walk the cursor off the left or right edge of the grid
   to page between boxes. No forced save when you switch.
-- **Grab-and-place** — pick a Pokemon up with `A`, drop it on any slot. Swap if
+- **Grab-and-place** ΓÇö pick a Pokemon up with `A`, drop it on any slot. Swap if
   the slot is occupied, append if empty. Cross-box moves just work.
-- **Inline art and stats panel** — the selected Pokemon's front sprite and
+- **Inline art and stats panel** ΓÇö the selected Pokemon's front sprite and
   condensed stats (level, HP, ATK/DEF/SPD/SPC) sit beside the grid, and keep
   describing the Pokemon in hand while you carry it.
-- **Deposit mode** — your party appears as a row under the box; pick one and
+- **Deposit view** ΓÇö your party appears as a row under the box; pick one and
   page the destination box independently.
-- **Honest saves** — the PC menu is the only place the game writes your save,
+- **Honest saves** ΓÇö the PC menu is the only place the game writes your save,
   and it announces it with the same "Now saving... / saved the game!" pages as
   the START menu's SAVE. Browsing writes nothing and shows nothing.
-- **Readable cursor** — blinking corner marks on the selected cell, holding
+- **Readable cursor** ΓÇö blinking corner marks on the selected cell, holding
   steady over a carry's landing spot, readable on empty slots.
 
 ## Install
 
-Drop the `bills_pc_plus` folder into the game's `mods/` directory. It claims
-the `BoxMenu` screen id, so it replaces the built-in PC box screen with no
-further configuration.
+**Mod manager:** grab the release zip from
+[Releases](https://github.com/Code-Grub/bills-pc-plus/releases) and import it —
+FIND MODS in the launcher, or drop the zip into the save directory's
+`imports/mods/` folder and rescan.
+
+**Manual:** unzip the release into the game's `mods/bills_pc_plus/` directory.
+It claims the `BoxMenu` screen id, so it replaces the built-in PC box screen
+with no further configuration.
 
 ## Controls
 
@@ -33,8 +38,8 @@ Opening the PC shows a menu:
 
 | Row | Action |
 |---|---|
-| WITHDRAW POKéMON | Opens the box grid |
-| DEPOSIT POKéMON | Opens the box grid with your party shown as a row |
+| WITHDRAW POK├⌐MON | Opens the box grid |
+| DEPOSIT POK├⌐MON | Opens the box grid with your party shown as a row |
 | SEE YA! | Leaves the PC, saving if anything moved |
 
 `B` from either grid returns to this menu, so switching between withdrawing
@@ -50,7 +55,7 @@ and depositing is `B` then pick.
 | A while carrying | Drop: swap if the slot is occupied, append if empty |
 | B | Cancel carry; if not carrying, back to the menu |
 
-### Deposit mode (DEPOSIT)
+### Deposit view (DEPOSIT)
 
 | Input | Action |
 |---|---|
@@ -61,7 +66,7 @@ and depositing is `B` then pick.
 
 ## Known limitations
 
-- **Boxes stay packed.** Occupied slots always run 1..n with no gaps — the
+- **Boxes stay packed.** Occupied slots always run 1..n with no gaps ΓÇö the
   cartridge save format stores a count byte followed by that many contiguous
   Pokemon, so a decorative gap has no encoding and would be destroyed on
   export. Rearranging, swapping and cross-box moves all work; only scattered
