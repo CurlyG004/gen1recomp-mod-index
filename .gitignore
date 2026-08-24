@@ -2,6 +2,7 @@ node_modules/
 .DS_Store
 
 # Built by scripts/build-index.mjs. Committed copies keep the submission page
-# working when it is opened straight from a checkout, so only the per-mod
+# working when it is opened straight from a checkout, so only the per-entry
 # payload the Pages job regenerates is ignored here.
 site/data/mods/
+site/data/carts/

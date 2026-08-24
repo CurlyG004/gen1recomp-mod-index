@@ -1,7 +1,9 @@
 #!/usr/bin/env node
-// Scheduled counterpart to check-links.mjs: probes every entry's distribution
-// points, keeps a strike count per entry in .health/state.json, and deletes
-// entries that stay broken for HEALTH_STRIKES consecutive runs.
+// Scheduled counterpart to check-links.mjs: probes every mods/ and carts/
+// entry's own distribution points, keeps a strike count per entry in
+// .health/state.json, and deletes entries that stay broken for
+// HEALTH_STRIKES consecutive runs. A cart's pins are somebody else's repos,
+// so they are checked on a pull request but never strike the cart.
 //
 //   node scripts/health.mjs                            # report only
 //   node scripts/health.mjs --record                   # persist strike counts
@@ -18,10 +20,9 @@
 import { appendFileSync, existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { listModFolders } from './lib/index-rules.mjs';
+import { listEntryFolders } from './lib/index-rules.mjs';
 
 const repoRoot = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-const modsDir = join(repoRoot, 'mods');
 const stateDir = join(repoRoot, '.health');
 const statePath = join(stateDir, 'state.json');
 
@@ -38,7 +39,11 @@ const prune = argv.includes('--prune');
 const record = prune || argv.includes('--record');
 const removedListPath = flagValue('--removed-list');
 
-const folders = listModFolders(modsDir);
+// State keys are the entry's path from the repo root, so mods/ and carts/
+// keep their own strike counts even when a folder name appears in both.
+const folders = ['mods', 'carts'].flatMap((root) =>
+  listEntryFolders(join(repoRoot, root)).map((f) => `${root}/${f}`),
+);
 const results = await mapPool(folders, CONCURRENCY, probeEntry);
 
 const broken = results.filter((r) => r.state === 'dead');
@@ -105,7 +110,7 @@ const removed = [];
 if (!skipRun) {
   if (prune) {
     for (const [folder, entry] of doomed) {
-      rmSync(join(modsDir, folder), { recursive: true, force: true });
+      rmSync(join(repoRoot, folder), { recursive: true, force: true });
       delete next.failing[folder];
       removed.push({ folder, ...entry });
     }
@@ -140,7 +145,7 @@ for (const note of notes) console.log(`::warning::${note}`);
 // ---------------------------------------------------------------- probing
 
 async function probeEntry(folder) {
-  const metaPath = join(modsDir, folder, 'meta.json');
+  const metaPath = join(repoRoot, folder, 'meta.json');
   if (!existsSync(metaPath)) return { folder, state: 'unknown', reason: 'no meta.json' };
 
   let meta;

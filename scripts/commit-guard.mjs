@@ -47,10 +47,12 @@ if (rebuiltText === committedText) {
 
 const before = count(committedText);
 const after = count(rebuiltText);
-const lost = before - after;
-if (lost > MAX_SHRINK) {
-  console.log(`::error::${relPath} would drop from ${before} to ${after} entries (${lost} lost, ceiling ${MAX_SHRINK}). Refusing to commit.`);
-  process.exit(1);
+for (const kind of ['mods', 'carts']) {
+  const lost = before[kind] - after[kind];
+  if (lost > MAX_SHRINK) {
+    console.log(`::error::${relPath} would drop from ${before[kind]} to ${after[kind]} ${kind} entries (${lost} lost, ceiling ${MAX_SHRINK}). Refusing to commit.`);
+    process.exit(1);
+  }
 }
 
 if (sansTimestamp(committedText) === sansTimestamp(settleDownloads(committedText, rebuiltText))) {
@@ -58,14 +60,15 @@ if (sansTimestamp(committedText) === sansTimestamp(settleDownloads(committedText
   restoreFromHead(downloadsPath);
   console.log(`${relPath} changed only its generated_at and download noise — restored the committed copy`);
 } else {
-  console.log(`${relPath}: ${before} -> ${after} entries, keeping the rebuild`);
+  console.log(`${relPath}: ${before.mods} -> ${after.mods} mods, ${before.carts} -> ${after.carts} carts, keeping the rebuild`);
 }
 
 function count(text) {
   try {
-    return JSON.parse(text).mods?.length ?? 0;
+    const doc = JSON.parse(text);
+    return { mods: doc.mods?.length ?? 0, carts: doc.carts?.length ?? 0 };
   } catch {
-    return 0;
+    return { mods: 0, carts: 0 };
   }
 }
 
@@ -87,11 +90,16 @@ function settleDownloads(before, after) {
   } catch {
     return after;
   }
-  const previous = new Map((committedDoc.mods ?? []).map((mod) => [mod.folder, mod.downloads]));
-  for (const mod of rebuiltDoc.mods ?? []) {
-    const was = previous.get(mod.folder);
-    if (!was || !mod.downloads) continue;
-    if (isNoise(was.total, mod.downloads.total)) mod.downloads = was;
+  const previous = new Map();
+  for (const kind of ['mods', 'carts']) {
+    for (const entry of committedDoc[kind] ?? []) previous.set(`${kind}/${entry.folder}`, entry.downloads);
+  }
+  for (const kind of ['mods', 'carts']) {
+    for (const entry of rebuiltDoc[kind] ?? []) {
+      const was = previous.get(`${kind}/${entry.folder}`);
+      if (!was || !entry.downloads) continue;
+      if (isNoise(was.total, entry.downloads.total)) entry.downloads = was;
+    }
   }
   return `${JSON.stringify(rebuiltDoc, null, 2)}\n`;
 }

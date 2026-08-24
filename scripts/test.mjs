@@ -6,18 +6,26 @@
 
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { mkdtempSync, mkdirSync, writeFileSync, rmSync } from 'node:fs';
+import { mkdtempSync, mkdirSync, readFileSync, writeFileSync, rmSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 import { validate } from './lib/jsonschema.mjs';
-import { checkCollisions, checkModFolder, loadSchema } from './lib/index-rules.mjs';
+import {
+  checkCartFolder,
+  checkCollisions,
+  checkModFolder,
+  entryKind,
+  loadCartSchema,
+  loadSchema,
+} from './lib/index-rules.mjs';
 import { pruneDownloads, record, summarize, zipDownloadsByTag } from './lib/downloads.mjs';
 import { renderMarkdown } from '../site/assets/markdown.js';
 
 const repoRoot = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const schema = loadSchema(repoRoot);
+const cartSchema = loadCartSchema(repoRoot);
 
 const GOOD_META = {
   id: 'my_mod',
@@ -52,6 +60,40 @@ const withEntry = (files, folder) => {
 };
 
 const messages = (result) => [...result.errors, ...result.warnings].join('\n');
+
+const GOOD_CART = {
+  id: 'my_cart',
+  title: 'My Cart',
+  author: 'Ash',
+  version: '1.0.0',
+  base: 'red',
+  seal: 'sealed',
+  repo: 'https://github.com/ash/my_cart',
+  github: 'ash/my_cart',
+  mods: [
+    {
+      id: 'my_mod',
+      source: 'github',
+      repo: 'ash/my_mod',
+      version: '1.2.0',
+      sha256: '0'.repeat(64),
+    },
+  ],
+};
+
+const withCart = (files, folder = 'Ash@my_cart') => {
+  const s = scratch(
+    { 'meta.json': JSON.stringify(GOOD_CART), 'description.md': 'What it plays like.\n', ...files },
+    folder,
+  );
+  try {
+    return checkCartFolder(s.dir, s.folder, cartSchema);
+  } finally {
+    s.cleanup();
+  }
+};
+
+const cart = (patch) => ({ 'meta.json': JSON.stringify({ ...GOOD_CART, ...patch }) });
 
 // ------------------------------------------------------------------- schema
 
@@ -141,6 +183,97 @@ test('two folders cannot claim one mod id', () => {
     { folder: 'Gary@my_mod', meta: { ...GOOD_META, author: 'Gary' } },
   ]);
   assert.match(collisions.join(), /MI203/);
+});
+
+// --------------------------------------------------------------------- carts
+
+test('a complete cart entry validates', () => {
+  assert.deepEqual(validate(GOOD_CART, cartSchema), []);
+  assert.deepEqual(withCart({}).errors, []);
+});
+
+test('a cart needs a base game, a seal and a mod list', () => {
+  for (const key of ['base', 'seal', 'mods']) {
+    const { [key]: _drop, ...rest } = GOOD_CART;
+    assert.match(validate(rest, cartSchema).join(), new RegExp(`missing required field "${key}"`));
+  }
+});
+
+test('the base game and the seal come from fixed vocabularies', () => {
+  assert.match(validate({ ...GOOD_CART, base: 'crystal' }, cartSchema).join(), /is not one of/);
+  assert.match(validate({ ...GOOD_CART, seal: 'locked' }, cartSchema).join(), /is not one of/);
+});
+
+test('a pin cannot exist without naming a public source', () => {
+  const pins = [{ id: 'my_mod' }];
+  assert.match(validate({ ...GOOD_CART, mods: pins }, cartSchema).join(), /missing required field "source"/);
+  const invented = [{ id: 'my_mod', source: 'my-server' }];
+  assert.match(validate({ ...GOOD_CART, mods: invented }, cartSchema).join(), /is not one of/);
+});
+
+test('a pin has to carry everything its source pins with', () => {
+  const half = [{ id: 'my_mod', source: 'github', repo: 'ash/my_mod' }];
+  assert.match(messages(withCart(cart({ mods: half }))), /CI401.*no "version"/s);
+  const mixed = [{ id: 'my_mod', source: 'gamebanana', mod: 1, file: 2, md5: '0'.repeat(32), repo: 'ash/x' }];
+  assert.match(messages(withCart(cart({ mods: mixed }))), /CI401.*belongs to the other one/s);
+});
+
+test('a gamebanana pin is accepted on its own terms', () => {
+  const pins = [{ id: 'my_mod', source: 'gamebanana', mod: 512345, file: 987654, md5: '0'.repeat(32) }];
+  assert.deepEqual(withCart(cart({ mods: pins })).errors, []);
+});
+
+test('a pin is the bundle cart.json row, pasted', () => {
+  assert.deepEqual(Object.keys(GOOD_CART.mods[0]), ['id', 'source', 'repo', 'version', 'sha256']);
+  const stray = [{ ...GOOD_CART.mods[0], source_type: 'github' }];
+  assert.match(validate({ ...GOOD_CART, mods: stray }, cartSchema).join(), /unknown field "source_type"/);
+});
+
+test('one build per mod', () => {
+  const twice = [GOOD_CART.mods[0], { ...GOOD_CART.mods[0], version: '1.3.0' }];
+  assert.match(messages(withCart(cart({ mods: twice }))), /CI402/);
+});
+
+test('a load order names exactly what the cart pins', () => {
+  assert.match(messages(withCart(cart({ load_order: ['my_mod', 'ghost_mod'] }))), /CI403.*does not pin/s);
+  assert.match(messages(withCart(cart({ load_order: [] }))), /CI403.*leaves out/s);
+  assert.deepEqual(withCart(cart({ load_order: ['my_mod'] })).errors, []);
+});
+
+test('cart entries keep the mod entry layout rules, under CI', () => {
+  assert.match(messages(withCart({ 'main.lua': 'print("hi")' })), /CI103/);
+  assert.match(messages(withCart({ 'description.md': '' })), /CI104/);
+  assert.match(messages(withCart({}, 'Ash@other_cart')), /CI202/);
+  assert.match(messages(withCart(cart({ github: undefined, downloadURL: undefined }))), /CI301/);
+});
+
+test('two folders cannot claim one cart id', () => {
+  const collisions = checkCollisions(
+    [
+      { folder: 'Ash@my_cart', meta: GOOD_CART },
+      { folder: 'Gary@my_cart', meta: { ...GOOD_CART, author: 'Gary' } },
+    ],
+    'CI',
+    'cart',
+  );
+  assert.match(collisions.join(), /CI203 Gary@my_cart: cart id "my_cart"/);
+});
+
+// src/mods/ModIndex.lua compares schema_version for equality and reads only
+// schema_version and mods, so carts had to arrive as keys it ignores. Bumping
+// the number would black out Find Mods in every build already shipped.
+test('carts ride the feed additively, at schema_version 1', () => {
+  const feed = JSON.parse(readFileSync(join(repoRoot, 'site', 'data', 'index.json'), 'utf8'));
+  assert.equal(feed.schema_version, 1);
+  assert.ok(Array.isArray(feed.mods) && Array.isArray(feed.carts));
+  assert.equal(feed.count, feed.mods.length);
+  assert.equal(feed.cart_count, feed.carts.length);
+});
+
+test('an examples/ template is read as whatever it declares', () => {
+  assert.equal(entryKind(join(repoRoot, 'examples', 'YourName@example_cart')), 'cart');
+  assert.equal(entryKind(join(repoRoot, 'examples', 'YourName@example_mod')), 'mod');
+  assert.equal(entryKind(join(repoRoot, 'carts', 'Anyone@anything')), 'cart');
 });
 
 // ----------------------------------------------------------------- downloads

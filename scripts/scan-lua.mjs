@@ -1,33 +1,33 @@
 #!/usr/bin/env node
 // Reads the Lua an entry actually ships and judges it against the mod
-// sandbox's policy (scripts/lib/lua-scan.mjs).
+// sandbox's policy (scripts/lib/lua-scan.mjs). A cart bundle is a manifest
+// and label art, so for a cart the rule is simpler: any Lua at all is a fail.
 //
-//   node scripts/scan-lua.mjs [mods/Author@id ...]   # default: all
+//   node scripts/scan-lua.mjs [mods/Author@id carts/Author@id ...]   # default: all
 //
 // Exit 1 when a file reaches for something the sandbox denies outright.
 // Everything else is reported for a human to read: dynamic require and load()
 // have honest uses, and a scan cannot prove intent.
 
 import { appendFileSync, existsSync, readFileSync } from 'node:fs';
-import { basename, dirname, join, resolve } from 'node:path';
+import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { listModFolders } from './lib/index-rules.mjs';
+import { listEntryFolders } from './lib/index-rules.mjs';
 import { luaFilesIn, resolveZip, scanFiles } from './lib/lua-scan.mjs';
 
 const repoRoot = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-const modsDir = join(repoRoot, 'mods');
 const token = process.env.GITHUB_TOKEN || '';
 
 const targets = process.argv.slice(2).filter((a) => !a.startsWith('--'));
 const folders = targets.length
-  ? targets.map((t) => basename(t.replace(/\/+$/, ''))).filter((f) => existsSync(join(modsDir, f)))
-  : listModFolders(modsDir);
+  ? targets.map((t) => t.replace(/\/+$/, '')).filter((f) => existsSync(join(repoRoot, f, 'meta.json')))
+  : ['mods', 'carts'].flatMap((root) => listEntryFolders(join(repoRoot, root)).map((f) => `${root}/${f}`));
 
 const reports = [];
 let failed = 0;
 
 for (const folder of folders) {
-  const metaPath = join(modsDir, folder, 'meta.json');
+  const metaPath = join(repoRoot, folder, 'meta.json');
   if (!existsSync(metaPath)) continue;
 
   let meta;
@@ -51,7 +51,9 @@ for (const folder of folders) {
     continue;
   }
 
-  const { errors, warnings } = scanFiles(files, meta.permissions || []);
+  const { errors, warnings } = folder.startsWith('carts/')
+    ? { errors: files.map((f) => ({ name: f.name, line: 1, message: 'a cart bundle ships no code' })), warnings: [] }
+    : scanFiles(files, meta.permissions || []);
   const label = `${folder} (${files.length} lua file${files.length === 1 ? '' : 's'})`;
   if (errors.length) {
     failed += 1;
