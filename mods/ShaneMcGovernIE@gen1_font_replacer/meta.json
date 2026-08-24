@@ -1,0 +1,26 @@
+{
+  "id": "gen1_font_replacer",
+  "title": "PixelGen1 Font",
+  "author": "ShaneMcGovernIE",
+  "version": "1.1.8",
+  "categories": [
+    "UI"
+  ],
+  "summary": "A Gen 1-style proportional font with refined glyphs, cleaner spacing, and centered summary-screen next EXP.",
+  "tags": [
+    "font",
+    "pixel art",
+    "gen 1",
+    "spacing"
+  ],
+  "repo": "https://github.com/ShaneMcGovernIE/PixelGen1_Font",
+  "github": "ShaneMcGovernIE/PixelGen1_Font",
+  "automatic_version_check": true,
+  "api": 2,
+  "game_version": ">=0.0.0-0 <2.0.0",
+  "games": [
+    "gen1"
+  ],
+  "profile": "content",
+  "affects_link": false
+}
