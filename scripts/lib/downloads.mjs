@@ -26,7 +26,7 @@ export function saveDownloads(path, state) {
   writeFileSync(path, `${JSON.stringify({ version: 1, mods }, null, 2)}\n`);
 }
 
-export function zipDownloadsByTag(releases) {
+export function zipDownloadsByTag(releases, ext = '.zip') {
   const byTag = {};
   if (!Array.isArray(releases)) return byTag;
   for (const release of releases) {
@@ -35,7 +35,7 @@ export function zipDownloadsByTag(releases) {
     let total = 0;
     let sawZip = false;
     for (const asset of release.assets) {
-      if (typeof asset?.name !== 'string' || !asset.name.toLowerCase().endsWith('.zip')) continue;
+      if (typeof asset?.name !== 'string' || !asset.name.toLowerCase().endsWith(ext)) continue;
       sawZip = true;
       total += Number.isFinite(asset.download_count) ? asset.download_count : 0;
     }

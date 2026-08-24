@@ -62,14 +62,16 @@ const mods = collect(modsDir, 'mods', schema, checkModFolder);
 const carts = collect(cartsDir, 'carts', cartSchema, checkCartFolder);
 const everything = [...mods, ...carts];
 
+const cartRows = new Set(carts);
 if (withReleases) {
   for (const entry of everything) {
+    const ext = cartRows.has(entry) ? '.g1rcart' : '.zip';
     if (entry.update_check !== 'pending') continue;
     try {
       const releases = await fetchReleases(entry.github);
-      entry.latest = pickRelease(releases, entry);
+      entry.latest = pickRelease(releases, entry, ext);
       entry.update_check = entry.latest ? 'ok' : 'no installable release';
-      record(downloads, entry.downloads_key, zipDownloadsByTag(releases), now);
+      record(downloads, entry.downloads_key, zipDownloadsByTag(releases, ext), now);
     } catch (err) {
       entry.update_check = `error: ${err.message}`;
       console.error(`${entry.folder}: ${err.message}`);
@@ -176,14 +178,15 @@ async function ghJson(url) {
 
 // Mirrors src/mods/ModUpdate.lua: prefer <id>-<version>.zip, then a zip whose
 // name starts with the id, then the first zip in the release.
-function pickZipAsset(assets, modId, version) {
+// Mods ship a .zip; a cart ships the single .g1rcart cartkit packs.
+function pickZipAsset(assets, modId, version, ext = '.zip') {
   if (!Array.isArray(assets)) return null;
-  const prefer = modId && version ? `${modId}-${version}.zip` : null;
+  const prefer = modId && version ? `${modId}-${version}${ext}` : null;
   let idPrefixZip = null;
   let anyZip = null;
   for (const asset of assets) {
     const name = asset?.name;
-    if (typeof name !== 'string' || !name.toLowerCase().endsWith('.zip')) continue;
+    if (typeof name !== 'string' || !name.toLowerCase().endsWith(ext)) continue;
     const row = { name, url: asset.browser_download_url, size: asset.size };
     if (prefer && name === prefer) return row;
     if (modId && !idPrefixZip && name.toLowerCase().startsWith(modId.toLowerCase())) idPrefixZip = row;
@@ -192,11 +195,11 @@ function pickZipAsset(assets, modId, version) {
   return idPrefixZip || anyZip;
 }
 
-function parseRelease(doc, modId) {
+function parseRelease(doc, modId, ext) {
   const version = String(doc.tag_name ?? '').replace(/^[vV]/, '');
   const triple = /^\d+\.\d+\.\d+/.exec(version)?.[0];
   if (!triple) return null; // the launcher refuses non-semver tags too
-  const zip = pickZipAsset(doc.assets, modId, triple);
+  const zip = pickZipAsset(doc.assets, modId, triple, ext);
   if (!zip) return null;
   return {
     version: triple,
@@ -213,13 +216,13 @@ async function fetchReleases(repo) {
   return Array.isArray(releases) ? releases : [];
 }
 
-function pickRelease(releases, mod) {
+function pickRelease(releases, mod, ext) {
   if (releases.length === 0) return null;
 
   if (mod.fixed_release_tag) {
     const pinned = releases.find((r) => r.tag_name === mod.fixed_release_tag);
-    return pinned ? parseRelease(pinned, mod.id) : null;
+    return pinned ? parseRelease(pinned, mod.id, ext) : null;
   }
-  const parsed = releases.map((r) => parseRelease(r, mod.id)).filter(Boolean);
+  const parsed = releases.map((r) => parseRelease(r, mod.id, ext)).filter(Boolean);
   return parsed.find((r) => !r.prerelease) ?? parsed[0] ?? null;
 }
