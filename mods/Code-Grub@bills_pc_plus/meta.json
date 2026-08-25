@@ -1,6 +1,6 @@
 {
   "id": "bills_pc_plus",
-  "title": "Bills PC Plus",
+  "title": "Bill's PC Plus",
   "author": "Code-Grub",
   "version": "0.8.0",
   "categories": [
@@ -8,7 +8,7 @@
     "QOL"
   ],
   "repo": "https://github.com/Code-Grub/bills-pc-plus",
-  "summary": "Replaces the PC box screen with a grid interface: free box paging, grab-and-place rearranging, and an inline art and stats panel.",
+  "summary": "Replaces the PC box screen with a grid interface: free box paging with no forced save, grab-and-place rearranging, and an inline art and stats panel.",
   "tags": [
     "pc",
     "storage",
