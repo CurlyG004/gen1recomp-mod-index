@@ -1,0 +1,25 @@
+{
+  "id": "pokemon_survival",
+  "title": "PokeSurvive",
+  "author": "Gawd Mode",
+  "version": "1.0.0",
+  "categories": [
+    "GAMEPLAY",
+    "CONTENT"
+  ],
+  "repo": "https://github.com/GawdMode/PokeSurvive",
+  "summary": "PokeSurvive transforms a normal Pokémon playthrough into a much more unpredictable journey built around survival, resource management, randomized worlds, Pokémon personalities, camping, exploration ev",
+  "tags": [
+    "simulation",
+    "survival",
+    "permadeath",
+    "hardcore",
+    "randomizer",
+    "random",
+    "sim",
+    "camping"
+  ],
+  "github": "GawdMode/PokeSurvive",
+  "api": 2,
+  "profile": "content"
+}
