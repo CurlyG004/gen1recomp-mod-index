@@ -1,0 +1,22 @@
+{
+  "id": "trainer_avatars",
+  "title": "Trainer Avatars: Choose Your Path",
+  "author": "RouteboundMods",
+  "summary": "Choose from twelve trainer avatars with matching artwork, optional path Pokemon, and class-themed roleplaying details.",
+  "version": "1.0.0",
+  "categories": ["GAMEPLAY", "ART", "UI", "CONTENT"],
+  "tags": ["avatars", "trainer classes", "sprites", "roleplay", "starters", "character customization"],
+  "repo": "https://github.com/RouteboundMods/gen1recomp-trainer-avatars",
+  "github": "RouteboundMods/gen1recomp-trainer-avatars",
+  "automatic_version_check": true,
+  "api": 2,
+  "game_version": ">=0.0.0-0 <2.0.0",
+  "games": ["gen1"],
+  "profile": "content",
+  "affects_link": false,
+  "permissions": ["engine_internals"],
+  "dependencies": [],
+  "conflicts": ["dragon_tamer_path_foundation"],
+  "experimental": false,
+  "license": "MIT (code); custom artwork reserved"
+}
