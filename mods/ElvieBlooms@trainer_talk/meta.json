@@ -1,0 +1,21 @@
+{
+  "id": "trainer_talk",
+  "title": "Trainer Talk",
+  "author": "ElvieBlooms",
+  "version": "0.3.1",
+  "categories": [
+    "AUDIO"
+  ],
+  "repo": "https://github.com/ElvieBlooms/trainer_talk",
+  "summary": "Trainer Talk adds a voice to your Pokémon adventure — someone in your corner who reacts to what's actually happening as you play.",
+  "tags": [
+    "audio",
+    "voice",
+    "sound-clips"
+  ],
+  "github": "ElvieBlooms/trainer_talk",
+  "downloadURL": "https://github.com/ElvieBlooms/trainer_talk/releases/download/v0.3.1/trainer_talk-0.3.1.zip",
+  "license": "MIT",
+  "api": 2,
+  "profile": "content"
+}
