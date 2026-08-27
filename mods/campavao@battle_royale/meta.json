@@ -1,0 +1,35 @@
+{
+  "id": "battle_royale",
+  "title": "Kanto Battle Royale",
+  "author": "campavao",
+  "summary": "Last trainer standing in Kanto. Catch a team in the SAFARI ZONE, drop into a town, and fight everyone else as the fog closes in.",
+  "version": "0.36.0",
+  "categories": [
+    "GAMEPLAY",
+    "CONTENT"
+  ],
+  "tags": [
+    "multiplayer",
+    "battle royale",
+    "pvp",
+    "ruleset",
+    "hardcore"
+  ],
+  "repo": "https://github.com/campavao/kanto-battle-royale",
+  "github": "campavao/kanto-battle-royale",
+  "automatic_version_check": true,
+  "api": 2,
+  "game_version": ">=0.2.26 <2.0.0",
+  "games": [
+    "gen1"
+  ],
+  "profile": "content",
+  "affects_link": true,
+  "permissions": [
+    "network",
+    "engine_internals"
+  ],
+  "dependencies": [],
+  "conflicts": [],
+  "license": "MIT"
+}
