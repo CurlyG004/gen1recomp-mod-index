@@ -1,0 +1,18 @@
+{
+  "id": "trainer_skins",
+  "title": "Trainer Skins",
+  "author": "DarkwarePX",
+  "version": "0.1.0",
+  "categories": [
+    "ART",
+    "UI"
+  ],
+  "repo": "https://github.com/DarkwarePX/Trainer-Skins",
+  "github": "DarkwarePX/Trainer-Skins",
+  "game_version": ">=0.2.24",
+  "permissions": [
+    "engine_internals"
+  ],
+  "api": 2,
+  "profile": "content"
+}
