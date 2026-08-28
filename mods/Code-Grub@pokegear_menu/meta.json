@@ -1,0 +1,28 @@
+{
+  "id": "pokegear_menu",
+  "title": "PokéGear Menu",
+  "author": "Code-Grub",
+  "version": "0.1.7",
+  "categories": [
+    "UI"
+  ],
+  "tags": [
+    "start menu",
+    "handheld",
+    "cosmetic",
+    "town map",
+    "ui"
+  ],
+  "repo": "https://github.com/Code-Grub/pokegear-menu",
+  "github": "Code-Grub/pokegear-menu",
+  "automatic_version_check": true,
+  "api": 2,
+  "game_version": ">=0.0.0-0 <2.0.0",
+  "profile": "content",
+  "permissions": [
+    "engine_internals",
+    "network"
+  ],
+  "license": "MIT",
+  "summary": "The START menu restyled as a handheld: nine apps in a 3x3 grid over the overworld. A reskin of the menu, not the Gen 2 device."
+}
