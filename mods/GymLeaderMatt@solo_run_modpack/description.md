@@ -1,0 +1,3 @@
+A collection that aims to give a true 'solo run' experience. It has options to change your starter, give them perfect DVs, eliminate the need for HM users or guarantee their spawns/catch rate of Pokeballs. It also lets you auto use field moves with no input, adds a select menu to fly/dig/use the bike, allows a Brock skip, enforces no items in bttle, adds the badge boost glitch, a toggle for early encounters, instant text, wait sounds, poison flash in the overworld, lights up Rock Tunnel, and auto solves the Lt. Surge trash can puzzle.
+
+Lots of things that I run for my ruleset for videos I make as a hobby. This puts them all in one place to share with anyone who wants to get into the hobby.

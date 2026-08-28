@@ -1,0 +1,28 @@
+{
+  "id": "solo_run_modpack",
+  "title": "Solo Run Modpack",
+  "author": "Gym Leader Matt",
+  "version": "2.0.2",
+  "categories": [
+    "GAMEPLAY",
+    "BALANCE",
+    "QOL"
+  ],
+  "repo": "https://github.com/GymLeaderMatt/Solo_Run_Modpack_Gen1_Recomp",
+  "summary": "A collection for the solo run experience.",
+  "tags": [
+    "solo run",
+    "starter change",
+    "gym leader matt"
+  ],
+  "github": "GymLeaderMatt/Solo_Run_Modpack_Gen1_Recomp",
+  "conflicts": [
+    "quality_of_life",
+    "jj_auto_field_moves"
+  ],
+  "permissions": [
+    "engine_internals"
+  ],
+  "api": 2,
+  "profile": "content"
+}
