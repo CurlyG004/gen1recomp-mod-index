@@ -34,6 +34,38 @@ The party can never be emptied, a box never passes 20 and a party never
 passes 6, and if you are carrying a Pokemon while both are full the screen
 refuses to close rather than dropping it out of the save.
 
+## Wallpapers: sixteen places, ninety-one of them
+
+Every box wears a scene, and **no scene has fewer than five wallpapers behind
+it**. SEA, FOREST, SKY, CAVE, CITY, SNOW, NIGHT, DESERT, VOLCANO, SPACE,
+CASTLE, SAKURA, STORM, CIRCUIT, TRAIN and 90S are each drawn in code -- that
+is the `GEN3 BOX` entry, the one a box wears until you change it -- then
+drawn again by pixel artists whose work is CC0 or CC BY, and then again
+through other palettes: `SAKURA < GEN3 NIGHT >` is a night hanami, not a
+toggle.
+
+Twenty-seven outside hands are credited in `THIRD_PARTY_NOTICES.md` and, more
+usefully, **in the menu itself**: the artist's name is the label you scroll
+through. Up and down change the place, left and right change the hand, and
+the box behind the menu wears whatever the cursor is on -- the menu *is* the
+preview. `SELECT` keeps one as a favourite, and the FAVOURITE scene wears
+what you kept. Each box remembers its own pair.
+
+Whether a layer moves is measured rather than guessed: the mean difference
+between its first and last column says whether it continues into itself, so
+clouds and water drift while buildings and rock hold still. A still layer is
+not a dead one -- it pans slowly across whatever width it has spare and turns
+back before the join could show.
+
+**The list is open.** One pull request, one wallpaper, and the artist's name
+becomes the label players scroll through -- see CONTEST.md in the repository.
+A check on the pull request measures every layer and tells you which of them
+the box will let move.
+
+`SLOTS` sets how opaque each cell is over the scene, `BANDS` how much of the
+title row and the footer the scene gets, and `ANIMATE` turns the drift off
+for anyone who would rather it held still.
+
 Lua source only: no ROM, no ROM-derived data, no game assets.
 
 **On Gold.** Runs on Pokemon Gold as well as Red, Blue and Yellow: fourteen boxes of twenty instead of twelve, Gold's own summary screen, its split Special in a withdrawn Pokemon's stat block, and its MAIL rules honoured (a Pokemon holding mail cannot be boxed, exactly as the vanilla PC refuses it). GRID BIG is Gen 1 only -- Gold's boot scales a single Game Boy canvas and never asks a screen how big it would like to be.
