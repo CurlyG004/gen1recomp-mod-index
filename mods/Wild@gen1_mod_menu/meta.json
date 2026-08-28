@@ -1,0 +1,34 @@
+{
+  "id": "gen1_mod_menu",
+  "title": "Gen1ModMenu",
+  "author": "Wild",
+  "summary": "The mod manager, redrawn in the game's own OPTION-screen idiom: framed cards with the name on its own line and its value below, plus sorting, filters and a help line on every mod's options page.",
+  "version": "0.9.0",
+  "categories": [
+    "UI",
+    "TOOL",
+    "QOL"
+  ],
+  "tags": [
+    "ui",
+    "mod manager",
+    "options",
+    "settings",
+    "sort",
+    "quality of life"
+  ],
+  "repo": "https://github.com/wild1walker/Gen1ModMenu",
+  "github": "wild1walker/Gen1ModMenu",
+  "automatic_version_check": true,
+  "api": 2,
+  "game_version": ">=0.0.0-0 <2.0.0",
+  "profile": "content",
+  "affects_link": false,
+  "permissions": [
+    "engine_internals"
+  ],
+  "games": [
+    "all"
+  ],
+  "license": "MIT"
+}
