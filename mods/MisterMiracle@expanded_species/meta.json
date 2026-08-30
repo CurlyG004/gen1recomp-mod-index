@@ -2,10 +2,18 @@
   "id": "expanded_species",
   "title": "Expanded Species",
   "author": "Mister Miracle",
-  "summary": "A framework for custom species above #255 on Gold/Silver/Crystal. It adds no Pokemon itself - species packs built on it do. Uncapped encounters, trainer helpers, cosmetic forms and missing-pack save protection.",
+  "summary": "A framework for custom species above #255 on Gold/Silver/Crystal. It adds no Pokemon itself - species packs do. Uncapped encounters, trainer helpers, cosmetic forms and save protection.",
   "version": "0.6.6",
-  "categories": ["LIBRARY", "CONTENT"],
-  "tags": ["framework", "modding-tool", "custom species", "gen2"],
+  "categories": [
+    "LIBRARY",
+    "CONTENT"
+  ],
+  "tags": [
+    "framework",
+    "modding-tool",
+    "custom species",
+    "gen2"
+  ],
   "repo": "https://github.com/mistermiracle3036/Expanded-Species",
   "github": "mistermiracle3036/Expanded-Species",
   "automatic_version_check": true,
@@ -14,7 +22,9 @@
   "game_version": ">=0.1.94 <2.0.0",
   "profile": "content",
   "affects_link": false,
-  "permissions": ["engine_internals"],
+  "permissions": [
+    "engine_internals"
+  ],
   "dependencies": [],
   "conflicts": []
 }
