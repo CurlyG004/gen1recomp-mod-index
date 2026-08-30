@@ -1,19 +1,20 @@
-Snag Quest adds a Team Rocket questline to gen1recomp. Jessie recruits
-you in Viridian City with a custom **Snag Ball** that steals Pokémon
-straight out of trainer battles — starting with a guaranteed shiny
-Meowth from a picnicker who isn't what she seems.
+Pokemon Snag adds a theft mechanic to gen1recomp. A custom **Snag Ball**
+lets you steal Pokémon straight out of trainer battles — on Red/Blue/Yellow,
+Jessie recruits you at Nugget Bridge with a guaranteed shiny Meowth as the
+questline reward. On Gold/Silver/Crystal, a sailor in Cherrygrove City
+starts you off, with contract brokers in Goldenrod and Ecruteak.
 
-Beyond the intro quest, a network of black-market "fences" scattered
-around Kanto will buy snagged Pokémon off you for more Snag Balls,
-paying more for high-level, hard-to-catch, or VIP-owned mons (your
-rival, gym leaders, the Elite Four).
+Black-market fences scattered across Kanto and Johto buy snagged Pokémon
+for more Snag Balls, paying more for high-level, hard-to-catch, or
+VIP-owned mons (your rival, gym leaders, the Elite Four).
 
 **Features**
-- Guaranteed shiny snag as the questline reward
 - Trainer-battle-only custom ball with permanent snag marking
+- Guaranteed shiny snag as the questline reward
 - Optional: battles continue after a snag instead of ending
 - Optional: Snag Balls purchasable in marts
-- Fences at Celadon Game Corner and Pewter City (Boulder Badge gated)
+- Fences across Kanto and Johto, badge-gated
+- Works on Gen 1 (Red/Blue/Yellow) and Gen 2 (Gold/Silver/Crystal)
 
-Compatible with Quest System (required), kanto_ribbons, SHINY_POKEMON
-(optional), and voxel mode.
+Compatible with pokeball_colors, kanto_ribbons, kanto_balls, and
+SHINY_POKEMON (all optional).
