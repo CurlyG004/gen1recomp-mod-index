@@ -1,0 +1,30 @@
+{
+  "id": "kanto_contests",
+  "title": "Kanto Contests (Alpha)",
+  "author": "Mister Miracle",
+  "summary": "ALPHA - Ruby/Sapphire-style Pokemon Contests in Kanto and Johto. Raise condition with PokeSnacks, earn scarves, then appeal in COOL, BEAUTY, CUTE, SMART or TOUGH. Wins record per category.",
+  "version": "0.15.0",
+  "categories": [
+    "CONTENT",
+    "GAMEPLAY"
+  ],
+  "tags": [
+    "contests",
+    "celadon",
+    "alpha",
+    "gen1",
+    "gen2"
+  ],
+  "repo": "https://github.com/mistermiracle3036/Kanto-Contests",
+  "github": "mistermiracle3036/Kanto-Contests",
+  "automatic_version_check": true,
+  "api": 2,
+  "game_version": ">=0.1.75 <2.0.0",
+  "profile": "content",
+  "affects_link": false,
+  "permissions": [
+    "engine_internals"
+  ],
+  "dependencies": [],
+  "conflicts": []
+}

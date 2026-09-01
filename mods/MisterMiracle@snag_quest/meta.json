@@ -2,28 +2,29 @@
   "id": "snag_quest",
   "title": "Pokemon Snag",
   "author": "Mister Miracle",
-  "version": "0.12.0",
+  "summary": "Steal Pokemon from other trainers with the SNAG BALL. Earn it from Jessie at Nugget Bridge on Red, or a Cherrygrove sailor on Gold, then fence what you take to black-market buyers.",
+  "version": "0.15.9",
   "categories": [
     "GAMEPLAY",
     "CONTENT"
   ],
-  "repo": "https://github.com/mistermiracle3036/Pokemon-Snag",
-  "summary": "Steal Pokemon from other trainers with the SNAG BALL, and fence what you steal for more balls.",
   "tags": [
-    "theft",
-    "snag",
-    "trainer-battles",
-    "questline",
-    "team-rocket"
+    "quest",
+    "catching",
+    "team rocket",
+    "gen1",
+    "gen2"
   ],
+  "repo": "https://github.com/mistermiracle3036/Pokemon-Snag",
   "github": "mistermiracle3036/Pokemon-Snag",
-  "game_version": ">=0.1.38",
-  "dependencies": [
-    "quest_system"
-  ],
+  "automatic_version_check": true,
+  "api": 2,
+  "game_version": ">=0.1.38 <2.0.0",
+  "profile": "content",
+  "affects_link": false,
   "permissions": [
     "engine_internals"
   ],
-  "api": 2,
-  "profile": "content"
+  "dependencies": [],
+  "conflicts": []
 }

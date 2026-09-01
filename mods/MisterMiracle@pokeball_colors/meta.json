@@ -1,0 +1,19 @@
+{
+  "id": "pokeball_colors",
+  "title": "Pokeball Colors",
+  "author": "Mister Miracle",
+  "summary": "Per-ball throw, preview and heal-machine colors for Red/Blue/Yellow and Gold/Silver/Crystal. Includes a color editor on the PC where you design your own ball palettes.",
+  "version": "0.1.64",
+  "categories": ["ART", "UI"],
+  "tags": ["cosmetic", "battle", "pokeballs", "color editor", "gen1", "gen2"],
+  "repo": "https://github.com/mistermiracle3036/Pokeball-Colors",
+  "github": "mistermiracle3036/Pokeball-Colors",
+  "automatic_version_check": true,
+  "api": 2,
+  "game_version": ">=0.1.38 <2.0.0",
+  "profile": "content",
+  "affects_link": false,
+  "permissions": ["engine_internals"],
+  "dependencies": [],
+  "conflicts": []
+}
