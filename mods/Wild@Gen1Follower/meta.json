@@ -1,0 +1,34 @@
+{
+  "id": "Gen1Follower",
+  "title": "Gen1Follower",
+  "author": "Wild",
+  "summary": "All 251 Gen 1 and Gen 2 overworld followers, sized by Pokédex proportions, with voxel support. Built from Antigravity & gamecorner33's PokéPC Followers.",
+  "version": "1.3.2",
+  "categories": [
+    "GAMEPLAY",
+    "CONTENT",
+    "ART",
+    "LIBRARY"
+  ],
+  "tags": [
+    "followers",
+    "overworld",
+    "sprites",
+    "graphics",
+    "voxel"
+  ],
+  "repo": "https://github.com/wild1walker/Gen1Follower",
+  "github": "wild1walker/Gen1Follower",
+  "automatic_version_check": true,
+  "api": 2,
+  "game_version": "0.0.0-dev || >=0.1.86 <2.0.0",
+  "profile": "content",
+  "affects_link": false,
+  "permissions": [
+    "engine_internals"
+  ],
+  "games": [
+    "gen1",
+    "gen2"
+  ]
+}
