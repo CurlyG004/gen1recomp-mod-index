@@ -1,0 +1,22 @@
+{
+  "id": "level_match_mod",
+  "title": "Level Match Mod",
+  "author": "MayoMan7",
+  "summary": "Scales enemy trainer Pokemon up to the highest level in the player's healthy party.",
+  "version": "0.1.0",
+  "categories": ["GAMEPLAY", "BALANCE"],
+  "tags": ["trainers", "level scaling", "difficulty"],
+  "repo": "https://github.com/MayoMan7/level_match_mod",
+  "github": "MayoMan7/level_match_mod",
+  "automatic_version_check": true,
+  "api": 2,
+  "game_version": ">=0.0.0-dev <1.0.0",
+  "games": ["gen1"],
+  "profile": "content",
+  "affects_link": false,
+  "experimental": false,
+  "permissions": [],
+  "dependencies": [],
+  "conflicts": [],
+  "license": "MIT"
+}
