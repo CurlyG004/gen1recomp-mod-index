@@ -1,0 +1,17 @@
+{
+  "id": "pokebag_plus",
+  "title": "PokéBag+",
+  "author": "Code-Grub",
+  "summary": "The bag in four pockets -- ITEMS, BALLS, KEY ITEMS, TM/HM -- paged with Left and Right, keeping vanilla order and the SELECT swap.",
+  "version": "0.1.0",
+  "categories": ["UI", "QOL"],
+  "tags": ["bag", "items", "pockets", "quality of life", "ui"],
+  "repo": "https://github.com/Code-Grub/pokebag-plus",
+  "github": "Code-Grub/pokebag-plus",
+  "automatic_version_check": true,
+  "api": 2,
+  "game_version": ">=0.0.0-0 <2.0.0",
+  "profile": "content",
+  "permissions": ["engine_internals"],
+  "license": "MIT"
+}
