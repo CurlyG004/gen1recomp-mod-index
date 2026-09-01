@@ -1,0 +1,17 @@
+{
+  "id": "infinite_tms",
+  "title": "infinite_tms",
+  "author": "bastinjul",
+  "version": "0.1.0",
+  "categories": [
+    "GAMEPLAY"
+  ],
+  "repo": "https://github.com/bastinjul/infinite_tms",
+  "summary": "Mod that allows you to use TMs indefinitely",
+  "github": "bastinjul/infinite_tms",
+  "permissions": [
+    "engine_internals"
+  ],
+  "api": 2,
+  "profile": "content"
+}
