@@ -1,0 +1,31 @@
+{
+  "id": "g1gpp",
+  "title": "Gen 1 Glitch Preservation Project",
+  "author": "Hazard15301",
+  "version": "1.0.0-beta",
+  "categories": [
+    "GAMEPLAY",
+    "CONTENT"
+  ],
+  "repo": "https://github.com/Hazard15301/G1GPP",
+  "summary": "A preservation-focused expansion for Pokémon Red and Blue, rewarding curious players who explore beyond the expected.",
+  "tags": [
+    "glitches",
+    "missingno",
+    "glitch city",
+    "old man glitch",
+    "trainer fly",
+    "minigame",
+    "pikablu",
+    "marill"
+  ],
+  "github": "Hazard15301/G1GPP",
+  "game_version": ">=0.2.36 <0.3.0",
+  "license": "MIT",
+  "permissions": [
+    "engine_internals"
+  ],
+  "api": 2,
+  "profile": "overhaul",
+  "experimental": true
+}
