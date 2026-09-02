@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-01T20:46:47.739Z",
-  "count": 157,
-  "cart_count": 1,
+  "generated_at": "2026-09-02T03:40:54.715Z",
+  "count": 184,
+  "cart_count": 2,
   "categories": [
     "GAMEPLAY",
     "CONTENT",
@@ -65,7 +65,7 @@
         "total": 283,
         "recent": 77,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -103,10 +103,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 7135,
-        "recent": 1358,
+        "total": 7146,
+        "recent": 1369,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -143,10 +143,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 638,
-        "recent": 194,
+        "total": 643,
+        "recent": 199,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -199,10 +199,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 455,
-        "recent": 76,
+        "total": 460,
+        "recent": 81,
         "window_days": 6,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -251,10 +251,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 1062,
-        "recent": 260,
+        "total": 1065,
+        "recent": 263,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -296,7 +296,7 @@
         "total": 335,
         "recent": 95,
         "window_days": 11,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -344,10 +344,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 870,
-        "recent": 327,
+        "total": 880,
+        "recent": 337,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -395,10 +395,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 79481,
-        "recent": 26656,
+        "total": 79979,
+        "recent": 27154,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -433,23 +433,23 @@
       "thumbnail": "data/mods/EnterPlayerOne@BATTLE_CINEMATICS/thumbnail.jpg",
       "description_url": "data/mods/EnterPlayerOne@BATTLE_CINEMATICS/description.md",
       "latest": {
-        "version": "1.2.5",
-        "tag": "v1.2.5",
-        "name": "Battle Cinematics v1.2.5 — LIVE VIEW PiP/ ZEROstig Update",
+        "version": "1.2.6",
+        "tag": "v1.2.6",
+        "name": "Battle Cinematics v1.2.6 — Gen 1 Performance Maintenance",
         "prerelease": false,
-        "published_at": "2026-08-31T22:43:41Z",
+        "published_at": "2026-09-01T21:54:50Z",
         "zip": {
-          "name": "BATTLE_CINEMATICS-1.2.5.zip",
-          "url": "https://github.com/EnterPlayerOne/Battle-Cinematics-Stadium-Camera/releases/download/v1.2.5/BATTLE_CINEMATICS-1.2.5.zip",
-          "size": 237151
+          "name": "BATTLE_CINEMATICS-1.2.6.zip",
+          "url": "https://github.com/EnterPlayerOne/Battle-Cinematics-Stadium-Camera/releases/download/v1.2.6/BATTLE_CINEMATICS-1.2.6.zip",
+          "size": 246341
         }
       },
       "update_check": "ok",
       "downloads": {
-        "total": 15670,
-        "recent": 4785,
+        "total": 15860,
+        "recent": 4975,
         "window_days": 11,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -504,10 +504,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 747,
-        "recent": 334,
+        "total": 757,
+        "recent": 344,
         "window_days": 6,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -551,10 +551,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 6601,
-        "recent": 1016,
+        "total": 6622,
+        "recent": 1037,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -605,10 +605,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 104,
-        "recent": 87,
+        "total": 105,
+        "recent": 88,
         "window_days": 11,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -656,10 +656,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 3624,
-        "recent": 1433,
+        "total": 3652,
+        "recent": 1461,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -708,10 +708,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 489,
-        "recent": 192,
+        "total": 493,
+        "recent": 196,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -739,6 +739,11 @@
       ],
       "api": 2,
       "profile": "content",
+      "games": [
+        "gen1"
+      ],
+      "game_version": ">=0.0.0-0 <2.0.0",
+      "license": "MIT",
       "thumbnail": "data/mods/Code-Grub@bills_pc_plus/thumbnail.png",
       "description_url": "data/mods/Code-Grub@bills_pc_plus/description.md",
       "latest": {
@@ -755,10 +760,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 131,
-        "recent": 103,
+        "total": 150,
+        "recent": 122,
         "window_days": 6,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -811,10 +816,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 2846,
-        "recent": 968,
+        "total": 2853,
+        "recent": 975,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -853,10 +858,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 290,
-        "recent": 265,
+        "total": 293,
+        "recent": 268,
         "window_days": 8,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -897,10 +902,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 3763,
-        "recent": 486,
+        "total": 3777,
+        "recent": 500,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -936,10 +941,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 1143,
-        "recent": 238,
+        "total": 1147,
+        "recent": 242,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -977,10 +982,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 477,
-        "recent": 210,
+        "total": 479,
+        "recent": 212,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -1013,10 +1018,10 @@
       "latest": null,
       "update_check": "no installable release",
       "downloads": {
-        "total": 443,
-        "recent": 423,
+        "total": 457,
+        "recent": 437,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -1062,10 +1067,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 588,
-        "recent": 245,
+        "total": 593,
+        "recent": 250,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -1106,10 +1111,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 5522,
-        "recent": 843,
+        "total": 5537,
+        "recent": 858,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -1151,10 +1156,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 5640,
-        "recent": 879,
+        "total": 5654,
+        "recent": 893,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -1197,10 +1202,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 1225,
-        "recent": 274,
+        "total": 1229,
+        "recent": 278,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -1244,10 +1249,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 1502,
-        "recent": 274,
+        "total": 1518,
+        "recent": 290,
         "window_days": 11,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -1299,7 +1304,7 @@
         "total": 277,
         "recent": 47,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -1348,10 +1353,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 2169,
-        "recent": 574,
+        "total": 2184,
+        "recent": 589,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -1397,10 +1402,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 725,
-        "recent": 216,
+        "total": 727,
+        "recent": 218,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -1446,10 +1451,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 946,
-        "recent": 269,
+        "total": 949,
+        "recent": 272,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -1504,10 +1509,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 140,
-        "recent": 75,
+        "total": 151,
+        "recent": 86,
         "window_days": 6,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -1553,10 +1558,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 1998,
-        "recent": 524,
+        "total": 2002,
+        "recent": 528,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -1605,7 +1610,7 @@
         "total": 147,
         "recent": 55,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -1651,10 +1656,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 492,
-        "recent": 271,
+        "total": 503,
+        "recent": 282,
         "window_days": 11,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -1702,10 +1707,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 1392,
-        "recent": 549,
+        "total": 1403,
+        "recent": 560,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -1766,10 +1771,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 5480,
-        "recent": 958,
+        "total": 5510,
+        "recent": 988,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -1811,7 +1816,7 @@
         "total": 211,
         "recent": 40,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -1848,10 +1853,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 257,
-        "recent": 189,
+        "total": 261,
+        "recent": 193,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -1891,10 +1896,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 5753,
-        "recent": 851,
+        "total": 5771,
+        "recent": 869,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -1940,10 +1945,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 419,
-        "recent": 227,
+        "total": 424,
+        "recent": 232,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -1986,10 +1991,62 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 25948,
-        "recent": 7728,
+        "total": 26064,
+        "recent": 7844,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
+      }
+    },
+    {
+      "folder": "MisterMiracle@expanded_species",
+      "id": "expanded_species",
+      "title": "Expanded Species",
+      "author": "Mister Miracle",
+      "summary": "A framework for custom species above #255 on Gold/Silver/Crystal. It adds no Pokemon itself - species packs do. Uncapped encounters, trainer helpers, cosmetic forms and save protection.",
+      "version": "0.6.6",
+      "categories": [
+        "LIBRARY",
+        "CONTENT"
+      ],
+      "tags": [
+        "framework",
+        "modding-tool",
+        "custom species",
+        "gen2"
+      ],
+      "repo": "https://github.com/mistermiracle3036/Expanded-Species",
+      "github": "mistermiracle3036/Expanded-Species",
+      "automatic_version_check": true,
+      "license": "MIT",
+      "api": 2,
+      "game_version": ">=0.1.94 <2.0.0",
+      "profile": "content",
+      "affects_link": false,
+      "permissions": [
+        "engine_internals"
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "thumbnail": null,
+      "description_url": "data/mods/MisterMiracle@expanded_species/description.md",
+      "latest": {
+        "version": "0.6.6",
+        "tag": "v0.6.6",
+        "name": "v0.6.6",
+        "prerelease": false,
+        "published_at": "2026-08-26T02:58:59Z",
+        "zip": {
+          "name": "expanded_species-0.6.6.zip",
+          "url": "https://github.com/mistermiracle3036/Expanded-Species/releases/download/v0.6.6/expanded_species-0.6.6.zip",
+          "size": 60003
+        }
+      },
+      "update_check": "ok",
+      "downloads": {
+        "total": 81,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -2035,10 +2092,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 263,
-        "recent": 115,
+        "total": 265,
+        "recent": 117,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -2074,10 +2131,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 103,
-        "recent": 93,
+        "total": 115,
+        "recent": 105,
         "window_days": 6,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -2106,10 +2163,10 @@
       "latest": null,
       "update_check": "no installable release",
       "downloads": {
-        "total": 416,
-        "recent": 390,
+        "total": 431,
+        "recent": 405,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -2150,10 +2207,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 12314,
-        "recent": 1885,
+        "total": 12344,
+        "recent": 1915,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -2199,10 +2256,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 8044,
-        "recent": 2288,
+        "total": 8079,
+        "recent": 2323,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -2247,10 +2304,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 462,
-        "recent": 398,
+        "total": 465,
+        "recent": 401,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -2301,10 +2358,63 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 5231,
-        "recent": 420,
+        "total": 5257,
+        "recent": 446,
         "window_days": 4,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
+      }
+    },
+    {
+      "folder": "Hazard15301@g1gpp",
+      "id": "g1gpp",
+      "title": "Gen 1 Glitch Preservation Project",
+      "author": "Hazard15301",
+      "version": "1.0.0-beta",
+      "categories": [
+        "GAMEPLAY",
+        "CONTENT"
+      ],
+      "repo": "https://github.com/Hazard15301/G1GPP",
+      "summary": "A preservation-focused expansion for Pokémon Red and Blue, rewarding curious players who explore beyond the expected.",
+      "tags": [
+        "glitches",
+        "missingno",
+        "glitch city",
+        "old man glitch",
+        "trainer fly",
+        "minigame",
+        "pikablu",
+        "marill"
+      ],
+      "github": "Hazard15301/G1GPP",
+      "game_version": ">=0.2.36 <0.3.0",
+      "license": "MIT",
+      "permissions": [
+        "engine_internals"
+      ],
+      "api": 2,
+      "profile": "overhaul",
+      "experimental": true,
+      "thumbnail": "data/mods/Hazard15301@g1gpp/thumbnail.png",
+      "description_url": "data/mods/Hazard15301@g1gpp/description.md",
+      "latest": {
+        "version": "1.0.0",
+        "tag": "v1.0.0-beta",
+        "name": "G1GPP v1.0.0-beta",
+        "prerelease": true,
+        "published_at": "2026-08-29T19:26:12Z",
+        "zip": {
+          "name": "G1GPP-v1.0.0-beta.zip",
+          "url": "https://github.com/Hazard15301/G1GPP/releases/download/v1.0.0-beta/G1GPP-v1.0.0-beta.zip",
+          "size": 292261
+        }
+      },
+      "update_check": "ok",
+      "downloads": {
+        "total": 2,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -2353,10 +2463,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 1258,
-        "recent": 621,
+        "total": 1274,
+        "recent": 637,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -2404,10 +2514,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 31084,
-        "recent": 11685,
+        "total": 31398,
+        "recent": 11999,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -2455,10 +2565,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 2773,
-        "recent": 1201,
+        "total": 2824,
+        "recent": 1252,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -2505,10 +2615,168 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 35066,
-        "recent": 6584,
+        "total": 35179,
+        "recent": 6697,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
+      }
+    },
+    {
+      "folder": "Wild@gen151",
+      "id": "gen151",
+      "title": "Gen151",
+      "author": "Wild",
+      "summary": "Every one of the 151 obtainable renewably in one save, on one version, without trading, while every vanilla encounter keeps its exact vanilla behaviour.",
+      "version": "1.5.1",
+      "categories": [
+        "CONTENT",
+        "GAMEPLAY"
+      ],
+      "tags": [
+        "encounters",
+        "completion",
+        "living dex",
+        "version exclusives",
+        "trade evolutions",
+        "mew",
+        "legendaries"
+      ],
+      "repo": "https://github.com/wild1walker/Gen151",
+      "github": "wild1walker/Gen151",
+      "automatic_version_check": true,
+      "api": 2,
+      "game_version": ">=0.0.0-0 <2.0.0",
+      "profile": "content",
+      "affects_link": false,
+      "permissions": [
+        "engine_internals"
+      ],
+      "games": [
+        "gen1"
+      ],
+      "thumbnail": "data/mods/Wild@gen151/thumbnail.png",
+      "description_url": "data/mods/Wild@gen151/description.md",
+      "latest": {
+        "version": "1.5.2",
+        "tag": "v1.5.2",
+        "name": "1.5.2",
+        "prerelease": false,
+        "published_at": "2026-08-29T00:03:12Z",
+        "zip": {
+          "name": "gen151-1.5.2.zip",
+          "url": "https://github.com/wild1walker/Gen151/releases/download/v1.5.2/gen151-1.5.2.zip",
+          "size": 70055
+        }
+      },
+      "update_check": "ok",
+      "downloads": {
+        "total": 53,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-09-02T03:40:54.715Z"
+      }
+    },
+    {
+      "folder": "Wild@gen1arena",
+      "id": "gen1arena",
+      "title": "Gen1Arena",
+      "author": "Wild",
+      "summary": "2D backdrops behind battles, picked by map, tileset and how the encounter started.",
+      "version": "0.18.3",
+      "categories": [
+        "ART",
+        "CONTENT"
+      ],
+      "tags": [
+        "backdrops",
+        "battle",
+        "backgrounds",
+        "art",
+        "visual"
+      ],
+      "repo": "https://github.com/wild1walker/Gen1Arena",
+      "github": "wild1walker/Gen1Arena",
+      "automatic_version_check": true,
+      "api": 2,
+      "game_version": ">=0.1.37 <2.0.0",
+      "profile": "content",
+      "affects_link": false,
+      "permissions": [
+        "engine_internals"
+      ],
+      "games": [
+        "gen1"
+      ],
+      "thumbnail": "data/mods/Wild@gen1arena/thumbnail.png",
+      "description_url": "data/mods/Wild@gen1arena/description.md",
+      "latest": {
+        "version": "0.23.0",
+        "tag": "v0.23.0",
+        "name": "0.23.0",
+        "prerelease": false,
+        "published_at": "2026-09-02T02:13:42Z",
+        "zip": {
+          "name": "gen1arena-0.23.0.zip",
+          "url": "https://github.com/wild1walker/Gen1Arena/releases/download/v0.23.0/gen1arena-0.23.0.zip",
+          "size": 681931
+        }
+      },
+      "update_check": "ok",
+      "downloads": {
+        "total": 409,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-09-02T03:40:54.715Z"
+      }
+    },
+    {
+      "folder": "Wild@gen1_auto_continue",
+      "id": "gen1_auto_continue",
+      "title": "Gen1AutoContinue",
+      "author": "Wild",
+      "summary": "Boot to title, one press, playing. Skips the intro, the CONTINUE / NEW GAME menu and the save-info window.",
+      "version": "1.2.2",
+      "categories": [
+        "QOL",
+        "UI"
+      ],
+      "tags": [
+        "quality of life",
+        "ui",
+        "boot"
+      ],
+      "repo": "https://github.com/wild1walker/Gen1AutoContinue",
+      "github": "wild1walker/Gen1AutoContinue",
+      "automatic_version_check": true,
+      "api": 2,
+      "game_version": ">=0.0.0-dev <2.0.0",
+      "profile": "content",
+      "affects_link": false,
+      "permissions": [],
+      "games": [
+        "gen1"
+      ],
+      "license": "MIT",
+      "thumbnail": "data/mods/Wild@gen1_auto_continue/thumbnail.png",
+      "description_url": "data/mods/Wild@gen1_auto_continue/description.md",
+      "latest": {
+        "version": "1.2.2",
+        "tag": "v1.2.2",
+        "name": "1.2.2",
+        "prerelease": false,
+        "published_at": "2026-08-23T04:49:29Z",
+        "zip": {
+          "name": "gen1_auto_continue-1.2.2.zip",
+          "url": "https://github.com/wild1walker/Gen1AutoContinue/releases/download/v1.2.2/gen1_auto_continue-1.2.2.zip",
+          "size": 6509
+        }
+      },
+      "update_check": "ok",
+      "downloads": {
+        "total": 51,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -2516,36 +2784,108 @@
       "id": "gen1autosave",
       "title": "Gen1AutoSave",
       "author": "Wild",
+      "summary": "Autosaves on a play-time timer and after battles, catches and new areas, with optional rollback backups.",
       "version": "1.2.0",
       "categories": [
-        "GAMEPLAY",
-        "QOL"
+        "QOL",
+        "GAMEPLAY"
+      ],
+      "tags": [
+        "autosave",
+        "save",
+        "quality of life",
+        "backups",
+        "rollback"
       ],
       "repo": "https://github.com/wild1walker/Gen1AutoSave",
       "github": "wild1walker/Gen1AutoSave",
+      "automatic_version_check": true,
       "api": 2,
+      "game_version": ">=0.0.0-dev <1.0.0",
       "profile": "content",
+      "affects_link": false,
+      "permissions": [],
+      "conflicts": [
+        "recomp-autosave"
+      ],
+      "games": [
+        "all"
+      ],
+      "license": "MIT",
       "thumbnail": "data/mods/Wild@gen1autosave/thumbnail.png",
       "description_url": "data/mods/Wild@gen1autosave/description.md",
-      "summary": "An autosave mod for gen1recomp that makes manual saving optional, and that is deliberately careful around the built-in save sync.",
       "latest": {
-        "version": "1.18.0",
-        "tag": "v1.18.0",
-        "name": "1.18.0",
+        "version": "1.19.0",
+        "tag": "v1.19.0",
+        "name": "1.19.0",
         "prerelease": false,
-        "published_at": "2026-08-31T09:16:34Z",
+        "published_at": "2026-09-02T02:13:33Z",
         "zip": {
-          "name": "gen1autosave-1.18.0.zip",
-          "url": "https://github.com/wild1walker/Gen1AutoSave/releases/download/v1.18.0/gen1autosave-1.18.0.zip",
-          "size": 33312
+          "name": "gen1autosave-1.19.0.zip",
+          "url": "https://github.com/wild1walker/Gen1AutoSave/releases/download/v1.19.0/gen1autosave-1.19.0.zip",
+          "size": 36179
         }
       },
       "update_check": "ok",
       "downloads": {
-        "total": 249,
-        "recent": 175,
+        "total": 261,
+        "recent": 187,
         "window_days": 6,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
+      }
+    },
+    {
+      "folder": "Wild@Gen1BattleUI",
+      "id": "Gen1BattleUI",
+      "title": "Gen1BattleUI",
+      "author": "Wild",
+      "summary": "The battle command and move menus as four buttons in a 2x2 grid instead of a list, in the Game Boy's own screen and the Game Boy's own chrome.",
+      "version": "1.5.2",
+      "categories": [
+        "UI"
+      ],
+      "tags": [
+        "battle",
+        "ui",
+        "menu",
+        "buttons",
+        "moves",
+        "widescreen"
+      ],
+      "repo": "https://github.com/wild1walker/Gen1BattleUI",
+      "github": "wild1walker/Gen1BattleUI",
+      "automatic_version_check": true,
+      "api": 2,
+      "game_version": ">=0.0.0-0 <2.0.0",
+      "profile": "content",
+      "affects_link": false,
+      "permissions": [
+        "engine_internals"
+      ],
+      "games": [
+        "gen1"
+      ],
+      "license": "MIT",
+      "thumbnail": "data/mods/Wild@Gen1BattleUI/thumbnail.png",
+      "description_url": "data/mods/Wild@Gen1BattleUI/description.md",
+      "latest": {
+        "version": "1.7.0",
+        "tag": "v1.7.0",
+        "name": "1.7.0",
+        "prerelease": false,
+        "published_at": "2026-09-02T02:13:12Z",
+        "zip": {
+          "name": "Gen1BattleUI-1.7.0.zip",
+          "url": "https://github.com/wild1walker/Gen1BattleUI/releases/download/v1.7.0/Gen1BattleUI-1.7.0.zip",
+          "size": 101700
+        }
+      },
+      "update_check": "ok",
+      "downloads": {
+        "total": 56,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -2593,10 +2933,237 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 1705,
-        "recent": 764,
+        "total": 1756,
+        "recent": 815,
         "window_days": 6,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
+      }
+    },
+    {
+      "folder": "Wild@Gen1BillsBox",
+      "id": "Gen1BillsBox",
+      "title": "Gen1BillsBox",
+      "author": "Wild",
+      "summary": "Bill's PC replaced by the box it was always standing in for: the party down the left, twenty visible slots on the right, and a cursor that picks a POKeMON up and puts it down.",
+      "version": "1.5.0",
+      "categories": [
+        "UI",
+        "QOL"
+      ],
+      "tags": [
+        "pc",
+        "box",
+        "storage",
+        "party",
+        "cursor",
+        "palettes"
+      ],
+      "repo": "https://github.com/wild1walker/Gen1BillsBox",
+      "github": "wild1walker/Gen1BillsBox",
+      "automatic_version_check": true,
+      "api": 2,
+      "game_version": ">=0.0.0-0 <2.0.0",
+      "profile": "content",
+      "affects_link": false,
+      "permissions": [
+        "engine_internals"
+      ],
+      "conflicts": [
+        "modern_pc_ui"
+      ],
+      "games": [
+        "gen1"
+      ],
+      "thumbnail": "data/mods/Wild@Gen1BillsBox/thumbnail.png",
+      "description_url": "data/mods/Wild@Gen1BillsBox/description.md",
+      "latest": {
+        "version": "1.6.0",
+        "tag": "v1.6.0",
+        "name": "1.6.0",
+        "prerelease": false,
+        "published_at": "2026-08-31T09:05:09Z",
+        "zip": {
+          "name": "Gen1BillsBox-1.6.0.zip",
+          "url": "https://github.com/wild1walker/Gen1BillsBox/releases/download/v1.6.0/Gen1BillsBox-1.6.0.zip",
+          "size": 74819
+        }
+      },
+      "update_check": "ok",
+      "downloads": {
+        "total": 72,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-09-02T03:40:54.715Z"
+      }
+    },
+    {
+      "folder": "Wild@Gen1Dex",
+      "id": "Gen1Dex",
+      "title": "Gen1Dex",
+      "author": "Wild",
+      "summary": "The Pokédex with a POKéMON beside every entry: a party icon on every row, a silhouette until you have seen it, three pages behind each one, and an AREA screen that says how to get there.",
+      "version": "1.5.1",
+      "categories": [
+        "UI",
+        "QOL"
+      ],
+      "tags": [
+        "pokedex",
+        "dex",
+        "ui",
+        "icons",
+        "stats",
+        "movelist",
+        "area",
+        "town map"
+      ],
+      "repo": "https://github.com/wild1walker/Gen1Dex",
+      "github": "wild1walker/Gen1Dex",
+      "automatic_version_check": true,
+      "api": 2,
+      "game_version": ">=0.0.0-0 <2.0.0",
+      "profile": "content",
+      "affects_link": false,
+      "permissions": [
+        "engine_internals"
+      ],
+      "conflicts": [
+        "useful_dex",
+        "pokedex_plus"
+      ],
+      "games": [
+        "gen1"
+      ],
+      "license": "MIT",
+      "thumbnail": "data/mods/Wild@Gen1Dex/thumbnail.png",
+      "description_url": "data/mods/Wild@Gen1Dex/description.md",
+      "latest": {
+        "version": "1.10.0",
+        "tag": "v1.10.0",
+        "name": "1.10.0",
+        "prerelease": false,
+        "published_at": "2026-08-31T08:54:50Z",
+        "zip": {
+          "name": "Gen1Dex-1.10.0.zip",
+          "url": "https://github.com/wild1walker/Gen1Dex/releases/download/v1.10.0/Gen1Dex-1.10.0.zip",
+          "size": 136249
+        }
+      },
+      "update_check": "ok",
+      "downloads": {
+        "total": 92,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-09-02T03:40:54.715Z"
+      }
+    },
+    {
+      "folder": "Wild@Gen1Follower",
+      "id": "Gen1Follower",
+      "title": "Gen1Follower",
+      "author": "Wild",
+      "summary": "All 251 Gen 1 and Gen 2 overworld followers, sized by Pokédex proportions, with voxel support. Built from Antigravity & gamecorner33's PokéPC Followers.",
+      "version": "1.3.2",
+      "categories": [
+        "GAMEPLAY",
+        "CONTENT",
+        "ART",
+        "LIBRARY"
+      ],
+      "tags": [
+        "followers",
+        "overworld",
+        "sprites",
+        "graphics",
+        "voxel"
+      ],
+      "repo": "https://github.com/wild1walker/Gen1Follower",
+      "github": "wild1walker/Gen1Follower",
+      "automatic_version_check": true,
+      "api": 2,
+      "game_version": "0.0.0-dev || >=0.1.86 <2.0.0",
+      "profile": "content",
+      "affects_link": false,
+      "permissions": [
+        "engine_internals"
+      ],
+      "games": [
+        "gen1",
+        "gen2"
+      ],
+      "thumbnail": "data/mods/Wild@Gen1Follower/thumbnail.png",
+      "description_url": "data/mods/Wild@Gen1Follower/description.md",
+      "latest": {
+        "version": "1.7.0",
+        "tag": "v1.7.0",
+        "name": "Gen1Follower 1.7.0",
+        "prerelease": false,
+        "published_at": "2026-09-02T02:22:13Z",
+        "zip": {
+          "name": "Gen1Follower-1.7.0.zip",
+          "url": "https://github.com/wild1walker/Gen1Follower/releases/download/v1.7.0/Gen1Follower-1.7.0.zip",
+          "size": 545844
+        }
+      },
+      "update_check": "ok",
+      "downloads": {
+        "total": 138,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-09-02T03:40:54.715Z"
+      }
+    },
+    {
+      "folder": "Wild@Gen1MenuManager",
+      "id": "Gen1MenuManager",
+      "title": "Gen1MenuManager",
+      "author": "Wild",
+      "summary": "Rearrange the START menu and the Pokémon Center PC menu: reorder rows, hide the ones you never touch, and pin field items and moves to rows of their own.",
+      "version": "0.2.8",
+      "categories": [
+        "TOOL",
+        "UI",
+        "QOL"
+      ],
+      "tags": [
+        "menu",
+        "start menu",
+        "pc",
+        "quality of life",
+        "pins",
+        "reorder"
+      ],
+      "repo": "https://github.com/wild1walker/Gen1MenuManager",
+      "github": "wild1walker/Gen1MenuManager",
+      "automatic_version_check": true,
+      "api": 2,
+      "game_version": ">=0.0.0-dev <2.0.0",
+      "profile": "content",
+      "affects_link": false,
+      "permissions": [],
+      "games": [
+        "all"
+      ],
+      "thumbnail": "data/mods/Wild@Gen1MenuManager/thumbnail.png",
+      "description_url": "data/mods/Wild@Gen1MenuManager/description.md",
+      "latest": {
+        "version": "0.4.0",
+        "tag": "v0.4.0",
+        "name": "0.4.0",
+        "prerelease": false,
+        "published_at": "2026-08-31T09:11:51Z",
+        "zip": {
+          "name": "Gen1MenuManager-0.4.0.zip",
+          "url": "https://github.com/wild1walker/Gen1MenuManager/releases/download/v0.4.0/Gen1MenuManager-0.4.0.zip",
+          "size": 24185
+        }
+      },
+      "update_check": "ok",
+      "downloads": {
+        "total": 104,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -2644,10 +3211,125 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 695,
-        "recent": 262,
+        "total": 701,
+        "recent": 268,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
+      }
+    },
+    {
+      "folder": "Wild@gen1_modern_bag",
+      "id": "gen1_modern_bag",
+      "title": "Gen1ModernBag",
+      "author": "Wild",
+      "summary": "Seven inventory pockets with an icon on every row, auto-sorting, Favorites, pinned items, quick search, TM/HM tools and no capacity limit. Derived from FAFF0x's Modern Bag.",
+      "version": "1.11.0",
+      "categories": [
+        "UI",
+        "QOL"
+      ],
+      "tags": [
+        "bag",
+        "inventory",
+        "pockets",
+        "favorites",
+        "search",
+        "tm",
+        "hm"
+      ],
+      "repo": "https://github.com/wild1walker/Gen1ModernBag",
+      "github": "wild1walker/Gen1ModernBag",
+      "automatic_version_check": true,
+      "api": 2,
+      "game_version": ">=0.0.0-0 <2.0.0",
+      "profile": "content",
+      "affects_link": false,
+      "permissions": [
+        "engine_internals"
+      ],
+      "conflicts": [
+        "modern_bag"
+      ],
+      "games": [
+        "gen1"
+      ],
+      "license": "MIT",
+      "thumbnail": "data/mods/Wild@gen1_modern_bag/thumbnail.png",
+      "description_url": "data/mods/Wild@gen1_modern_bag/description.md",
+      "latest": {
+        "version": "1.12.0",
+        "tag": "v1.12.0",
+        "name": "Gen1ModernBag 1.12.0",
+        "prerelease": false,
+        "published_at": "2026-08-31T09:07:57Z",
+        "zip": {
+          "name": "gen1_modern_bag_v1.12.0.zip",
+          "url": "https://github.com/wild1walker/Gen1ModernBag/releases/download/v1.12.0/gen1_modern_bag_v1.12.0.zip",
+          "size": 129391
+        }
+      },
+      "update_check": "ok",
+      "downloads": {
+        "total": 123,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-09-02T03:40:54.715Z"
+      }
+    },
+    {
+      "folder": "Wild@gen1_mod_menu",
+      "id": "gen1_mod_menu",
+      "title": "Gen1ModMenu",
+      "author": "Wild",
+      "summary": "The mod manager, redrawn in the game's own OPTION-screen idiom: framed cards with the name on its own line and its value below, plus sorting, filters and a help line on every mod's options page.",
+      "version": "0.9.0",
+      "categories": [
+        "UI",
+        "TOOL",
+        "QOL"
+      ],
+      "tags": [
+        "ui",
+        "mod manager",
+        "options",
+        "settings",
+        "sort",
+        "quality of life"
+      ],
+      "repo": "https://github.com/wild1walker/Gen1ModMenu",
+      "github": "wild1walker/Gen1ModMenu",
+      "automatic_version_check": true,
+      "api": 2,
+      "game_version": ">=0.0.0-0 <2.0.0",
+      "profile": "content",
+      "affects_link": false,
+      "permissions": [
+        "engine_internals"
+      ],
+      "games": [
+        "all"
+      ],
+      "license": "MIT",
+      "thumbnail": "data/mods/Wild@gen1_mod_menu/thumbnail.png",
+      "description_url": "data/mods/Wild@gen1_mod_menu/description.md",
+      "latest": {
+        "version": "0.9.0",
+        "tag": "v0.9.0",
+        "name": "0.9.0",
+        "prerelease": false,
+        "published_at": "2026-08-27T00:20:44Z",
+        "zip": {
+          "name": "gen1_mod_menu-0.9.0.zip",
+          "url": "https://github.com/wild1walker/Gen1ModMenu/releases/download/v0.9.0/gen1_mod_menu-0.9.0.zip",
+          "size": 60194
+        }
+      },
+      "update_check": "ok",
+      "downloads": {
+        "total": 44,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -2684,10 +3366,68 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 15524,
-        "recent": 1195,
+        "total": 15548,
+        "recent": 1219,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
+      }
+    },
+    {
+      "folder": "Wild@Gen1Party",
+      "id": "Gen1Party",
+      "title": "Gen1Party",
+      "author": "Wild",
+      "summary": "The party menu with every POKéMON in its own species colours instead of all six sharing one, and nothing left running off the right edge of the screen.",
+      "version": "1.7.0",
+      "categories": [
+        "UI",
+        "QOL"
+      ],
+      "tags": [
+        "party",
+        "ui",
+        "icons",
+        "colours",
+        "quality of life"
+      ],
+      "repo": "https://github.com/wild1walker/Gen1Party",
+      "github": "wild1walker/Gen1Party",
+      "automatic_version_check": true,
+      "api": 2,
+      "game_version": ">=0.0.0-0 <2.0.0",
+      "profile": "content",
+      "affects_link": false,
+      "permissions": [
+        "engine_internals"
+      ],
+      "conflicts": [
+        "modern_party_ui",
+        "gen1recomp-modern-party-ui"
+      ],
+      "games": [
+        "gen1"
+      ],
+      "license": "MIT",
+      "thumbnail": "data/mods/Wild@Gen1Party/thumbnail.png",
+      "description_url": "data/mods/Wild@Gen1Party/description.md",
+      "latest": {
+        "version": "1.8.1",
+        "tag": "v1.8.1",
+        "name": "1.8.1",
+        "prerelease": false,
+        "published_at": "2026-09-02T02:13:18Z",
+        "zip": {
+          "name": "Gen1Party-1.8.1.zip",
+          "url": "https://github.com/wild1walker/Gen1Party/releases/download/v1.8.1/Gen1Party-1.8.1.zip",
+          "size": 49497
+        }
+      },
+      "update_check": "ok",
+      "downloads": {
+        "total": 59,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -2729,10 +3469,293 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 2356,
-        "recent": 726,
+        "total": 2376,
+        "recent": 746,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
+      }
+    },
+    {
+      "folder": "Wild@Gen1Remember",
+      "id": "Gen1Remember",
+      "title": "Gen1Remember",
+      "author": "Wild",
+      "summary": "A POKéMON can be taught a move it has forgotten, from the popup you already open on it: every level-up move it should have had by now, its pre-evolutions' included.",
+      "version": "1.0.1",
+      "categories": [
+        "UI",
+        "QOL"
+      ],
+      "tags": [
+        "moves",
+        "move reminder",
+        "relearn",
+        "ui",
+        "party",
+        "box",
+        "quality of life",
+        "learnset"
+      ],
+      "repo": "https://github.com/wild1walker/Gen1Remember",
+      "github": "wild1walker/Gen1Remember",
+      "automatic_version_check": true,
+      "api": 2,
+      "game_version": ">=0.0.0-0 <2.0.0",
+      "profile": "content",
+      "affects_link": false,
+      "permissions": [
+        "engine_internals"
+      ],
+      "conflicts": [],
+      "games": [
+        "gen1"
+      ],
+      "license": "MIT",
+      "thumbnail": "data/mods/Wild@Gen1Remember/thumbnail.png",
+      "description_url": "data/mods/Wild@Gen1Remember/description.md",
+      "latest": {
+        "version": "1.0.1",
+        "tag": "v1.0.1",
+        "name": "1.0.1",
+        "prerelease": false,
+        "published_at": "2026-08-26T17:49:56Z",
+        "zip": {
+          "name": "Gen1Remember-1.0.1.zip",
+          "url": "https://github.com/wild1walker/Gen1Remember/releases/download/v1.0.1/Gen1Remember-1.0.1.zip",
+          "size": 27087
+        }
+      },
+      "update_check": "ok",
+      "downloads": {
+        "total": 28,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-09-02T03:40:54.715Z"
+      }
+    },
+    {
+      "folder": "Wild@gen1_sound_qol",
+      "id": "gen1_sound_qol",
+      "title": "Gen1SoundQOL",
+      "author": "Wild",
+      "summary": "The low-HP battle siren beeps once instead of looping forever, and on mobile the game mutes itself when another app takes the audio.",
+      "version": "0.3.0",
+      "categories": [
+        "AUDIO",
+        "QOL"
+      ],
+      "tags": [
+        "audio",
+        "sound",
+        "low hp",
+        "alarm",
+        "mute",
+        "mobile",
+        "quality of life"
+      ],
+      "repo": "https://github.com/wild1walker/Gen1SoundQOL",
+      "github": "wild1walker/Gen1SoundQOL",
+      "automatic_version_check": true,
+      "api": 2,
+      "game_version": ">=0.0.0-0 <2.0.0",
+      "profile": "content",
+      "affects_link": false,
+      "permissions": [
+        "engine_internals"
+      ],
+      "games": [
+        "all"
+      ],
+      "license": "MIT",
+      "thumbnail": "data/mods/Wild@gen1_sound_qol/thumbnail.png",
+      "description_url": "data/mods/Wild@gen1_sound_qol/description.md",
+      "latest": {
+        "version": "0.3.0",
+        "tag": "v0.3.0",
+        "name": "0.3.0",
+        "prerelease": false,
+        "published_at": "2026-08-24T18:23:26Z",
+        "zip": {
+          "name": "gen1_sound_qol-0.3.0.zip",
+          "url": "https://github.com/wild1walker/Gen1SoundQOL/releases/download/v0.3.0/gen1_sound_qol-0.3.0.zip",
+          "size": 14050
+        }
+      },
+      "update_check": "ok",
+      "downloads": {
+        "total": 48,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-09-02T03:40:54.715Z"
+      }
+    },
+    {
+      "folder": "Wild@gen1_sprint",
+      "id": "gen1_sprint",
+      "title": "Gen1Sprint",
+      "author": "Wild",
+      "summary": "Hold B to run at FireRed's running-shoes speed, and ride the BICYCLE at twice the speed Gen 1 gives it.",
+      "version": "0.2.0",
+      "categories": [
+        "GAMEPLAY",
+        "QOL"
+      ],
+      "tags": [
+        "overworld",
+        "movement",
+        "running shoes",
+        "sprint",
+        "bicycle",
+        "speed",
+        "quality of life"
+      ],
+      "repo": "https://github.com/wild1walker/Gen1Sprint",
+      "github": "wild1walker/Gen1Sprint",
+      "automatic_version_check": true,
+      "api": 2,
+      "game_version": ">=0.0.0-0 <2.0.0",
+      "profile": "content",
+      "affects_link": false,
+      "permissions": [],
+      "games": [
+        "all"
+      ],
+      "license": "MIT",
+      "thumbnail": "data/mods/Wild@gen1_sprint/thumbnail.png",
+      "description_url": "data/mods/Wild@gen1_sprint/description.md",
+      "latest": {
+        "version": "0.3.1",
+        "tag": "v0.3.1",
+        "name": "0.3.1",
+        "prerelease": false,
+        "published_at": "2026-08-30T00:31:27Z",
+        "zip": {
+          "name": "gen1_sprint-0.3.1.zip",
+          "url": "https://github.com/wild1walker/Gen1Sprint/releases/download/v0.3.1/gen1_sprint-0.3.1.zip",
+          "size": 25732
+        }
+      },
+      "update_check": "ok",
+      "downloads": {
+        "total": 41,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-09-02T03:40:54.715Z"
+      }
+    },
+    {
+      "folder": "Wild@gen1_wild_qol",
+      "id": "gen1_wild_qol",
+      "title": "Gen1WildQOL",
+      "author": "Wild",
+      "summary": "The quality-of-life half of the suite in one mod: sprinting, autosave, auto continue, sound, followers, all 151, EXP share, the move reminder and the mod manager.",
+      "version": "1.11.1",
+      "categories": [
+        "QOL",
+        "GAMEPLAY",
+        "CONTENT"
+      ],
+      "tags": [
+        "bundle",
+        "collection",
+        "quality of life",
+        "sprint",
+        "autosave",
+        "followers",
+        "exp share",
+        "move reminder"
+      ],
+      "repo": "https://github.com/wild1walker/Gen1WildQOL",
+      "github": "wild1walker/Gen1WildQOL",
+      "automatic_version_check": true,
+      "api": 2,
+      "game_version": ">=0.1.37 <2.0.0",
+      "profile": "content",
+      "affects_link": false,
+      "permissions": [
+        "engine_internals"
+      ],
+      "games": [
+        "gen1"
+      ],
+      "license": "MIT",
+      "thumbnail": "data/mods/Wild@gen1_wild_qol/thumbnail.png",
+      "description_url": "data/mods/Wild@gen1_wild_qol/description.md",
+      "latest": {
+        "version": "1.28.0",
+        "tag": "v1.28.0",
+        "name": "1.28.0",
+        "prerelease": false,
+        "published_at": "2026-09-02T02:28:55Z",
+        "zip": {
+          "name": "gen1_wild_qol-1.28.0.zip",
+          "url": "https://github.com/wild1walker/Gen1WildQOL/releases/download/v1.28.0/gen1_wild_qol-1.28.0.zip",
+          "size": 821945
+        }
+      },
+      "update_check": "ok",
+      "downloads": {
+        "total": 415,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-09-02T03:40:54.715Z"
+      }
+    },
+    {
+      "folder": "Wild@gen1_wild_ui",
+      "id": "gen1_wild_ui",
+      "title": "Gen1WildUI",
+      "author": "Wild",
+      "summary": "The visual half of the suite in one mod: battle backdrops and intro, the battle menus, the Pokédex, the box, the party menu, the bag, item icons and descriptions, the lift panel.",
+      "version": "1.12.0",
+      "categories": [
+        "UI",
+        "ART"
+      ],
+      "tags": [
+        "bundle",
+        "collection",
+        "ui",
+        "pokedex",
+        "party",
+        "bag",
+        "backdrops",
+        "item descriptions"
+      ],
+      "repo": "https://github.com/wild1walker/Gen1WildUI",
+      "github": "wild1walker/Gen1WildUI",
+      "automatic_version_check": true,
+      "api": 2,
+      "game_version": ">=0.1.37 <2.0.0",
+      "profile": "content",
+      "affects_link": false,
+      "permissions": [
+        "engine_internals"
+      ],
+      "games": [
+        "gen1"
+      ],
+      "license": "MIT",
+      "thumbnail": "data/mods/Wild@gen1_wild_ui/thumbnail.png",
+      "description_url": "data/mods/Wild@gen1_wild_ui/description.md",
+      "latest": {
+        "version": "1.23.0",
+        "tag": "v1.23.0",
+        "name": "1.23.0",
+        "prerelease": false,
+        "published_at": "2026-09-02T02:27:22Z",
+        "zip": {
+          "name": "gen1_wild_ui-1.23.0.zip",
+          "url": "https://github.com/wild1walker/Gen1WildUI/releases/download/v1.23.0/gen1_wild_ui-1.23.0.zip",
+          "size": 1192517
+        }
+      },
+      "update_check": "ok",
+      "downloads": {
+        "total": 423,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -2782,10 +3805,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 184,
-        "recent": 84,
+        "total": 196,
+        "recent": 96,
         "window_days": 4,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -2837,10 +3860,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 271,
-        "recent": 99,
+        "total": 282,
+        "recent": 110,
         "window_days": 6,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -2875,10 +3898,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 64,
-        "recent": 54,
+        "total": 67,
+        "recent": 57,
         "window_days": 6,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -2920,7 +3943,60 @@
         "total": 241,
         "recent": 131,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
+      }
+    },
+    {
+      "folder": "MisterMiracle@gold_records",
+      "id": "gold_records",
+      "title": "Gold Records (Alpha)",
+      "author": "Mister Miracle",
+      "summary": "ALPHA - Roxie came to Johto for a music scene, found temple bells and a sleeping Wooper, and is starting a band out of spite. You are her manager. Gold/Silver/Crystal.",
+      "version": "0.4.2",
+      "categories": [
+        "CONTENT",
+        "GAMEPLAY"
+      ],
+      "tags": [
+        "quest",
+        "music",
+        "johto",
+        "gen2",
+        "alpha"
+      ],
+      "repo": "https://github.com/mistermiracle3036/Gold-Records",
+      "github": "mistermiracle3036/Gold-Records",
+      "automatic_version_check": true,
+      "license": "MIT",
+      "api": 2,
+      "game_version": ">=0.1.78 <2.0.0",
+      "profile": "content",
+      "affects_link": false,
+      "permissions": [
+        "engine_internals"
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "thumbnail": null,
+      "description_url": "data/mods/MisterMiracle@gold_records/description.md",
+      "latest": {
+        "version": "0.4.2",
+        "tag": "v0.4.2",
+        "name": "v0.4.2",
+        "prerelease": false,
+        "published_at": "2026-08-14T00:38:54Z",
+        "zip": {
+          "name": "gold_records-0.4.2.zip",
+          "url": "https://github.com/mistermiracle3036/Gold-Records/releases/download/v0.4.2/gold_records-0.4.2.zip",
+          "size": 25140
+        }
+      },
+      "update_check": "ok",
+      "downloads": {
+        "total": 21,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -2969,10 +4045,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 4603,
-        "recent": 818,
+        "total": 4613,
+        "recent": 828,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -3021,10 +4097,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 205,
-        "recent": 119,
+        "total": 206,
+        "recent": 120,
         "window_days": 11,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -3065,10 +4141,101 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 1582,
-        "recent": 318,
+        "total": 1583,
+        "recent": 319,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
+      }
+    },
+    {
+      "folder": "MisterMiracle@indigo_conference",
+      "id": "indigo_conference",
+      "title": "Indigo Plateau Conference",
+      "author": "Mister Miracle",
+      "summary": "A repeatable tournament circuit for Gold/Silver/Crystal. Four rounds of guest challengers in the unused upstairs room of five Pokemon Centers, badge-gated, ending at the Indigo Plateau.",
+      "version": "1.0.2",
+      "categories": [
+        "CONTENT",
+        "GAMEPLAY"
+      ],
+      "tags": [
+        "tournament",
+        "battles",
+        "johto",
+        "gen2"
+      ],
+      "repo": "https://github.com/mistermiracle3036/Indigo-Plateau-Conference",
+      "github": "mistermiracle3036/Indigo-Plateau-Conference",
+      "automatic_version_check": true,
+      "license": "MIT",
+      "api": 2,
+      "game_version": ">=0.1.78 <2.0.0",
+      "profile": "content",
+      "affects_link": false,
+      "permissions": [
+        "engine_internals"
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "thumbnail": null,
+      "description_url": "data/mods/MisterMiracle@indigo_conference/description.md",
+      "latest": {
+        "version": "1.0.2",
+        "tag": "v1.0.2",
+        "name": "v1.0.2",
+        "prerelease": false,
+        "published_at": "2026-08-14T02:35:18Z",
+        "zip": {
+          "name": "indigo_conference-1.0.2.zip",
+          "url": "https://github.com/mistermiracle3036/Indigo-Plateau-Conference/releases/download/v1.0.2/indigo_conference-1.0.2.zip",
+          "size": 56357
+        }
+      },
+      "update_check": "ok",
+      "downloads": {
+        "total": 66,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-09-02T03:40:54.715Z"
+      }
+    },
+    {
+      "folder": "bastinjul@infinite_tms",
+      "id": "infinite_tms",
+      "title": "infinite_tms",
+      "author": "bastinjul",
+      "version": "0.1.0",
+      "categories": [
+        "GAMEPLAY"
+      ],
+      "repo": "https://github.com/bastinjul/infinite_tms",
+      "summary": "Mod that allows you to use TMs indefinitely",
+      "github": "bastinjul/infinite_tms",
+      "permissions": [
+        "engine_internals"
+      ],
+      "api": 2,
+      "profile": "content",
+      "thumbnail": null,
+      "description_url": "data/mods/bastinjul@infinite_tms/description.md",
+      "latest": {
+        "version": "0.1.0",
+        "tag": "v0.1.0",
+        "name": "0.1.0",
+        "prerelease": false,
+        "published_at": "2026-08-30T10:21:18Z",
+        "zip": {
+          "name": "infinite_tms-0.1.0.zip",
+          "url": "https://github.com/bastinjul/infinite_tms/releases/download/v0.1.0/infinite_tms-0.1.0.zip",
+          "size": 1414
+        }
+      },
+      "update_check": "ok",
+      "downloads": {
+        "total": 4,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -3119,10 +4286,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 169,
-        "recent": 93,
+        "total": 171,
+        "recent": 95,
         "window_days": 11,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -3164,7 +4331,7 @@
         "total": 299,
         "recent": 49,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -3254,10 +4421,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 7372,
-        "recent": 409,
+        "total": 7389,
+        "recent": 426,
         "window_days": 6,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -3311,10 +4478,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 314,
-        "recent": 163,
+        "total": 329,
+        "recent": 178,
         "window_days": 4,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -3350,10 +4517,62 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 1915,
-        "recent": 451,
+        "total": 1919,
+        "recent": 455,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
+      }
+    },
+    {
+      "folder": "MisterMiracle@kanto_contests",
+      "id": "kanto_contests",
+      "title": "Kanto Contests (Alpha)",
+      "author": "Mister Miracle",
+      "summary": "ALPHA - Ruby/Sapphire-style Pokemon Contests in Kanto and Johto. Raise condition with PokeSnacks, earn scarves, then appeal in COOL, BEAUTY, CUTE, SMART or TOUGH. Wins record per category.",
+      "version": "0.15.0",
+      "categories": [
+        "CONTENT",
+        "GAMEPLAY"
+      ],
+      "tags": [
+        "contests",
+        "celadon",
+        "alpha",
+        "gen1",
+        "gen2"
+      ],
+      "repo": "https://github.com/mistermiracle3036/Kanto-Contests",
+      "github": "mistermiracle3036/Kanto-Contests",
+      "automatic_version_check": true,
+      "api": 2,
+      "game_version": ">=0.1.75 <2.0.0",
+      "profile": "content",
+      "affects_link": false,
+      "permissions": [
+        "engine_internals"
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "thumbnail": null,
+      "description_url": "data/mods/MisterMiracle@kanto_contests/description.md",
+      "latest": {
+        "version": "0.8.2",
+        "tag": "v0.8.2",
+        "name": "v0.8.2",
+        "prerelease": false,
+        "published_at": "2026-08-10T23:16:30Z",
+        "zip": {
+          "name": "kanto_contests-0.8.2.zip",
+          "url": "https://github.com/mistermiracle3036/Kanto-Contests/releases/download/v0.8.2/kanto_contests-0.8.2.zip",
+          "size": 31250
+        }
+      },
+      "update_check": "ok",
+      "downloads": {
+        "total": 25,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -3406,10 +4625,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 475,
-        "recent": 224,
+        "total": 489,
+        "recent": 238,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -3456,10 +4675,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 2608,
-        "recent": 1018,
+        "total": 2627,
+        "recent": 1037,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -3504,23 +4723,23 @@
       "thumbnail": "data/mods/AverageConsumer@kanto_gear/thumbnail.png",
       "description_url": "data/mods/AverageConsumer@kanto_gear/description.md",
       "latest": {
-        "version": "2.10.0",
-        "tag": "v2.10.0",
-        "name": "Kanto Gear 2.10.0 — Bonjour, Kanto Gear",
+        "version": "3.0.2",
+        "tag": "v3.0.2",
+        "name": "Kanto Gear 3.0.2",
         "prerelease": false,
-        "published_at": "2026-08-28T14:55:57Z",
+        "published_at": "2026-09-02T01:07:48Z",
         "zip": {
-          "name": "kanto_gear-2.10.0.zip",
-          "url": "https://github.com/AverageConsumer/kanto-gear/releases/download/v2.10.0/kanto_gear-2.10.0.zip",
-          "size": 62481
+          "name": "kanto_gear-3.0.2.zip",
+          "url": "https://github.com/AverageConsumer/kanto-gear/releases/download/v3.0.2/kanto_gear-3.0.2.zip",
+          "size": 227318
         }
       },
       "update_check": "ok",
       "downloads": {
-        "total": 12915,
-        "recent": 5264,
+        "total": 13356,
+        "recent": 5705,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -3571,10 +4790,63 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 2363,
-        "recent": 877,
+        "total": 2380,
+        "recent": 894,
         "window_days": 11,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
+      }
+    },
+    {
+      "folder": "MayoMan7@level_match_mod",
+      "id": "level_match_mod",
+      "title": "Level Match Mod",
+      "author": "MayoMan7",
+      "summary": "Scales enemy trainer Pokemon up to the highest level in the player's healthy party.",
+      "version": "0.1.0",
+      "categories": [
+        "GAMEPLAY",
+        "BALANCE"
+      ],
+      "tags": [
+        "trainers",
+        "level scaling",
+        "difficulty"
+      ],
+      "repo": "https://github.com/MayoMan7/level_match_mod",
+      "github": "MayoMan7/level_match_mod",
+      "automatic_version_check": true,
+      "api": 2,
+      "game_version": ">=0.0.0-dev <1.0.0",
+      "games": [
+        "gen1"
+      ],
+      "profile": "content",
+      "affects_link": false,
+      "experimental": false,
+      "permissions": [],
+      "dependencies": [],
+      "conflicts": [],
+      "license": "MIT",
+      "thumbnail": null,
+      "description_url": "data/mods/MayoMan7@level_match_mod/description.md",
+      "latest": {
+        "version": "0.1.0",
+        "tag": "v0.1.0",
+        "name": "0.1.0",
+        "prerelease": false,
+        "published_at": "2026-08-31T20:10:44Z",
+        "zip": {
+          "name": "level_match_mod-0.1.0.zip",
+          "url": "https://github.com/MayoMan7/level_match_mod/releases/download/v0.1.0/level_match_mod-0.1.0.zip",
+          "size": 2221
+        }
+      },
+      "update_check": "ok",
+      "downloads": {
+        "total": 3,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -3619,10 +4891,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 1112,
-        "recent": 684,
+        "total": 1129,
+        "recent": 701,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -3671,10 +4943,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 952,
-        "recent": 377,
+        "total": 957,
+        "recent": 382,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -3730,10 +5002,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 1736,
-        "recent": 568,
+        "total": 1802,
+        "recent": 634,
         "window_days": 6,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -3783,10 +5055,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 1336,
-        "recent": 558,
+        "total": 1345,
+        "recent": 567,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -3833,10 +5105,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 700,
-        "recent": 485,
+        "total": 714,
+        "recent": 499,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -3884,10 +5156,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 13199,
-        "recent": 2437,
+        "total": 13239,
+        "recent": 2477,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -3943,10 +5215,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 4367,
-        "recent": 990,
+        "total": 4460,
+        "recent": 1083,
         "window_days": 6,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -4002,10 +5274,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 1247,
-        "recent": 684,
+        "total": 1286,
+        "recent": 723,
         "window_days": 6,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -4030,7 +5302,7 @@
         "total": 65,
         "recent": 38,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -4075,10 +5347,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 927,
-        "recent": 149,
+        "total": 929,
+        "recent": 151,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -4123,10 +5395,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 687,
-        "recent": 386,
+        "total": 696,
+        "recent": 395,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -4170,10 +5442,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 4375,
-        "recent": 1461,
+        "total": 4395,
+        "recent": 1481,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -4211,10 +5483,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 5263,
-        "recent": 834,
+        "total": 5271,
+        "recent": 842,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -4256,10 +5528,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 1543,
-        "recent": 286,
+        "total": 1545,
+        "recent": 288,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -4301,10 +5573,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 537,
-        "recent": 462,
+        "total": 552,
+        "recent": 477,
         "window_days": 11,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -4346,10 +5618,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 382,
-        "recent": 330,
+        "total": 392,
+        "recent": 340,
         "window_days": 11,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -4391,10 +5663,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 548,
-        "recent": 481,
+        "total": 563,
+        "recent": 496,
         "window_days": 11,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -4436,10 +5708,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 1200,
-        "recent": 646,
+        "total": 1227,
+        "recent": 673,
         "window_days": 11,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -4481,7 +5753,7 @@
         "total": 121,
         "recent": 69,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -4530,10 +5802,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 4826,
-        "recent": 1661,
+        "total": 4851,
+        "recent": 1686,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -4574,10 +5846,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 1766,
-        "recent": 542,
+        "total": 1782,
+        "recent": 558,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -4619,10 +5891,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 5109,
-        "recent": 789,
+        "total": 5128,
+        "recent": 808,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -4650,7 +5922,7 @@
         "total": 0,
         "recent": 0,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -4695,10 +5967,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 141,
-        "recent": 110,
+        "total": 144,
+        "recent": 113,
         "window_days": 8,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -4745,10 +6017,113 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 1090,
-        "recent": 183,
+        "total": 1093,
+        "recent": 186,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
+      }
+    },
+    {
+      "folder": "Code-Grub@pokebag_plus",
+      "id": "pokebag_plus",
+      "title": "PokéBag+",
+      "author": "Code-Grub",
+      "summary": "The bag in four pockets -- ITEMS, BALLS, KEY ITEMS, TM/HM -- paged with Left and Right, keeping vanilla order and the SELECT swap.",
+      "version": "0.1.0",
+      "categories": [
+        "UI",
+        "QOL"
+      ],
+      "tags": [
+        "bag",
+        "items",
+        "pockets",
+        "quality of life",
+        "ui"
+      ],
+      "repo": "https://github.com/Code-Grub/pokebag-plus",
+      "github": "Code-Grub/pokebag-plus",
+      "automatic_version_check": true,
+      "api": 2,
+      "game_version": ">=0.0.0-0 <2.0.0",
+      "profile": "content",
+      "permissions": [
+        "engine_internals"
+      ],
+      "license": "MIT",
+      "thumbnail": "data/mods/Code-Grub@pokebag_plus/thumbnail.png",
+      "description_url": "data/mods/Code-Grub@pokebag_plus/description.md",
+      "latest": {
+        "version": "0.1.0",
+        "tag": "v0.1.0",
+        "name": "0.1.0",
+        "prerelease": false,
+        "published_at": "2026-09-01T18:37:30Z",
+        "zip": {
+          "name": "pokebag_plus-0.1.0.zip",
+          "url": "https://github.com/Code-Grub/pokebag-plus/releases/download/v0.1.0/pokebag_plus-0.1.0.zip",
+          "size": 12938
+        }
+      },
+      "update_check": "ok",
+      "downloads": {
+        "total": 9,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-09-02T03:40:54.715Z"
+      }
+    },
+    {
+      "folder": "MisterMiracle@pokeball_colors",
+      "id": "pokeball_colors",
+      "title": "Pokeball Colors",
+      "author": "Mister Miracle",
+      "summary": "Per-ball throw, preview and heal-machine colors for Red/Blue/Yellow and Gold/Silver/Crystal. Includes a color editor on the PC where you design your own ball palettes.",
+      "version": "0.1.64",
+      "categories": [
+        "ART",
+        "UI"
+      ],
+      "tags": [
+        "cosmetic",
+        "battle",
+        "pokeballs",
+        "color editor",
+        "gen1",
+        "gen2"
+      ],
+      "repo": "https://github.com/mistermiracle3036/Pokeball-Colors",
+      "github": "mistermiracle3036/Pokeball-Colors",
+      "automatic_version_check": true,
+      "api": 2,
+      "game_version": ">=0.1.38 <2.0.0",
+      "profile": "content",
+      "affects_link": false,
+      "permissions": [
+        "engine_internals"
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "thumbnail": null,
+      "description_url": "data/mods/MisterMiracle@pokeball_colors/description.md",
+      "latest": {
+        "version": "0.1.64",
+        "tag": "v0.1.64",
+        "name": "v0.1.64",
+        "prerelease": false,
+        "published_at": "2026-08-30T02:51:19Z",
+        "zip": {
+          "name": "pokeball_colors-0.1.64.zip",
+          "url": "https://github.com/mistermiracle3036/Pokeball-Colors/releases/download/v0.1.64/pokeball_colors-0.1.64.zip",
+          "size": 64875
+        }
+      },
+      "update_check": "ok",
+      "downloads": {
+        "total": 1684,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -4756,7 +6131,7 @@
       "id": "pokegear_menu",
       "title": "PokéGear Menu",
       "author": "Code-Grub",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "categories": [
         "UI"
       ],
@@ -4779,6 +6154,9 @@
       ],
       "license": "MIT",
       "summary": "The START menu restyled as a handheld: nine apps in a 3x3 grid over the overworld. A reskin of the menu, not the Gen 2 device.",
+      "games": [
+        "gen1"
+      ],
       "thumbnail": "data/mods/Code-Grub@pokegear_menu/thumbnail.png",
       "description_url": "data/mods/Code-Grub@pokegear_menu/description.md",
       "latest": {
@@ -4795,10 +6173,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 56,
-        "recent": 55,
+        "total": 62,
+        "recent": 61,
         "window_days": 4,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -4806,30 +6184,31 @@
       "id": "snag_quest",
       "title": "Pokemon Snag",
       "author": "Mister Miracle",
-      "version": "0.12.0",
+      "summary": "Steal Pokemon from other trainers with the SNAG BALL. Earn it from Jessie at Nugget Bridge on Red, or a Cherrygrove sailor on Gold, then fence what you take to black-market buyers.",
+      "version": "0.15.9",
       "categories": [
         "GAMEPLAY",
         "CONTENT"
       ],
-      "repo": "https://github.com/mistermiracle3036/Pokemon-Snag",
-      "summary": "Steal Pokemon from other trainers with the SNAG BALL, and fence what you steal for more balls.",
       "tags": [
-        "theft",
-        "snag",
-        "trainer-battles",
-        "questline",
-        "team-rocket"
+        "quest",
+        "catching",
+        "team rocket",
+        "gen1",
+        "gen2"
       ],
+      "repo": "https://github.com/mistermiracle3036/Pokemon-Snag",
       "github": "mistermiracle3036/Pokemon-Snag",
-      "game_version": ">=0.1.38",
-      "dependencies": [
-        "quest_system"
-      ],
+      "automatic_version_check": true,
+      "api": 2,
+      "game_version": ">=0.1.38 <2.0.0",
+      "profile": "content",
+      "affects_link": false,
       "permissions": [
         "engine_internals"
       ],
-      "api": 2,
-      "profile": "content",
+      "dependencies": [],
+      "conflicts": [],
       "thumbnail": null,
       "description_url": "data/mods/MisterMiracle@snag_quest/description.md",
       "latest": {
@@ -4846,10 +6225,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 837,
-        "recent": 295,
+        "total": 840,
+        "recent": 298,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -4877,7 +6256,7 @@
         "total": 0,
         "recent": 0,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -4921,10 +6300,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 664,
-        "recent": 195,
+        "total": 670,
+        "recent": 201,
         "window_days": 6,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -4968,10 +6347,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 2992,
-        "recent": 512,
+        "total": 2996,
+        "recent": 516,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -5024,10 +6403,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 16721,
-        "recent": 9677,
+        "total": 16870,
+        "recent": 9826,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -5070,10 +6449,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 17008,
-        "recent": 5880,
+        "total": 17069,
+        "recent": 5941,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -5113,10 +6492,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 56350,
-        "recent": 8284,
+        "total": 56510,
+        "recent": 8444,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -5154,10 +6533,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 1019,
-        "recent": 548,
+        "total": 1025,
+        "recent": 554,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -5211,10 +6590,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 294,
-        "recent": 44,
+        "total": 296,
+        "recent": 46,
         "window_days": 6,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -5269,10 +6648,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 85,
-        "recent": 56,
+        "total": 86,
+        "recent": 57,
         "window_days": 11,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -5312,10 +6691,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 5525,
-        "recent": 800,
+        "total": 5539,
+        "recent": 814,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -5363,10 +6742,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 552,
-        "recent": 229,
+        "total": 555,
+        "recent": 232,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -5406,23 +6785,23 @@
       "thumbnail": "data/mods/alamops@rby_mmo/thumbnail.png",
       "description_url": "data/mods/alamops@rby_mmo/description.md",
       "latest": {
-        "version": "1.1.9",
-        "tag": "v1.1.9",
-        "name": "1.1.9",
+        "version": "1.2.0",
+        "tag": "v1.2.0",
+        "name": "1.2.0",
         "prerelease": false,
-        "published_at": "2026-09-01T01:39:35Z",
+        "published_at": "2026-09-02T01:51:36Z",
         "zip": {
-          "name": "rby_mmo-1.1.9.zip",
-          "url": "https://github.com/alamops/RBYMMOMod/releases/download/v1.1.9/rby_mmo-1.1.9.zip",
-          "size": 1957500
+          "name": "rby_mmo-1.2.0.zip",
+          "url": "https://github.com/alamops/RBYMMOMod/releases/download/v1.2.0/rby_mmo-1.2.0.zip",
+          "size": 2016540
         }
       },
       "update_check": "ok",
       "downloads": {
-        "total": 5087,
-        "recent": 1501,
+        "total": 5129,
+        "recent": 1543,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -5455,10 +6834,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 152,
-        "recent": 51,
+        "total": 153,
+        "recent": 52,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -5510,10 +6889,62 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 828,
-        "recent": 310,
+        "total": 840,
+        "recent": 322,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
+      }
+    },
+    {
+      "folder": "MisterMiracle@kanto_ribbons",
+      "id": "kanto_ribbons",
+      "title": "Ribbons",
+      "author": "Mister Miracle",
+      "summary": "Nineteen per-Pokemon ribbons for Red/Blue/Yellow and Gold/Silver/Crystal - earned, bought, and bonded - awarded automatically and shown inside the status screen.",
+      "version": "0.22.1",
+      "categories": [
+        "GAMEPLAY",
+        "UI"
+      ],
+      "tags": [
+        "ribbons",
+        "collection",
+        "status screen",
+        "gen1",
+        "gen2"
+      ],
+      "repo": "https://github.com/mistermiracle3036/Ribbons",
+      "github": "mistermiracle3036/Ribbons",
+      "automatic_version_check": true,
+      "api": 2,
+      "game_version": ">=0.1.38 <2.0.0",
+      "profile": "content",
+      "affects_link": false,
+      "permissions": [
+        "engine_internals"
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "thumbnail": null,
+      "description_url": "data/mods/MisterMiracle@kanto_ribbons/description.md",
+      "latest": {
+        "version": "0.21.4",
+        "tag": "v0.21.4",
+        "name": "v0.21.4",
+        "prerelease": false,
+        "published_at": "2026-08-12T04:17:26Z",
+        "zip": {
+          "name": "kanto_ribbons-0.21.4.zip",
+          "url": "https://github.com/mistermiracle3036/Ribbons/releases/download/v0.21.4/kanto_ribbons-0.21.4.zip",
+          "size": 61605
+        }
+      },
+      "update_check": "ok",
+      "downloads": {
+        "total": 250,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -5568,10 +6999,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 525,
-        "recent": 476,
+        "total": 533,
+        "recent": 484,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -5615,10 +7046,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 8011,
-        "recent": 1056,
+        "total": 8030,
+        "recent": 1075,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -5663,10 +7094,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 16149,
-        "recent": 4430,
+        "total": 16361,
+        "recent": 4642,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -5715,10 +7146,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 343,
-        "recent": 175,
+        "total": 346,
+        "recent": 178,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -5768,10 +7199,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 433,
-        "recent": 203,
+        "total": 434,
+        "recent": 204,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -5823,10 +7254,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 133,
-        "recent": 103,
+        "total": 135,
+        "recent": 105,
         "window_days": 11,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -5881,10 +7312,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 77,
-        "recent": 62,
+        "total": 78,
+        "recent": 63,
         "window_days": 11,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -5930,10 +7361,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 1537,
-        "recent": 550,
+        "total": 1544,
+        "recent": 557,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -5975,10 +7406,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 14847,
-        "recent": 2916,
+        "total": 14892,
+        "recent": 2961,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -6023,10 +7454,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 538,
-        "recent": 354,
+        "total": 550,
+        "recent": 366,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -6070,10 +7501,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 430,
-        "recent": 200,
+        "total": 435,
+        "recent": 205,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -6117,7 +7548,7 @@
         "total": 242,
         "recent": 83,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -6156,7 +7587,7 @@
         "total": 0,
         "recent": 0,
         "window_days": 4,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -6208,10 +7639,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 110,
-        "recent": 92,
+        "total": 112,
+        "recent": 94,
         "window_days": 11,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -6237,7 +7668,7 @@
       "latest": {
         "version": "1.1.2",
         "tag": "v1.1.2",
-        "name": "1.1.2",
+        "name": "Speed Indicator 1.1.2",
         "prerelease": false,
         "published_at": "2026-09-01T20:29:01Z",
         "zip": {
@@ -6248,10 +7679,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 66,
-        "recent": 10,
+        "total": 71,
+        "recent": 15,
         "window_days": 4,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -6303,10 +7734,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 509,
-        "recent": 281,
+        "total": 514,
+        "recent": 286,
         "window_days": 11,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -6350,10 +7781,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 9368,
-        "recent": 2422,
+        "total": 9411,
+        "recent": 2465,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -6399,10 +7830,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 562,
-        "recent": 129,
+        "total": 564,
+        "recent": 131,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -6440,23 +7871,23 @@
       "thumbnail": null,
       "description_url": "data/mods/BrenoBertucci@TERRARIUM/description.md",
       "latest": {
-        "version": "1.27.0",
-        "tag": "v1.27.0-mobile",
-        "name": "TERRARIUM 1.27.0-mobile",
+        "version": "1.28.0",
+        "tag": "v1.28.0-mobile",
+        "name": "TERRARIUM 1.28.0-mobile",
         "prerelease": false,
-        "published_at": "2026-08-27T23:30:06Z",
+        "published_at": "2026-09-01T23:55:20Z",
         "zip": {
-          "name": "TERRARIUM-1.27.0-mobile.zip",
-          "url": "https://github.com/BrenoBertucci/Terrarium/releases/download/v1.27.0-mobile/TERRARIUM-1.27.0-mobile.zip",
-          "size": 41492346
+          "name": "TERRARIUM-1.28.0-mobile.zip",
+          "url": "https://github.com/BrenoBertucci/Terrarium/releases/download/v1.28.0-mobile/TERRARIUM-1.28.0-mobile.zip",
+          "size": 41608338
         }
       },
       "update_check": "ok",
       "downloads": {
-        "total": 8127,
-        "recent": 1984,
+        "total": 8186,
+        "recent": 2043,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -6510,10 +7941,62 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 259,
-        "recent": 135,
+        "total": 261,
+        "recent": 137,
         "window_days": 11,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
+      }
+    },
+    {
+      "folder": "MisterMiracle@kanto_balls",
+      "id": "kanto_balls",
+      "title": "Too Many Balls",
+      "author": "Mister Miracle",
+      "summary": "Custom Poke Balls for Red/Blue/Yellow and Gold/Silver/Crystal. Twenty new balls including canon favorites, quest-only balls, and an Apricorn workbench with a Ball Case from Kurt.",
+      "version": "0.8.7",
+      "categories": [
+        "CONTENT",
+        "GAMEPLAY"
+      ],
+      "tags": [
+        "pokeballs",
+        "catching",
+        "items",
+        "gen1",
+        "gen2"
+      ],
+      "repo": "https://github.com/mistermiracle3036/Too-Many-Balls",
+      "github": "mistermiracle3036/Too-Many-Balls",
+      "automatic_version_check": true,
+      "api": 2,
+      "game_version": ">=0.1.38 <2.0.0",
+      "profile": "content",
+      "affects_link": false,
+      "permissions": [
+        "engine_internals"
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "thumbnail": null,
+      "description_url": "data/mods/MisterMiracle@kanto_balls/description.md",
+      "latest": {
+        "version": "0.8.8",
+        "tag": "v0.8.8",
+        "name": "Too Many Balls 0.8.8",
+        "prerelease": false,
+        "published_at": "2026-08-30T13:23:22Z",
+        "zip": {
+          "name": "kanto_balls-0.8.8.zip",
+          "url": "https://github.com/mistermiracle3036/Too-Many-Balls/releases/download/v0.8.8/kanto_balls-0.8.8.zip",
+          "size": 85195
+        }
+      },
+      "update_check": "ok",
+      "downloads": {
+        "total": 1393,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -6560,7 +8043,7 @@
         "total": 247,
         "recent": 94,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -6606,10 +8089,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 785,
-        "recent": 286,
+        "total": 797,
+        "recent": 298,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -6653,7 +8136,7 @@
         "total": 125,
         "recent": 29,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -6712,10 +8195,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 38,
-        "recent": 31,
+        "total": 39,
+        "recent": 32,
         "window_days": 6,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -6758,10 +8241,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 8184,
-        "recent": 2020,
+        "total": 8241,
+        "recent": 2077,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -6799,10 +8282,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 55,
-        "recent": 54,
+        "total": 62,
+        "recent": 61,
         "window_days": 4,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -6842,10 +8325,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 744,
-        "recent": 209,
+        "total": 763,
+        "recent": 228,
         "window_days": 6,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -6901,10 +8384,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 2441,
-        "recent": 448,
+        "total": 2463,
+        "recent": 470,
         "window_days": 6,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -6948,10 +8431,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 14461,
-        "recent": 3013,
+        "total": 14521,
+        "recent": 3073,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -6994,10 +8477,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 17391,
-        "recent": 5184,
+        "total": 17480,
+        "recent": 5273,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -7040,10 +8523,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 7704,
-        "recent": 1027,
+        "total": 7723,
+        "recent": 1046,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -7088,10 +8571,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 2324,
-        "recent": 613,
+        "total": 2361,
+        "recent": 650,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -7134,10 +8617,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 9371,
-        "recent": 1367,
+        "total": 9389,
+        "recent": 1385,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -7186,10 +8669,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 102,
-        "recent": 53,
+        "total": 105,
+        "recent": 56,
         "window_days": 6,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -7228,10 +8711,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 4142,
-        "recent": 470,
+        "total": 4149,
+        "recent": 477,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -7282,10 +8765,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 1918,
-        "recent": 705,
+        "total": 1933,
+        "recent": 720,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -7346,10 +8829,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 3199,
-        "recent": 856,
+        "total": 3242,
+        "recent": 899,
         "window_days": 6,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -7402,7 +8885,7 @@
         "total": 95,
         "recent": 63,
         "window_days": 11,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -7451,10 +8934,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 1567,
-        "recent": 182,
+        "total": 1573,
+        "recent": 188,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -7496,10 +8979,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 12042,
-        "recent": 2021,
+        "total": 12107,
+        "recent": 2086,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -7546,10 +9029,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 11116,
-        "recent": 2993,
+        "total": 11157,
+        "recent": 3034,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -7598,10 +9081,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 72363,
-        "recent": 16170,
+        "total": 72570,
+        "recent": 16377,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     },
     {
@@ -7644,10 +9127,10 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 6388,
-        "recent": 1521,
+        "total": 6414,
+        "recent": 1547,
         "window_days": 14,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     }
   ],
@@ -7704,10 +9187,96 @@
       },
       "update_check": "ok",
       "downloads": {
-        "total": 299,
-        "recent": 282,
+        "total": 304,
+        "recent": 287,
         "window_days": 8,
-        "as_of": "2026-09-01T20:46:47.739Z"
+        "as_of": "2026-09-02T03:40:54.715Z"
+      }
+    },
+    {
+      "folder": "Wild@wild_green",
+      "id": "wild_green",
+      "title": "Wild Green",
+      "author": "Wild",
+      "version": "1.0.0",
+      "summary": "The definitive way to play Red: every quality-of-life and visual upgrade in the Gen1Wild suite that still feels like Red, and all 151 catchable in one save, on one version, without trading.",
+      "base": "red",
+      "seal": "sealed+",
+      "shell": "#14571f",
+      "tags": [
+        "cart",
+        "bundle",
+        "collection",
+        "green",
+        "player",
+        "sprites",
+        "ui",
+        "quality of life"
+      ],
+      "repo": "https://github.com/wild1walker/Gen1WildGreen",
+      "github": "wild1walker/Gen1WildGreen",
+      "automatic_version_check": true,
+      "game_version": ">=0.1.37 <2.0.0",
+      "license": "MIT",
+      "mods": [
+        {
+          "id": "gen1_wild_qol",
+          "source": "github",
+          "repo": "wild1walker/Gen1WildQOL",
+          "version": "1.11.1",
+          "sha256": "18959ac0f2a6769d1dec7246471b2b9eae9517edd512a7a425bd9bd3615f9027"
+        },
+        {
+          "id": "crystal_animated_sprites_with_shiny_visuals",
+          "source": "github",
+          "repo": "distilledorion-sketch/crystal_animated_sprites_with_shiny_visuals",
+          "version": "2.0.2",
+          "sha256": "59b6204e66dc14c32b3035fea115236080dfc33ec86f928f04ac6974a1aca86c"
+        },
+        {
+          "id": "gen1_wild_ui",
+          "source": "github",
+          "repo": "wild1walker/Gen1WildUI",
+          "version": "1.12.0",
+          "sha256": "c4015d0b7d9492aefe5830c75cfb85ed00b1525cbad0907462abefaaa2a4a536"
+        },
+        {
+          "id": "wild_green",
+          "source": "github",
+          "repo": "wild1walker/Gen1MakeItGreen",
+          "version": "1.23.0",
+          "sha256": "3eadecd1216b45c279805376d938ba3152d4d1c38d829cf80e4c3358abb8c55a",
+          "options": {
+            "ribbon": true
+          }
+        }
+      ],
+      "load_order": [
+        "gen1_wild_qol",
+        "crystal_animated_sprites_with_shiny_visuals",
+        "gen1_wild_ui",
+        "wild_green"
+      ],
+      "thumbnail": "data/carts/Wild@wild_green/thumbnail.png",
+      "description_url": "data/carts/Wild@wild_green/description.md",
+      "latest": {
+        "version": "1.44.0",
+        "tag": "v1.44.0",
+        "name": "1.44.0",
+        "prerelease": false,
+        "published_at": "2026-09-02T02:50:05Z",
+        "zip": {
+          "name": "wild_green-1.44.0.g1rcart",
+          "url": "https://github.com/wild1walker/Gen1WildGreen/releases/download/v1.44.0/wild_green-1.44.0.g1rcart",
+          "size": 143966
+        }
+      },
+      "update_check": "ok",
+      "downloads": {
+        "total": 275,
+        "recent": null,
+        "window_days": null,
+        "as_of": "2026-09-02T03:40:54.715Z"
       }
     }
   ]
